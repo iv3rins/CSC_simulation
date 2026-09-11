@@ -1,5 +1,12 @@
 # CSC — CS2 职业选手生涯模拟器
 
+[![CI](https://github.com/iv3rins/CSC_simulation/actions/workflows/ci.yml/badge.svg)](https://github.com/iv3rins/CSC_simulation/actions/workflows/ci.yml)
+[![GitHub stars](https://img.shields.io/github/stars/iv3rins/CSC_simulation?style=flat-square)](https://github.com/iv3rins/CSC_simulation/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/iv3rins/CSC_simulation?style=flat-square)](https://github.com/iv3rins/CSC_simulation/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/iv3rins/CSC_simulation?style=flat-square)](https://github.com/iv3rins/CSC_simulation/issues)
+[![Top language](https://img.shields.io/github/languages/top/iv3rins/CSC_simulation?style=flat-square)](https://github.com/iv3rins/CSC_simulation)
+[![License: not specified](https://img.shields.io/badge/license-not%20specified-lightgrey?style=flat-square)](#许可证)
+
 > 玩家扮演一名 CS2 职业选手，完成整个职业生涯：从青训新秀到世界冠军，
 > 经历训练养成、场内决策、伤病、转会、代言与退役。
 > **确定性模拟内核 + 事件驱动决策流**：同种子 + 同决策序列 = 完全一致的世界，
@@ -214,3 +221,8 @@ WS     /games/{id}/ws                decisions/step/journal 事件 + decide/adva
 - [backend/ARCHITECTURE-MAPPING.md](backend/ARCHITECTURE-MAPPING.md) — 转写蓝本（历史文档）：crate 依赖图、类型映射、关键设计决策（D1–D7）
 - [backend/crates/csc-core/README.md](backend/crates/csc-core/README.md) — 核心引擎用法
 - 各 crate 自带 README（构建/对照说明）
+
+## 许可证
+
+当前仓库尚未包含 `LICENSE` 文件，因此 GitHub 不会将其标记为 MIT、Apache-2.0 等正式开源协议。
+确定协议后，请在仓库根目录添加对应的 `LICENSE` 文件，并同步更新顶部徽章。
