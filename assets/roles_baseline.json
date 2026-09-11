@@ -1,0 +1,1624 @@
+{
+  "players": [
+    {
+      "player": "karrigan",
+      "team": "FaZe Clan",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 35
+    },
+    {
+      "player": "rain",
+      "team": "FaZe Clan",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 31
+    },
+    {
+      "player": "frozen",
+      "team": "FaZe Clan",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 28
+    },
+    {
+      "player": "EliGE",
+      "team": "FaZe Clan",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 28
+    },
+    {
+      "player": "broky",
+      "team": "FaZe Clan",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 24
+    },
+    {
+      "player": "Aleksib",
+      "team": "Natus Vincere",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 28
+    },
+    {
+      "player": "b1t",
+      "team": "Natus Vincere",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 23
+    },
+    {
+      "player": "jL",
+      "team": "Natus Vincere",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 24
+    },
+    {
+      "player": "iM",
+      "team": "Natus Vincere",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 26
+    },
+    {
+      "player": "w0nderful",
+      "team": "Natus Vincere",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 21
+    },
+    {
+      "player": "chopper",
+      "team": "Team Spirit",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 28
+    },
+    {
+      "player": "donk",
+      "team": "Team Spirit",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 18
+    },
+    {
+      "player": "sh1ro",
+      "team": "Team Spirit",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 24
+    },
+    {
+      "player": "zont1x",
+      "team": "Team Spirit",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 21
+    },
+    {
+      "player": "magixx",
+      "team": "Team Spirit",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 22
+    },
+    {
+      "player": "apEX",
+      "team": "Team Vitality",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 32
+    },
+    {
+      "player": "ZywOo",
+      "team": "Team Vitality",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 25
+    },
+    {
+      "player": "flameZ",
+      "team": "Team Vitality",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 22
+    },
+    {
+      "player": "ropz",
+      "team": "Team Vitality",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 26
+    },
+    {
+      "player": "mezii",
+      "team": "Team Vitality",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 27
+    },
+    {
+      "player": "Snax",
+      "team": "G2 Esports",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 32
+    },
+    {
+      "player": "huNter-",
+      "team": "G2 Esports",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 30
+    },
+    {
+      "player": "malbsMd",
+      "team": "G2 Esports",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 23
+    },
+    {
+      "player": "HeavyGod",
+      "team": "G2 Esports",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 23
+    },
+    {
+      "player": "m0NESY",
+      "team": "G2 Esports",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 20
+    },
+    {
+      "player": "Brollan",
+      "team": "MOUZ",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 23
+    },
+    {
+      "player": "Spinx",
+      "team": "MOUZ",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 25
+    },
+    {
+      "player": "xertioN",
+      "team": "MOUZ",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 21
+    },
+    {
+      "player": "Jimpphat",
+      "team": "MOUZ",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 19
+    },
+    {
+      "player": "torzsi",
+      "team": "MOUZ",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 23
+    },
+    {
+      "player": "Twistzz",
+      "team": "Team Liquid",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 26
+    },
+    {
+      "player": "NAF",
+      "team": "Team Liquid",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 28
+    },
+    {
+      "player": "ultimate",
+      "team": "Team Liquid",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 21
+    },
+    {
+      "player": "jks",
+      "team": "Team Liquid",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 30
+    },
+    {
+      "player": "NertZ",
+      "team": "Team Liquid",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 26
+    },
+    {
+      "player": "FalleN",
+      "team": "FURIA Esports",
+      "role": "IGL-AWPer",
+      "ctRole": "IGL-AWPer",
+      "tRole": "IGL-AWPer",
+      "age": 34
+    },
+    {
+      "player": "KSCERATO",
+      "team": "FURIA Esports",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 26
+    },
+    {
+      "player": "yuurih",
+      "team": "FURIA Esports",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 26
+    },
+    {
+      "player": "chelo",
+      "team": "FURIA Esports",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 28
+    },
+    {
+      "player": "skullz",
+      "team": "FURIA Esports",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 23
+    },
+    {
+      "player": "device",
+      "team": "Astralis",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 30
+    },
+    {
+      "player": "stavn",
+      "team": "Astralis",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 23
+    },
+    {
+      "player": "jabbi",
+      "team": "Astralis",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 22
+    },
+    {
+      "player": "Staehr",
+      "team": "Astralis",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 21
+    },
+    {
+      "player": "cadiaN",
+      "team": "Astralis",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 30
+    },
+    {
+      "player": "NiKo",
+      "team": "Team Falcons",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 29
+    },
+    {
+      "player": "TeSeS",
+      "team": "Team Falcons",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 25
+    },
+    {
+      "player": "kyxsan",
+      "team": "Team Falcons",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 25
+    },
+    {
+      "player": "degster",
+      "team": "Team Falcons",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 24
+    },
+    {
+      "player": "maden",
+      "team": "Team Falcons",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 26
+    },
+    {
+      "player": "tN1R",
+      "team": "HEROIC",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 20
+    },
+    {
+      "player": "sjuush",
+      "team": "HEROIC",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 25
+    },
+    {
+      "player": "Nilo",
+      "team": "HEROIC",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 21
+    },
+    {
+      "player": "Karma",
+      "team": "HEROIC",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 22
+    },
+    {
+      "player": "Vex",
+      "team": "HEROIC",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 22
+    },
+    {
+      "player": "Jame",
+      "team": "Virtus.pro",
+      "role": "IGL-AWPer",
+      "ctRole": "IGL-AWPer",
+      "tRole": "IGL-AWPer",
+      "age": 27
+    },
+    {
+      "player": "FL1T",
+      "team": "Virtus.pro",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 24
+    },
+    {
+      "player": "fame",
+      "team": "Virtus.pro",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 23
+    },
+    {
+      "player": "n0rb3r7",
+      "team": "Virtus.pro",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 24
+    },
+    {
+      "player": "electroNic",
+      "team": "Virtus.pro",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 27
+    },
+    {
+      "player": "JT",
+      "team": "Complexity",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 26
+    },
+    {
+      "player": "Grim",
+      "team": "Complexity",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 24
+    },
+    {
+      "player": "floppy",
+      "team": "Complexity",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 25
+    },
+    {
+      "player": "hallzerk",
+      "team": "Complexity",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 26
+    },
+    {
+      "player": "nicx",
+      "team": "Complexity",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 19
+    },
+    {
+      "player": "bLitz",
+      "team": "The MongolZ",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 24
+    },
+    {
+      "player": "910",
+      "team": "The MongolZ",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 22
+    },
+    {
+      "player": "Techno",
+      "team": "The MongolZ",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 20
+    },
+    {
+      "player": "mzinho",
+      "team": "The MongolZ",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 21
+    },
+    {
+      "player": "Senzu",
+      "team": "The MongolZ",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 21
+    },
+    {
+      "player": "MAJ3R",
+      "team": "Eternal Fire",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 32
+    },
+    {
+      "player": "XANTARES",
+      "team": "Eternal Fire",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 30
+    },
+    {
+      "player": "woxic",
+      "team": "Eternal Fire",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 28
+    },
+    {
+      "player": "Wicadia",
+      "team": "Eternal Fire",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 19
+    },
+    {
+      "player": "jottAAA",
+      "team": "Eternal Fire",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 20
+    },
+    {
+      "player": "biguzera",
+      "team": "paiN Gaming",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 27
+    },
+    {
+      "player": "kauez",
+      "team": "paiN Gaming",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 20
+    },
+    {
+      "player": "nqz",
+      "team": "paiN Gaming",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 20
+    },
+    {
+      "player": "snow",
+      "team": "paiN Gaming",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 20
+    },
+    {
+      "player": "dav1deuS",
+      "team": "paiN Gaming",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 21
+    },
+    {
+      "player": "MUTiRiS",
+      "team": "SAW",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 30
+    },
+    {
+      "player": "arrozdoce",
+      "team": "SAW",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 23
+    },
+    {
+      "player": "ewjerkz",
+      "team": "SAW",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 21
+    },
+    {
+      "player": "story",
+      "team": "SAW",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 24
+    },
+    {
+      "player": "roman",
+      "team": "SAW",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 20
+    },
+    {
+      "player": "tabseN",
+      "team": "BIG",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 30
+    },
+    {
+      "player": "Krimbo",
+      "team": "BIG",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 23
+    },
+    {
+      "player": "JDC",
+      "team": "BIG",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 24
+    },
+    {
+      "player": "hyped",
+      "team": "BIG",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 22
+    },
+    {
+      "player": "kyuubii",
+      "team": "BIG",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 19
+    },
+    {
+      "player": "Maka",
+      "team": "3DMAX",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 24
+    },
+    {
+      "player": "Lucky",
+      "team": "3DMAX",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 25
+    },
+    {
+      "player": "Djoko",
+      "team": "3DMAX",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 23
+    },
+    {
+      "player": "Ex3rcice",
+      "team": "3DMAX",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 21
+    },
+    {
+      "player": "Graviti",
+      "team": "3DMAX",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 20
+    },
+    {
+      "player": "NEKIZ",
+      "team": "Legacy",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 29
+    },
+    {
+      "player": "latto",
+      "team": "Legacy",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 25
+    },
+    {
+      "player": "b4rtiN",
+      "team": "Legacy",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 25
+    },
+    {
+      "player": "dumau",
+      "team": "Legacy",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 23
+    },
+    {
+      "player": "saadzin",
+      "team": "Legacy",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 22
+    },
+    {
+      "player": "KRIMZ",
+      "team": "Fnatic",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 31
+    },
+    {
+      "player": "blameF",
+      "team": "Fnatic",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 28
+    },
+    {
+      "player": "matys",
+      "team": "Fnatic",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 20
+    },
+    {
+      "player": "fear",
+      "team": "Fnatic",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 21
+    },
+    {
+      "player": "afro",
+      "team": "Fnatic",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 24
+    },
+    {
+      "player": "r1nkle",
+      "team": "Ninjas in Pyjamas",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 20
+    },
+    {
+      "player": "isak",
+      "team": "Ninjas in Pyjamas",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 22
+    },
+    {
+      "player": "BluePho3nix",
+      "team": "Ninjas in Pyjamas",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 20
+    },
+    {
+      "player": "MisteM",
+      "team": "Ninjas in Pyjamas",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 23
+    },
+    {
+      "player": "Silence",
+      "team": "Ninjas in Pyjamas",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 26
+    },
+    {
+      "player": "stanislaw",
+      "team": "Wildcard",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 32
+    },
+    {
+      "player": "Sonic",
+      "team": "Wildcard",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 24
+    },
+    {
+      "player": "fr3nd",
+      "team": "Wildcard",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 21
+    },
+    {
+      "player": "phzy",
+      "team": "Wildcard",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 24
+    },
+    {
+      "player": "Grizz",
+      "team": "Wildcard",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 23
+    },
+    {
+      "player": "Raptor1",
+      "team": "Fluxo",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener"
+    },
+    {
+      "player": "Cinderx",
+      "team": "Fluxo",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer"
+    },
+    {
+      "player": "Wisp",
+      "team": "Fluxo",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener"
+    },
+    {
+      "player": "Dunex",
+      "team": "Fluxo",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support"
+    },
+    {
+      "player": "Flux",
+      "team": "Fluxo",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer"
+    },
+    {
+      "player": "nowzy",
+      "team": "Imperial Esports",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 24
+    },
+    {
+      "player": "decenty",
+      "team": "Imperial Esports",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 22
+    },
+    {
+      "player": "felps",
+      "team": "Imperial Esports",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 28
+    },
+    {
+      "player": "VINI",
+      "team": "Imperial Esports",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 26
+    },
+    {
+      "player": "try",
+      "team": "Imperial Esports",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 22
+    },
+    {
+      "player": "slaxz-",
+      "team": "M80",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 27
+    },
+    {
+      "player": "Swisher",
+      "team": "M80",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 22
+    },
+    {
+      "player": "reck",
+      "team": "M80",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 21
+    },
+    {
+      "player": "Lake",
+      "team": "M80",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 24
+    },
+    {
+      "player": "s1n",
+      "team": "M80",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 24
+    },
+    {
+      "player": "nafany",
+      "team": "BetBoom Team",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 24
+    },
+    {
+      "player": "Ax1Le",
+      "team": "BetBoom Team",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 22
+    },
+    {
+      "player": "Boombl4",
+      "team": "BetBoom Team",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 27
+    },
+    {
+      "player": "zorte",
+      "team": "BetBoom Team",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 26
+    },
+    {
+      "player": "Magnojez",
+      "team": "BetBoom Team",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 20
+    },
+    {
+      "player": "Patsi",
+      "team": "PARIVISION",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 21
+    },
+    {
+      "player": "ArtFr0st",
+      "team": "PARIVISION",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 24
+    },
+    {
+      "player": "Qikert",
+      "team": "PARIVISION",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 26
+    },
+    {
+      "player": "alpha",
+      "team": "PARIVISION",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 22
+    },
+    {
+      "player": "d1Ledez",
+      "team": "PARIVISION",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 22
+    },
+    {
+      "player": "Razex",
+      "team": "Nemiga Gaming",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener"
+    },
+    {
+      "player": "Ember",
+      "team": "Nemiga Gaming",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer"
+    },
+    {
+      "player": "Omenx",
+      "team": "Nemiga Gaming",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener"
+    },
+    {
+      "player": "Onyxx",
+      "team": "Nemiga Gaming",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support"
+    },
+    {
+      "player": "Nimbusx",
+      "team": "Nemiga Gaming",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer"
+    },
+    {
+      "player": "jackasmo",
+      "team": "Passion UA",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 21
+    },
+    {
+      "player": "zeRRoFIX",
+      "team": "Passion UA",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 21
+    },
+    {
+      "player": "s-chilla",
+      "team": "Passion UA",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 21
+    },
+    {
+      "player": "jambo",
+      "team": "Passion UA",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 21
+    },
+    {
+      "player": "kensizor",
+      "team": "Passion UA",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 23
+    },
+    {
+      "player": "max",
+      "team": "9z Team",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 26
+    },
+    {
+      "player": "dgt",
+      "team": "9z Team",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 21
+    },
+    {
+      "player": "buda",
+      "team": "9z Team",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 22
+    },
+    {
+      "player": "Martinez",
+      "team": "9z Team",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 23
+    },
+    {
+      "player": "HUASOPEEK",
+      "team": "9z Team",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 20
+    },
+    {
+      "player": "drg",
+      "team": "Sharks Esports",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 23
+    },
+    {
+      "player": "rdnzao",
+      "team": "Sharks Esports",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 20
+    },
+    {
+      "player": "togs",
+      "team": "Sharks Esports",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 22
+    },
+    {
+      "player": "n1ssim",
+      "team": "Sharks Esports",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 24
+    },
+    {
+      "player": "doc",
+      "team": "Sharks Esports",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 22
+    },
+    {
+      "player": "HEN1",
+      "team": "RED Canids",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 30
+    },
+    {
+      "player": "venomzera",
+      "team": "RED Canids",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 21
+    },
+    {
+      "player": "dav1d",
+      "team": "RED Canids",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 25
+    },
+    {
+      "player": "nython",
+      "team": "RED Canids",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 22
+    },
+    {
+      "player": "rich",
+      "team": "RED Canids",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 23
+    },
+    {
+      "player": "exit",
+      "team": "MIBR",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 26
+    },
+    {
+      "player": "insani",
+      "team": "MIBR",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 21
+    },
+    {
+      "player": "saffee",
+      "team": "MIBR",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 30
+    },
+    {
+      "player": "drop",
+      "team": "MIBR",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 21
+    },
+    {
+      "player": "Lucaozy",
+      "team": "MIBR",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 24
+    },
+    {
+      "player": "KENSI",
+      "team": "Aurora Gaming",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 20
+    },
+    {
+      "player": "gr1ks",
+      "team": "Aurora Gaming",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 21
+    },
+    {
+      "player": "Norwi",
+      "team": "Aurora Gaming",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 22
+    },
+    {
+      "player": "clax",
+      "team": "Aurora Gaming",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 21
+    },
+    {
+      "player": "shalfey",
+      "team": "Aurora Gaming",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 21
+    },
+    {
+      "player": "npl",
+      "team": "B8",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 19
+    },
+    {
+      "player": "headtr1ck",
+      "team": "B8",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 21
+    },
+    {
+      "player": "esenthial",
+      "team": "B8",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 19
+    },
+    {
+      "player": "alex666",
+      "team": "B8",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 19
+    },
+    {
+      "player": "cptkurtka023",
+      "team": "B8",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 20
+    },
+    {
+      "player": "Westmelon",
+      "team": "Lynn Vision",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 24
+    },
+    {
+      "player": "z4kr",
+      "team": "Lynn Vision",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 24
+    },
+    {
+      "player": "EmiliaQAQ",
+      "team": "Lynn Vision",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 22
+    },
+    {
+      "player": "Starry",
+      "team": "Lynn Vision",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 21
+    },
+    {
+      "player": "Cate",
+      "team": "Lynn Vision",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 19
+    },
+    {
+      "player": "somebody",
+      "team": "TYLOO",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener",
+      "age": 30
+    },
+    {
+      "player": "Mercury",
+      "team": "TYLOO",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 20
+    },
+    {
+      "player": "JamYoung",
+      "team": "TYLOO",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer",
+      "age": 21
+    },
+    {
+      "player": "Jee",
+      "team": "TYLOO",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 20
+    },
+    {
+      "player": "Freak",
+      "team": "TYLOO",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support",
+      "age": 20
+    },
+    {
+      "player": "Pike",
+      "team": "Rare Atom",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener"
+    },
+    {
+      "player": "Siltx",
+      "team": "Rare Atom",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer"
+    },
+    {
+      "player": "Wren1",
+      "team": "Rare Atom",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener"
+    },
+    {
+      "player": "Joltx",
+      "team": "Rare Atom",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support"
+    },
+    {
+      "player": "Yore1",
+      "team": "Rare Atom",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer"
+    },
+    {
+      "player": "Xi",
+      "team": "The Huns",
+      "role": "IGL-Opener",
+      "ctRole": "IGL-Opener",
+      "tRole": "IGL-Opener"
+    },
+    {
+      "player": "Kitez",
+      "team": "The Huns",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer"
+    },
+    {
+      "player": "Ion",
+      "team": "The Huns",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener"
+    },
+    {
+      "player": "Wisp1",
+      "team": "The Huns",
+      "role": "Support",
+      "ctRole": "Support",
+      "tRole": "Support"
+    },
+    {
+      "player": "Echox",
+      "team": "The Huns",
+      "role": "Closer",
+      "ctRole": "Closer",
+      "tRole": "Closer"
+    },
+    {
+      "player": "Magisk",
+      "team": "Falcons",
+      "role": "Rifler",
+      "ctRole": "Rifler",
+      "tRole": "Rifler",
+      "age": 27
+    },
+    {
+      "player": "s1mple",
+      "team": "Falcons",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 28
+    },
+    {
+      "player": "SunPayus",
+      "team": "Heroic",
+      "role": "AWPer",
+      "ctRole": "AWPer",
+      "tRole": "AWPer",
+      "age": 27
+    },
+    {
+      "player": "YEKINDAR",
+      "team": "Team Liquid",
+      "role": "Opener",
+      "ctRole": "Opener",
+      "tRole": "Opener",
+      "age": 26
+    },
+    {
+      "player": "molodoy",
+      "team": "Team Liquid",
+      "role": "Rifler",
+      "ctRole": "Rifler",
+      "tRole": "Rifler",
+      "age": 17
+    }
+  ]
+}

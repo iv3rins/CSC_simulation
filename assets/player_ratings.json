@@ -1,0 +1,2751 @@
+{
+  "generated_at": "2026-08-14T05:16:16.449Z",
+  "source": "csapi.de /players/stats window 2025-10~2026-08 (opponent-rank weighted)",
+  "player_count": 686,
+  "players": [
+    {
+      "player": "donk",
+      "rating": 1.487
+    },
+    {
+      "player": "ZywOo",
+      "rating": 1.424
+    },
+    {
+      "player": "junyme",
+      "rating": 1.346
+    },
+    {
+      "player": "m0NESY",
+      "rating": 1.318
+    },
+    {
+      "player": "annihilation",
+      "rating": 1.283
+    },
+    {
+      "player": "dan9armatura",
+      "rating": 1.263
+    },
+    {
+      "player": "demente",
+      "rating": 1.257
+    },
+    {
+      "player": "asap",
+      "rating": 1.239
+    },
+    {
+      "player": "flameZ",
+      "rating": 1.238
+    },
+    {
+      "player": "nitzie",
+      "rating": 1.238
+    },
+    {
+      "player": "Senzu",
+      "rating": 1.228
+    },
+    {
+      "player": "Magnojez",
+      "rating": 1.219
+    },
+    {
+      "player": "mazay",
+      "rating": 1.199
+    },
+    {
+      "player": "MartinezSa",
+      "rating": 1.198
+    },
+    {
+      "player": "raijin",
+      "rating": 1.197
+    },
+    {
+      "player": "fnk",
+      "rating": 1.196
+    },
+    {
+      "player": "oneun1que",
+      "rating": 1.193
+    },
+    {
+      "player": "Staehr",
+      "rating": 1.192
+    },
+    {
+      "player": "sl3nd",
+      "rating": 1.191
+    },
+    {
+      "player": "latto",
+      "rating": 1.19
+    },
+    {
+      "player": "pleynnn",
+      "rating": 1.19
+    },
+    {
+      "player": "sh1ro",
+      "rating": 1.189
+    },
+    {
+      "player": "adamb",
+      "rating": 1.187
+    },
+    {
+      "player": "jks",
+      "rating": 1.186
+    },
+    {
+      "player": "b1st",
+      "rating": 1.185
+    },
+    {
+      "player": "KSCERATO",
+      "rating": 1.185
+    },
+    {
+      "player": "deko",
+      "rating": 1.183
+    },
+    {
+      "player": "nqz",
+      "rating": 1.183
+    },
+    {
+      "player": "insani",
+      "rating": 1.182
+    },
+    {
+      "player": "karnez",
+      "rating": 1.18
+    },
+    {
+      "player": "luchov",
+      "rating": 1.18
+    },
+    {
+      "player": "kyousuke",
+      "rating": 1.178
+    },
+    {
+      "player": "blameF",
+      "rating": 1.177
+    },
+    {
+      "player": "tasman",
+      "rating": 1.175
+    },
+    {
+      "player": "ropz",
+      "rating": 1.174
+    },
+    {
+      "player": "HeavyGod",
+      "rating": 1.173
+    },
+    {
+      "player": "nicoodoz",
+      "rating": 1.171
+    },
+    {
+      "player": "dumau",
+      "rating": 1.168
+    },
+    {
+      "player": "eraa",
+      "rating": 1.168
+    },
+    {
+      "player": "r3salt",
+      "rating": 1.167
+    },
+    {
+      "player": "miq",
+      "rating": 1.163
+    },
+    {
+      "player": "flayy",
+      "rating": 1.162
+    },
+    {
+      "player": "ckzao",
+      "rating": 1.16
+    },
+    {
+      "player": "fenomen",
+      "rating": 1.16
+    },
+    {
+      "player": "hampus",
+      "rating": 1.158
+    },
+    {
+      "player": "Wicadia",
+      "rating": 1.158
+    },
+    {
+      "player": "Ax1Le",
+      "rating": 1.156
+    },
+    {
+      "player": "youka",
+      "rating": 1.156
+    },
+    {
+      "player": "mizu",
+      "rating": 1.154
+    },
+    {
+      "player": "syph0",
+      "rating": 1.154
+    },
+    {
+      "player": "childking",
+      "rating": 1.153
+    },
+    {
+      "player": "dezl3bio",
+      "rating": 1.153
+    },
+    {
+      "player": "NiKo",
+      "rating": 1.153
+    },
+    {
+      "player": "molodoy",
+      "rating": 1.152
+    },
+    {
+      "player": "cacanito",
+      "rating": 1.151
+    },
+    {
+      "player": "flouzer",
+      "rating": 1.151
+    },
+    {
+      "player": "maxster",
+      "rating": 1.151
+    },
+    {
+      "player": "Nilo",
+      "rating": 1.151
+    },
+    {
+      "player": "tenzy",
+      "rating": 1.151
+    },
+    {
+      "player": "sstinix",
+      "rating": 1.149
+    },
+    {
+      "player": "qw1nk1",
+      "rating": 1.148
+    },
+    {
+      "player": "alxc",
+      "rating": 1.147
+    },
+    {
+      "player": "910",
+      "rating": 1.146
+    },
+    {
+      "player": "REZ",
+      "rating": 1.146
+    },
+    {
+      "player": "executor",
+      "rating": 1.144
+    },
+    {
+      "player": "kl1m",
+      "rating": 1.143
+    },
+    {
+      "player": "mail09",
+      "rating": 1.142
+    },
+    {
+      "player": "makazze",
+      "rating": 1.141
+    },
+    {
+      "player": "mescadi",
+      "rating": 1.14
+    },
+    {
+      "player": "JamYoung",
+      "rating": 1.139
+    },
+    {
+      "player": "redstar",
+      "rating": 1.139
+    },
+    {
+      "player": "tomaszin",
+      "rating": 1.139
+    },
+    {
+      "player": "h4rn",
+      "rating": 1.137
+    },
+    {
+      "player": "b1t",
+      "rating": 1.135
+    },
+    {
+      "player": "dziugss",
+      "rating": 1.135
+    },
+    {
+      "player": "f1ku",
+      "rating": 1.135
+    },
+    {
+      "player": "j3kie",
+      "rating": 1.135
+    },
+    {
+      "player": "w0nderful",
+      "rating": 1.135
+    },
+    {
+      "player": "dawy",
+      "rating": 1.134
+    },
+    {
+      "player": "hallzerk",
+      "rating": 1.134
+    },
+    {
+      "player": "adams",
+      "rating": 1.133
+    },
+    {
+      "player": "bexyz",
+      "rating": 1.133
+    },
+    {
+      "player": "FL4MUS",
+      "rating": 1.133
+    },
+    {
+      "player": "icy",
+      "rating": 1.133
+    },
+    {
+      "player": "m1quse",
+      "rating": 1.133
+    },
+    {
+      "player": "xertioN",
+      "rating": 1.133
+    },
+    {
+      "player": "alkaren",
+      "rating": 1.132
+    },
+    {
+      "player": "poiii",
+      "rating": 1.132
+    },
+    {
+      "player": "XANTARES",
+      "rating": 1.132
+    },
+    {
+      "player": "k1ssly",
+      "rating": 1.131
+    },
+    {
+      "player": "tried",
+      "rating": 1.131
+    },
+    {
+      "player": "xeedo",
+      "rating": 1.131
+    },
+    {
+      "player": "olimp",
+      "rating": 1.13
+    },
+    {
+      "player": "Rainwaker",
+      "rating": 1.13
+    },
+    {
+      "player": "slaxz-",
+      "rating": 1.13
+    },
+    {
+      "player": "zyphon",
+      "rating": 1.13
+    },
+    {
+      "player": "masval",
+      "rating": 1.129
+    },
+    {
+      "player": "n0rb3r7",
+      "rating": 1.129
+    },
+    {
+      "player": "frozen",
+      "rating": 1.128
+    },
+    {
+      "player": "pesadelo",
+      "rating": 1.128
+    },
+    {
+      "player": "jackasmo",
+      "rating": 1.127
+    },
+    {
+      "player": "device",
+      "rating": 1.126
+    },
+    {
+      "player": "d1Ledez",
+      "rating": 1.125
+    },
+    {
+      "player": "jambo",
+      "rating": 1.125
+    },
+    {
+      "player": "b1elany",
+      "rating": 1.124
+    },
+    {
+      "player": "neuz",
+      "rating": 1.124
+    },
+    {
+      "player": "cronuss",
+      "rating": 1.123
+    },
+    {
+      "player": "jottAAA",
+      "rating": 1.123
+    },
+    {
+      "player": "nut-nut",
+      "rating": 1.123
+    },
+    {
+      "player": "dgt",
+      "rating": 1.122
+    },
+    {
+      "player": "xkacpersky",
+      "rating": 1.122
+    },
+    {
+      "player": "banjo",
+      "rating": 1.121
+    },
+    {
+      "player": "HUASOPEEK",
+      "rating": 1.121
+    },
+    {
+      "player": "hext",
+      "rating": 1.12
+    },
+    {
+      "player": "dea",
+      "rating": 1.119
+    },
+    {
+      "player": "yumsan",
+      "rating": 1.119
+    },
+    {
+      "player": "s1mple",
+      "rating": 1.118
+    },
+    {
+      "player": "xfl0ud",
+      "rating": 1.118
+    },
+    {
+      "player": "xelex",
+      "rating": 1.117
+    },
+    {
+      "player": "jboen",
+      "rating": 1.116
+    },
+    {
+      "player": "squezxc",
+      "rating": 1.115
+    },
+    {
+      "player": "dav1deuS",
+      "rating": 1.114
+    },
+    {
+      "player": "spooke",
+      "rating": 1.114
+    },
+    {
+      "player": "JDC",
+      "rating": 1.112
+    },
+    {
+      "player": "djon8",
+      "rating": 1.111
+    },
+    {
+      "player": "gbb",
+      "rating": 1.11
+    },
+    {
+      "player": "hobbit",
+      "rating": 1.11
+    },
+    {
+      "player": "nettik",
+      "rating": 1.11
+    },
+    {
+      "player": "tomate",
+      "rating": 1.11
+    },
+    {
+      "player": "jL",
+      "rating": 1.109
+    },
+    {
+      "player": "dssj",
+      "rating": 1.108
+    },
+    {
+      "player": "ex1st",
+      "rating": 1.108
+    },
+    {
+      "player": "nbqq",
+      "rating": 1.107
+    },
+    {
+      "player": "sdaim",
+      "rating": 1.106
+    },
+    {
+      "player": "avid",
+      "rating": 1.103
+    },
+    {
+      "player": "lattykk",
+      "rating": 1.103
+    },
+    {
+      "player": "xellow",
+      "rating": 1.103
+    },
+    {
+      "player": "ct0m",
+      "rating": 1.102
+    },
+    {
+      "player": "iM",
+      "rating": 1.101
+    },
+    {
+      "player": "gr1ks",
+      "rating": 1.1
+    },
+    {
+      "player": "tikuak",
+      "rating": 1.1
+    },
+    {
+      "player": "pepe",
+      "rating": 1.099
+    },
+    {
+      "player": "kisserek",
+      "rating": 1.098
+    },
+    {
+      "player": "sirah",
+      "rating": 1.098
+    },
+    {
+      "player": "jabbi",
+      "rating": 1.097
+    },
+    {
+      "player": "npl",
+      "rating": 1.097
+    },
+    {
+      "player": "topo",
+      "rating": 1.097
+    },
+    {
+      "player": "Twistzz",
+      "rating": 1.097
+    },
+    {
+      "player": "EliGE",
+      "rating": 1.096
+    },
+    {
+      "player": "jeorge",
+      "rating": 1.096
+    },
+    {
+      "player": "nemanha",
+      "rating": 1.096
+    },
+    {
+      "player": "khan",
+      "rating": 1.095
+    },
+    {
+      "player": "lauNX",
+      "rating": 1.095
+    },
+    {
+      "player": "YEKINDAR",
+      "rating": 1.094
+    },
+    {
+      "player": "kaide",
+      "rating": 1.093
+    },
+    {
+      "player": "spirit",
+      "rating": 1.093
+    },
+    {
+      "player": "mir",
+      "rating": 1.092
+    },
+    {
+      "player": "mzinho",
+      "rating": 1.091
+    },
+    {
+      "player": "mag1k3y",
+      "rating": 1.09
+    },
+    {
+      "player": "notineki",
+      "rating": 1.09
+    },
+    {
+      "player": "NertZ",
+      "rating": 1.089
+    },
+    {
+      "player": "r1nkle",
+      "rating": 1.089
+    },
+    {
+      "player": "sinnopsyy",
+      "rating": 1.089
+    },
+    {
+      "player": "SunPayus",
+      "rating": 1.089
+    },
+    {
+      "player": "electroNic",
+      "rating": 1.088
+    },
+    {
+      "player": "jorko",
+      "rating": 1.088
+    },
+    {
+      "player": "noni",
+      "rating": 1.087
+    },
+    {
+      "player": "r4dyx",
+      "rating": 1.087
+    },
+    {
+      "player": "tuurtle",
+      "rating": 1.087
+    },
+    {
+      "player": "junior",
+      "rating": 1.086
+    },
+    {
+      "player": "Moseyuh",
+      "rating": 1.086
+    },
+    {
+      "player": "tN1R",
+      "rating": 1.085
+    },
+    {
+      "player": "dycha",
+      "rating": 1.084
+    },
+    {
+      "player": "swiz",
+      "rating": 1.084
+    },
+    {
+      "player": "fraguty",
+      "rating": 1.083
+    },
+    {
+      "player": "h4san4tor",
+      "rating": 1.082
+    },
+    {
+      "player": "Vexite",
+      "rating": 1.082
+    },
+    {
+      "player": "kylar",
+      "rating": 1.081
+    },
+    {
+      "player": "saadzin",
+      "rating": 1.081
+    },
+    {
+      "player": "Spinx",
+      "rating": 1.081
+    },
+    {
+      "player": "Swisher",
+      "rating": 1.081
+    },
+    {
+      "player": "Zero",
+      "rating": 1.081
+    },
+    {
+      "player": "afro",
+      "rating": 1.08
+    },
+    {
+      "player": "ayuki",
+      "rating": 1.08
+    },
+    {
+      "player": "FL1T",
+      "rating": 1.08
+    },
+    {
+      "player": "frontales",
+      "rating": 1.08
+    },
+    {
+      "player": "kair0n",
+      "rating": 1.08
+    },
+    {
+      "player": "ottob",
+      "rating": 1.08
+    },
+    {
+      "player": "syrsoN",
+      "rating": 1.08
+    },
+    {
+      "player": "torzsi",
+      "rating": 1.08
+    },
+    {
+      "player": "yuramyata",
+      "rating": 1.08
+    },
+    {
+      "player": "prism",
+      "rating": 1.079
+    },
+    {
+      "player": "pump",
+      "rating": 1.079
+    },
+    {
+      "player": "triborgg1",
+      "rating": 1.079
+    },
+    {
+      "player": "headtr1ck",
+      "rating": 1.077
+    },
+    {
+      "player": "alisson",
+      "rating": 1.076
+    },
+    {
+      "player": "oz1k",
+      "rating": 1.076
+    },
+    {
+      "player": "woxic",
+      "rating": 1.076
+    },
+    {
+      "player": "chucky",
+      "rating": 1.074
+    },
+    {
+      "player": "keen",
+      "rating": 1.074
+    },
+    {
+      "player": "reck",
+      "rating": 1.074
+    },
+    {
+      "player": "try",
+      "rating": 1.073
+    },
+    {
+      "player": "cairne",
+      "rating": 1.072
+    },
+    {
+      "player": "clax",
+      "rating": 1.072
+    },
+    {
+      "player": "0samas",
+      "rating": 1.071
+    },
+    {
+      "player": "Grim",
+      "rating": 1.071
+    },
+    {
+      "player": "Jame",
+      "rating": 1.071
+    },
+    {
+      "player": "PR",
+      "rating": 1.071
+    },
+    {
+      "player": "buda",
+      "rating": 1.07
+    },
+    {
+      "player": "ponter",
+      "rating": 1.07
+    },
+    {
+      "player": "kiy0o",
+      "rating": 1.069
+    },
+    {
+      "player": "kyuubii",
+      "rating": 1.069
+    },
+    {
+      "player": "malbsMd",
+      "rating": 1.069
+    },
+    {
+      "player": "moonwalk",
+      "rating": 1.069
+    },
+    {
+      "player": "k1slll",
+      "rating": 1.068
+    },
+    {
+      "player": "naz",
+      "rating": 1.068
+    },
+    {
+      "player": "sh1nejezzz",
+      "rating": 1.068
+    },
+    {
+      "player": "TeSeS",
+      "rating": 1.068
+    },
+    {
+      "player": "botpa1",
+      "rating": 1.067
+    },
+    {
+      "player": "el1an",
+      "rating": 1.067
+    },
+    {
+      "player": "Patsi",
+      "rating": 1.067
+    },
+    {
+      "player": "dem0n",
+      "rating": 1.066
+    },
+    {
+      "player": "draken",
+      "rating": 1.066
+    },
+    {
+      "player": "arrozdoce",
+      "rating": 1.065
+    },
+    {
+      "player": "regali",
+      "rating": 1.065
+    },
+    {
+      "player": "xant3r",
+      "rating": 1.065
+    },
+    {
+      "player": "bondik",
+      "rating": 1.064
+    },
+    {
+      "player": "nafany",
+      "rating": 1.064
+    },
+    {
+      "player": "aquars",
+      "rating": 1.063
+    },
+    {
+      "player": "hoolig4n",
+      "rating": 1.063
+    },
+    {
+      "player": "Krabeni",
+      "rating": 1.063
+    },
+    {
+      "player": "history",
+      "rating": 1.062
+    },
+    {
+      "player": "rate",
+      "rating": 1.062
+    },
+    {
+      "player": "stavn",
+      "rating": 1.062
+    },
+    {
+      "player": "zweih",
+      "rating": 1.062
+    },
+    {
+      "player": "dwushka",
+      "rating": 1.061
+    },
+    {
+      "player": "matys",
+      "rating": 1.061
+    },
+    {
+      "player": "modo",
+      "rating": 1.061
+    },
+    {
+      "player": "Sonic",
+      "rating": 1.061
+    },
+    {
+      "player": "Norwi",
+      "rating": 1.06
+    },
+    {
+      "player": "plopski",
+      "rating": 1.059
+    },
+    {
+      "player": "tex1y",
+      "rating": 1.059
+    },
+    {
+      "player": "ArtFr0st",
+      "rating": 1.058
+    },
+    {
+      "player": "decenty",
+      "rating": 1.058
+    },
+    {
+      "player": "fluffy",
+      "rating": 1.058
+    },
+    {
+      "player": "forsyy",
+      "rating": 1.058
+    },
+    {
+      "player": "fineshine52",
+      "rating": 1.057
+    },
+    {
+      "player": "hypex",
+      "rating": 1.057
+    },
+    {
+      "player": "KRIMZ",
+      "rating": 1.057
+    },
+    {
+      "player": "stressarn",
+      "rating": 1.057
+    },
+    {
+      "player": "ivz",
+      "rating": 1.056
+    },
+    {
+      "player": "ryujin",
+      "rating": 1.056
+    },
+    {
+      "player": "z1k4",
+      "rating": 1.056
+    },
+    {
+      "player": "zealot",
+      "rating": 1.056
+    },
+    {
+      "player": "venomzera",
+      "rating": 1.055
+    },
+    {
+      "player": "bluewh1te",
+      "rating": 1.054
+    },
+    {
+      "player": "flierax",
+      "rating": 1.054
+    },
+    {
+      "player": "piriajr",
+      "rating": 1.054
+    },
+    {
+      "player": "s1ren",
+      "rating": 1.054
+    },
+    {
+      "player": "kaluber",
+      "rating": 1.053
+    },
+    {
+      "player": "m1n1",
+      "rating": 1.053
+    },
+    {
+      "player": "slaxz",
+      "rating": 1.053
+    },
+    {
+      "player": "misutaaa",
+      "rating": 1.052
+    },
+    {
+      "player": "shield",
+      "rating": 1.052
+    },
+    {
+      "player": "sowalio",
+      "rating": 1.052
+    },
+    {
+      "player": "buzz",
+      "rating": 1.051
+    },
+    {
+      "player": "nacho",
+      "rating": 1.051
+    },
+    {
+      "player": "NAF",
+      "rating": 1.051
+    },
+    {
+      "player": "sk0r",
+      "rating": 1.051
+    },
+    {
+      "player": "adai",
+      "rating": 1.05
+    },
+    {
+      "player": "altekz",
+      "rating": 1.05
+    },
+    {
+      "player": "fnl",
+      "rating": 1.05
+    },
+    {
+      "player": "Jimpphat",
+      "rating": 1.05
+    },
+    {
+      "player": "jocab",
+      "rating": 1.05
+    },
+    {
+      "player": "KaiR0N-",
+      "rating": 1.05
+    },
+    {
+      "player": "sk1tt",
+      "rating": 1.05
+    },
+    {
+      "player": "twist",
+      "rating": 1.05
+    },
+    {
+      "player": "gokushima",
+      "rating": 1.049
+    },
+    {
+      "player": "tjp",
+      "rating": 1.049
+    },
+    {
+      "player": "zesta",
+      "rating": 1.049
+    },
+    {
+      "player": "fame",
+      "rating": 1.048
+    },
+    {
+      "player": "fr3nd",
+      "rating": 1.048
+    },
+    {
+      "player": "l00m1",
+      "rating": 1.048
+    },
+    {
+      "player": "marko",
+      "rating": 1.048
+    },
+    {
+      "player": "relaxxie",
+      "rating": 1.048
+    },
+    {
+      "player": "travis",
+      "rating": 1.048
+    },
+    {
+      "player": "7kick",
+      "rating": 1.047
+    },
+    {
+      "player": "Lake",
+      "rating": 1.047
+    },
+    {
+      "player": "yxngstxr",
+      "rating": 1.047
+    },
+    {
+      "player": "kashl1d",
+      "rating": 1.046
+    },
+    {
+      "player": "luken",
+      "rating": 1.045
+    },
+    {
+      "player": "phzy",
+      "rating": 1.045
+    },
+    {
+      "player": "kraghen",
+      "rating": 1.044
+    },
+    {
+      "player": "kvem",
+      "rating": 1.044
+    },
+    {
+      "player": "marat2k",
+      "rating": 1.044
+    },
+    {
+      "player": "bajmi",
+      "rating": 1.043
+    },
+    {
+      "player": "demho",
+      "rating": 1.043
+    },
+    {
+      "player": "qlocuu",
+      "rating": 1.043
+    },
+    {
+      "player": "synyx",
+      "rating": 1.043
+    },
+    {
+      "player": "Magisk",
+      "rating": 1.042
+    },
+    {
+      "player": "zeRRoFIX",
+      "rating": 1.042
+    },
+    {
+      "player": "magixx",
+      "rating": 1.041
+    },
+    {
+      "player": "samey",
+      "rating": 1.041
+    },
+    {
+      "player": "z1nny",
+      "rating": 1.041
+    },
+    {
+      "player": "Bymas",
+      "rating": 1.04
+    },
+    {
+      "player": "ewjerkz",
+      "rating": 1.04
+    },
+    {
+      "player": "f0r3ver",
+      "rating": 1.04
+    },
+    {
+      "player": "glowiing",
+      "rating": 1.04
+    },
+    {
+      "player": "mhl",
+      "rating": 1.039
+    },
+    {
+      "player": "erkast",
+      "rating": 1.038
+    },
+    {
+      "player": "noway",
+      "rating": 1.038
+    },
+    {
+      "player": "shock",
+      "rating": 1.038
+    },
+    {
+      "player": "to0ro",
+      "rating": 1.038
+    },
+    {
+      "player": "4x1s",
+      "rating": 1.037
+    },
+    {
+      "player": "Brollan",
+      "rating": 1.037
+    },
+    {
+      "player": "s4ltovsk1yy",
+      "rating": 1.037
+    },
+    {
+      "player": "bobeksde",
+      "rating": 1.036
+    },
+    {
+      "player": "hadji",
+      "rating": 1.036
+    },
+    {
+      "player": "anlelele",
+      "rating": 1.035
+    },
+    {
+      "player": "demqq",
+      "rating": 1.035
+    },
+    {
+      "player": "nawwk",
+      "rating": 1.035
+    },
+    {
+      "player": "matheos",
+      "rating": 1.034
+    },
+    {
+      "player": "vldn",
+      "rating": 1.034
+    },
+    {
+      "player": "yuurih",
+      "rating": 1.034
+    },
+    {
+      "player": "acor",
+      "rating": 1.033
+    },
+    {
+      "player": "ag1l",
+      "rating": 1.033
+    },
+    {
+      "player": "kreaz",
+      "rating": 1.033
+    },
+    {
+      "player": "LNZ",
+      "rating": 1.033
+    },
+    {
+      "player": "mokuj1n",
+      "rating": 1.033
+    },
+    {
+      "player": "dragon",
+      "rating": 1.032
+    },
+    {
+      "player": "forester",
+      "rating": 1.032
+    },
+    {
+      "player": "zorte",
+      "rating": 1.032
+    },
+    {
+      "player": "cadiaN",
+      "rating": 1.031
+    },
+    {
+      "player": "shg",
+      "rating": 1.03
+    },
+    {
+      "player": "Tauson",
+      "rating": 1.03
+    },
+    {
+      "player": "yksjupe",
+      "rating": 1.03
+    },
+    {
+      "player": "zock",
+      "rating": 1.03
+    },
+    {
+      "player": "apEX",
+      "rating": 1.029
+    },
+    {
+      "player": "1nvisiblee",
+      "rating": 1.028
+    },
+    {
+      "player": "soulfly",
+      "rating": 1.028
+    },
+    {
+      "player": "tak",
+      "rating": 1.028
+    },
+    {
+      "player": "adren",
+      "rating": 1.027
+    },
+    {
+      "player": "dgl",
+      "rating": 1.027
+    },
+    {
+      "player": "aidkit",
+      "rating": 1.026
+    },
+    {
+      "player": "hitori",
+      "rating": 1.026
+    },
+    {
+      "player": "m3wsu",
+      "rating": 1.026
+    },
+    {
+      "player": "myltsi",
+      "rating": 1.026
+    },
+    {
+      "player": "n1ssim",
+      "rating": 1.026
+    },
+    {
+      "player": "ro1f",
+      "rating": 1.026
+    },
+    {
+      "player": "detr0ittj",
+      "rating": 1.025
+    },
+    {
+      "player": "timo",
+      "rating": 1.025
+    },
+    {
+      "player": "cobrazera",
+      "rating": 1.024
+    },
+    {
+      "player": "dytor",
+      "rating": 1.024
+    },
+    {
+      "player": "finw",
+      "rating": 1.024
+    },
+    {
+      "player": "mwlky",
+      "rating": 1.024
+    },
+    {
+      "player": "x5g7v",
+      "rating": 1.024
+    },
+    {
+      "player": "cptkurtka023",
+      "rating": 1.023
+    },
+    {
+      "player": "sa1nty",
+      "rating": 1.023
+    },
+    {
+      "player": "skrimo",
+      "rating": 1.023
+    },
+    {
+      "player": "c4llm3su3",
+      "rating": 1.022
+    },
+    {
+      "player": "danistzz",
+      "rating": 1.022
+    },
+    {
+      "player": "levi",
+      "rating": 1.022
+    },
+    {
+      "player": "yiksrezo",
+      "rating": 1.022
+    },
+    {
+      "player": "Boombl4",
+      "rating": 1.021
+    },
+    {
+      "player": "Lucky",
+      "rating": 1.021
+    },
+    {
+      "player": "AZUWU",
+      "rating": 1.02
+    },
+    {
+      "player": "chr1zn",
+      "rating": 1.02
+    },
+    {
+      "player": "cmtry",
+      "rating": 1.02
+    },
+    {
+      "player": "bekker",
+      "rating": 1.019
+    },
+    {
+      "player": "hazr",
+      "rating": 1.019
+    },
+    {
+      "player": "bibu",
+      "rating": 1.018
+    },
+    {
+      "player": "cabbi",
+      "rating": 1.018
+    },
+    {
+      "player": "kensizor",
+      "rating": 1.018
+    },
+    {
+      "player": "lack1",
+      "rating": 1.018
+    },
+    {
+      "player": "rain",
+      "rating": 1.018
+    },
+    {
+      "player": "mezii",
+      "rating": 1.017
+    },
+    {
+      "player": "sjuush",
+      "rating": 1.017
+    },
+    {
+      "player": "tom1jed",
+      "rating": 1.017
+    },
+    {
+      "player": "abizz",
+      "rating": 1.016
+    },
+    {
+      "player": "chelo",
+      "rating": 1.016
+    },
+    {
+      "player": "ksloks",
+      "rating": 1.016
+    },
+    {
+      "player": "Starry",
+      "rating": 1.016
+    },
+    {
+      "player": "blytz",
+      "rating": 1.015
+    },
+    {
+      "player": "sugar",
+      "rating": 1.015
+    },
+    {
+      "player": "Jee",
+      "rating": 1.014
+    },
+    {
+      "player": "sellter",
+      "rating": 1.014
+    },
+    {
+      "player": "alistair",
+      "rating": 1.013
+    },
+    {
+      "player": "Maka",
+      "rating": 1.013
+    },
+    {
+      "player": "ogwizard",
+      "rating": 1.013
+    },
+    {
+      "player": "sergelen19k",
+      "rating": 1.013
+    },
+    {
+      "player": "stadodo",
+      "rating": 1.013
+    },
+    {
+      "player": "EmiliaQAQ",
+      "rating": 1.012
+    },
+    {
+      "player": "ryu",
+      "rating": 1.012
+    },
+    {
+      "player": "story",
+      "rating": 1.011
+    },
+    {
+      "player": "susp",
+      "rating": 1.011
+    },
+    {
+      "player": "faveN",
+      "rating": 1.01
+    },
+    {
+      "player": "huNter-",
+      "rating": 1.01
+    },
+    {
+      "player": "s0und",
+      "rating": 1.01
+    },
+    {
+      "player": "aw",
+      "rating": 1.008
+    },
+    {
+      "player": "exit",
+      "rating": 1.008
+    },
+    {
+      "player": "k4nfuz",
+      "rating": 1.008
+    },
+    {
+      "player": "s1zzi",
+      "rating": 1.007
+    },
+    {
+      "player": "tmkj",
+      "rating": 1.007
+    },
+    {
+      "player": "ayano",
+      "rating": 1.006
+    },
+    {
+      "player": "keoz",
+      "rating": 1.006
+    },
+    {
+      "player": "magic",
+      "rating": 1.005
+    },
+    {
+      "player": "riskyb0b",
+      "rating": 1.005
+    },
+    {
+      "player": "shaik",
+      "rating": 1.005
+    },
+    {
+      "player": "Djoko",
+      "rating": 1.003
+    },
+    {
+      "player": "esenthial",
+      "rating": 1.003
+    },
+    {
+      "player": "mistr",
+      "rating": 1.003
+    },
+    {
+      "player": "raalz",
+      "rating": 1.003
+    },
+    {
+      "player": "robo",
+      "rating": 1.003
+    },
+    {
+      "player": "HEN1",
+      "rating": 1.001
+    },
+    {
+      "player": "hunter",
+      "rating": 1.001
+    },
+    {
+      "player": "zmb",
+      "rating": 1.001
+    },
+    {
+      "player": "Perfecto",
+      "rating": 1
+    },
+    {
+      "player": "sapec",
+      "rating": 1
+    },
+    {
+      "player": "shalfey",
+      "rating": 1
+    },
+    {
+      "player": "VINI",
+      "rating": 0.999
+    },
+    {
+      "player": "accuracytg",
+      "rating": 0.998
+    },
+    {
+      "player": "cej0t",
+      "rating": 0.998
+    },
+    {
+      "player": "juanflatroo",
+      "rating": 0.998
+    },
+    {
+      "player": "snapy",
+      "rating": 0.998
+    },
+    {
+      "player": "bnox",
+      "rating": 0.997
+    },
+    {
+      "player": "ins",
+      "rating": 0.997
+    },
+    {
+      "player": "kauez",
+      "rating": 0.996
+    },
+    {
+      "player": "tiger",
+      "rating": 0.996
+    },
+    {
+      "player": "ultimate",
+      "rating": 0.996
+    },
+    {
+      "player": "amster",
+      "rating": 0.995
+    },
+    {
+      "player": "destiny",
+      "rating": 0.995
+    },
+    {
+      "player": "her1tage",
+      "rating": 0.995
+    },
+    {
+      "player": "k0s",
+      "rating": 0.995
+    },
+    {
+      "player": "kye",
+      "rating": 0.995
+    },
+    {
+      "player": "kaiser",
+      "rating": 0.993
+    },
+    {
+      "player": "nikitea",
+      "rating": 0.993
+    },
+    {
+      "player": "yami",
+      "rating": 0.993
+    },
+    {
+      "player": "zont1x",
+      "rating": 0.993
+    },
+    {
+      "player": "hades",
+      "rating": 0.992
+    },
+    {
+      "player": "joey",
+      "rating": 0.992
+    },
+    {
+      "player": "beccie",
+      "rating": 0.991
+    },
+    {
+      "player": "cxzi",
+      "rating": 0.991
+    },
+    {
+      "player": "reiko",
+      "rating": 0.991
+    },
+    {
+      "player": "woro2k",
+      "rating": 0.991
+    },
+    {
+      "player": "chopper",
+      "rating": 0.99
+    },
+    {
+      "player": "marix",
+      "rating": 0.99
+    },
+    {
+      "player": "mo0n",
+      "rating": 0.989
+    },
+    {
+      "player": "shane",
+      "rating": 0.989
+    },
+    {
+      "player": "Techno",
+      "rating": 0.989
+    },
+    {
+      "player": "eskyy",
+      "rating": 0.988
+    },
+    {
+      "player": "krad",
+      "rating": 0.988
+    },
+    {
+      "player": "saffee",
+      "rating": 0.988
+    },
+    {
+      "player": "tw1sterzaza",
+      "rating": 0.988
+    },
+    {
+      "player": "volt",
+      "rating": 0.988
+    },
+    {
+      "player": "beastik",
+      "rating": 0.987
+    },
+    {
+      "player": "br0",
+      "rating": 0.987
+    },
+    {
+      "player": "hardzao",
+      "rating": 0.987
+    },
+    {
+      "player": "get-jeka",
+      "rating": 0.984
+    },
+    {
+      "player": "liazz",
+      "rating": 0.984
+    },
+    {
+      "player": "podi",
+      "rating": 0.983
+    },
+    {
+      "player": "Mercury",
+      "rating": 0.982
+    },
+    {
+      "player": "jw",
+      "rating": 0.981
+    },
+    {
+      "player": "b4rtiN",
+      "rating": 0.98
+    },
+    {
+      "player": "bLitz",
+      "rating": 0.98
+    },
+    {
+      "player": "BluePho3nix",
+      "rating": 0.98
+    },
+    {
+      "player": "darkmeister",
+      "rating": 0.98
+    },
+    {
+      "player": "JBa",
+      "rating": 0.98
+    },
+    {
+      "player": "k1not1",
+      "rating": 0.979
+    },
+    {
+      "player": "onic",
+      "rating": 0.979
+    },
+    {
+      "player": "drg",
+      "rating": 0.978
+    },
+    {
+      "player": "drop",
+      "rating": 0.978
+    },
+    {
+      "player": "happ",
+      "rating": 0.978
+    },
+    {
+      "player": "kade0",
+      "rating": 0.978
+    },
+    {
+      "player": "lekr0",
+      "rating": 0.978
+    },
+    {
+      "player": "snk",
+      "rating": 0.978
+    },
+    {
+      "player": "snow",
+      "rating": 0.978
+    },
+    {
+      "player": "neofrag",
+      "rating": 0.976
+    },
+    {
+      "player": "1eer",
+      "rating": 0.975
+    },
+    {
+      "player": "MisteM",
+      "rating": 0.975
+    },
+    {
+      "player": "reyoz",
+      "rating": 0.975
+    },
+    {
+      "player": "tmb",
+      "rating": 0.975
+    },
+    {
+      "player": "diozera",
+      "rating": 0.974
+    },
+    {
+      "player": "n0te",
+      "rating": 0.974
+    },
+    {
+      "player": "freq",
+      "rating": 0.973
+    },
+    {
+      "player": "jcobbb",
+      "rating": 0.973
+    },
+    {
+      "player": "sdy",
+      "rating": 0.973
+    },
+    {
+      "player": "vsm",
+      "rating": 0.973
+    },
+    {
+      "player": "alex666",
+      "rating": 0.972
+    },
+    {
+      "player": "brilliance",
+      "rating": 0.972
+    },
+    {
+      "player": "isak",
+      "rating": 0.972
+    },
+    {
+      "player": "senka",
+      "rating": 0.972
+    },
+    {
+      "player": "upe",
+      "rating": 0.972
+    },
+    {
+      "player": "dex",
+      "rating": 0.97
+    },
+    {
+      "player": "h1te",
+      "rating": 0.97
+    },
+    {
+      "player": "meyern",
+      "rating": 0.969
+    },
+    {
+      "player": "polbandana",
+      "rating": 0.969
+    },
+    {
+      "player": "Qikert",
+      "rating": 0.969
+    },
+    {
+      "player": "rigon",
+      "rating": 0.969
+    },
+    {
+      "player": "sfade8",
+      "rating": 0.969
+    },
+    {
+      "player": "nikodeon",
+      "rating": 0.968
+    },
+    {
+      "player": "br4tko",
+      "rating": 0.967
+    },
+    {
+      "player": "Grizz",
+      "rating": 0.967
+    },
+    {
+      "player": "kei",
+      "rating": 0.967
+    },
+    {
+      "player": "shadiy",
+      "rating": 0.967
+    },
+    {
+      "player": "awayken",
+      "rating": 0.965
+    },
+    {
+      "player": "naitte",
+      "rating": 0.965
+    },
+    {
+      "player": "broky",
+      "rating": 0.964
+    },
+    {
+      "player": "kiro",
+      "rating": 0.964
+    },
+    {
+      "player": "n1xen",
+      "rating": 0.964
+    },
+    {
+      "player": "xiELO",
+      "rating": 0.964
+    },
+    {
+      "player": "art",
+      "rating": 0.963
+    },
+    {
+      "player": "brooxsy",
+      "rating": 0.963
+    },
+    {
+      "player": "snav",
+      "rating": 0.963
+    },
+    {
+      "player": "tabseN",
+      "rating": 0.963
+    },
+    {
+      "player": "xm1nd",
+      "rating": 0.963
+    },
+    {
+      "player": "Lucaozy",
+      "rating": 0.962
+    },
+    {
+      "player": "bl1x1",
+      "rating": 0.961
+    },
+    {
+      "player": "jota",
+      "rating": 0.96
+    },
+    {
+      "player": "k1to",
+      "rating": 0.96
+    },
+    {
+      "player": "svedjehed",
+      "rating": 0.96
+    },
+    {
+      "player": "cass1n",
+      "rating": 0.959
+    },
+    {
+      "player": "titulus",
+      "rating": 0.958
+    },
+    {
+      "player": "buster",
+      "rating": 0.957
+    },
+    {
+      "player": "interz",
+      "rating": 0.957
+    },
+    {
+      "player": "krasnal",
+      "rating": 0.957
+    },
+    {
+      "player": "heap",
+      "rating": 0.956
+    },
+    {
+      "player": "anber",
+      "rating": 0.955
+    },
+    {
+      "player": "ztr",
+      "rating": 0.954
+    },
+    {
+      "player": "kyxsan",
+      "rating": 0.953
+    },
+    {
+      "player": "neityu",
+      "rating": 0.953
+    },
+    {
+      "player": "s1n",
+      "rating": 0.953
+    },
+    {
+      "player": "modesavage",
+      "rating": 0.952
+    },
+    {
+      "player": "malkiss",
+      "rating": 0.951
+    },
+    {
+      "player": "ssen",
+      "rating": 0.95
+    },
+    {
+      "player": "Ex3rcice",
+      "rating": 0.949
+    },
+    {
+      "player": "sol",
+      "rating": 0.949
+    },
+    {
+      "player": "hasteka",
+      "rating": 0.948
+    },
+    {
+      "player": "dr3nquu",
+      "rating": 0.947
+    },
+    {
+      "player": "JT",
+      "rating": 0.947
+    },
+    {
+      "player": "nopeej",
+      "rating": 0.947
+    },
+    {
+      "player": "uli",
+      "rating": 0.947
+    },
+    {
+      "player": "BELCHONOKK",
+      "rating": 0.946
+    },
+    {
+      "player": "kalash",
+      "rating": 0.945
+    },
+    {
+      "player": "kinqie",
+      "rating": 0.944
+    },
+    {
+      "player": "opdust",
+      "rating": 0.944
+    },
+    {
+      "player": "addict",
+      "rating": 0.941
+    },
+    {
+      "player": "sm3t",
+      "rating": 0.941
+    },
+    {
+      "player": "summer",
+      "rating": 0.941
+    },
+    {
+      "player": "wumbo",
+      "rating": 0.939
+    },
+    {
+      "player": "infinite",
+      "rating": 0.938
+    },
+    {
+      "player": "maden",
+      "rating": 0.938
+    },
+    {
+      "player": "sliimey",
+      "rating": 0.938
+    },
+    {
+      "player": "smash",
+      "rating": 0.938
+    },
+    {
+      "player": "bodyy",
+      "rating": 0.936
+    },
+    {
+      "player": "divine",
+      "rating": 0.935
+    },
+    {
+      "player": "kl1o",
+      "rating": 0.935
+    },
+    {
+      "player": "nota",
+      "rating": 0.935
+    },
+    {
+      "player": "st0m4k",
+      "rating": 0.935
+    },
+    {
+      "player": "fessor",
+      "rating": 0.933
+    },
+    {
+      "player": "MAJ3R",
+      "rating": 0.933
+    },
+    {
+      "player": "xerolte",
+      "rating": 0.93
+    },
+    {
+      "player": "bl4sez",
+      "rating": 0.929
+    },
+    {
+      "player": "nosrac",
+      "rating": 0.929
+    },
+    {
+      "player": "cool4st",
+      "rating": 0.928
+    },
+    {
+      "player": "kelien",
+      "rating": 0.928
+    },
+    {
+      "player": "woozzzi",
+      "rating": 0.928
+    },
+    {
+      "player": "moriisko",
+      "rating": 0.926
+    },
+    {
+      "player": "motm",
+      "rating": 0.926
+    },
+    {
+      "player": "wolfy",
+      "rating": 0.926
+    },
+    {
+      "player": "z4kr",
+      "rating": 0.926
+    },
+    {
+      "player": "brnz4n",
+      "rating": 0.924
+    },
+    {
+      "player": "zedko",
+      "rating": 0.924
+    },
+    {
+      "player": "alpha",
+      "rating": 0.923
+    },
+    {
+      "player": "savage",
+      "rating": 0.923
+    },
+    {
+      "player": "biguzera",
+      "rating": 0.922
+    },
+    {
+      "player": "ligroo",
+      "rating": 0.922
+    },
+    {
+      "player": "Gizmy",
+      "rating": 0.921
+    },
+    {
+      "player": "Graviti",
+      "rating": 0.921
+    },
+    {
+      "player": "aldikon",
+      "rating": 0.92
+    },
+    {
+      "player": "def1zer",
+      "rating": 0.92
+    },
+    {
+      "player": "dukefissura",
+      "rating": 0.92
+    },
+    {
+      "player": "m1key",
+      "rating": 0.92
+    },
+    {
+      "player": "nin9",
+      "rating": 0.919
+    },
+    {
+      "player": "nitr0",
+      "rating": 0.918
+    },
+    {
+      "player": "sobol",
+      "rating": 0.918
+    },
+    {
+      "player": "stanislaw",
+      "rating": 0.917
+    },
+    {
+      "player": "mhn1",
+      "rating": 0.915
+    },
+    {
+      "player": "FalleN",
+      "rating": 0.914
+    },
+    {
+      "player": "Aleksib",
+      "rating": 0.912
+    },
+    {
+      "player": "ariucle",
+      "rating": 0.912
+    },
+    {
+      "player": "forkyz",
+      "rating": 0.912
+    },
+    {
+      "player": "nickelback",
+      "rating": 0.912
+    },
+    {
+      "player": "bsover",
+      "rating": 0.91
+    },
+    {
+      "player": "dan4o",
+      "rating": 0.91
+    },
+    {
+      "player": "delle",
+      "rating": 0.91
+    },
+    {
+      "player": "sh1seido",
+      "rating": 0.91
+    },
+    {
+      "player": "ay0k",
+      "rating": 0.909
+    },
+    {
+      "player": "kunai",
+      "rating": 0.909
+    },
+    {
+      "player": "something",
+      "rating": 0.908
+    },
+    {
+      "player": "clouden",
+      "rating": 0.906
+    },
+    {
+      "player": "dexter",
+      "rating": 0.906
+    },
+    {
+      "player": "HooXi",
+      "rating": 0.906
+    },
+    {
+      "player": "salazar",
+      "rating": 0.904
+    },
+    {
+      "player": "kursy",
+      "rating": 0.903
+    },
+    {
+      "player": "max",
+      "rating": 0.903
+    },
+    {
+      "player": "wetfy",
+      "rating": 0.903
+    },
+    {
+      "player": "icarus",
+      "rating": 0.902
+    },
+    {
+      "player": "yab0ku",
+      "rating": 0.902
+    },
+    {
+      "player": "tr0uble",
+      "rating": 0.901
+    },
+    {
+      "player": "rack",
+      "rating": 0.9
+    },
+    {
+      "player": "Westmelon",
+      "rating": 0.899
+    },
+    {
+      "player": "l1hang",
+      "rating": 0.898
+    },
+    {
+      "player": "puuha",
+      "rating": 0.897
+    },
+    {
+      "player": "gooddeph",
+      "rating": 0.895
+    },
+    {
+      "player": "osee",
+      "rating": 0.895
+    },
+    {
+      "player": "zevy",
+      "rating": 0.895
+    },
+    {
+      "player": "chengking",
+      "rating": 0.89
+    },
+    {
+      "player": "felps",
+      "rating": 0.887
+    },
+    {
+      "player": "refuzr",
+      "rating": 0.886
+    },
+    {
+      "player": "wood7",
+      "rating": 0.886
+    },
+    {
+      "player": "chayjesus",
+      "rating": 0.885
+    },
+    {
+      "player": "peeping",
+      "rating": 0.885
+    },
+    {
+      "player": "fear",
+      "rating": 0.883
+    },
+    {
+      "player": "innocent",
+      "rating": 0.882
+    },
+    {
+      "player": "maison",
+      "rating": 0.88
+    },
+    {
+      "player": "kumao",
+      "rating": 0.879
+    },
+    {
+      "player": "snappi",
+      "rating": 0.879
+    },
+    {
+      "player": "spellan",
+      "rating": 0.877
+    },
+    {
+      "player": "pr1metapz",
+      "rating": 0.876
+    },
+    {
+      "player": "Snax",
+      "rating": 0.875
+    },
+    {
+      "player": "aiyvan",
+      "rating": 0.873
+    },
+    {
+      "player": "controlez",
+      "rating": 0.872
+    },
+    {
+      "player": "vert",
+      "rating": 0.872
+    },
+    {
+      "player": "nicx",
+      "rating": 0.871
+    },
+    {
+      "player": "corn",
+      "rating": 0.87
+    },
+    {
+      "player": "leomonster",
+      "rating": 0.868
+    },
+    {
+      "player": "maggent",
+      "rating": 0.867
+    },
+    {
+      "player": "strogo",
+      "rating": 0.863
+    },
+    {
+      "player": "aleks",
+      "rating": 0.862
+    },
+    {
+      "player": "fer",
+      "rating": 0.862
+    },
+    {
+      "player": "k1-fida",
+      "rating": 0.862
+    },
+    {
+      "player": "sh1fu",
+      "rating": 0.861
+    },
+    {
+      "player": "MUTiRiS",
+      "rating": 0.86
+    },
+    {
+      "player": "majky",
+      "rating": 0.859
+    },
+    {
+      "player": "KENSI",
+      "rating": 0.858
+    },
+    {
+      "player": "NEKIZ",
+      "rating": 0.855
+    },
+    {
+      "player": "aragornn",
+      "rating": 0.854
+    },
+    {
+      "player": "nardes",
+      "rating": 0.853
+    },
+    {
+      "player": "mlhzin",
+      "rating": 0.849
+    },
+    {
+      "player": "ray5ive",
+      "rating": 0.849
+    },
+    {
+      "player": "emstar",
+      "rating": 0.848
+    },
+    {
+      "player": "roux",
+      "rating": 0.847
+    },
+    {
+      "player": "freshie",
+      "rating": 0.844
+    },
+    {
+      "player": "siuhy",
+      "rating": 0.844
+    },
+    {
+      "player": "jackinho",
+      "rating": 0.841
+    },
+    {
+      "player": "efire",
+      "rating": 0.839
+    },
+    {
+      "player": "chop",
+      "rating": 0.835
+    },
+    {
+      "player": "dako",
+      "rating": 0.833
+    },
+    {
+      "player": "nython",
+      "rating": 0.832
+    },
+    {
+      "player": "kr1vda",
+      "rating": 0.831
+    },
+    {
+      "player": "rentu",
+      "rating": 0.83
+    },
+    {
+      "player": "hfah",
+      "rating": 0.822
+    },
+    {
+      "player": "owner",
+      "rating": 0.822
+    },
+    {
+      "player": "neqy",
+      "rating": 0.82
+    },
+    {
+      "player": "noktse",
+      "rating": 0.818
+    },
+    {
+      "player": "th0r",
+      "rating": 0.816
+    },
+    {
+      "player": "krazy",
+      "rating": 0.815
+    },
+    {
+      "player": "jakekes",
+      "rating": 0.813
+    },
+    {
+      "player": "ltz",
+      "rating": 0.811
+    },
+    {
+      "player": "nealan",
+      "rating": 0.807
+    },
+    {
+      "player": "gxx",
+      "rating": 0.805
+    },
+    {
+      "player": "bart4k",
+      "rating": 0.804
+    },
+    {
+      "player": "oceana",
+      "rating": 0.8
+    },
+    {
+      "player": "pkl",
+      "rating": 0.797
+    },
+    {
+      "player": "karrigan",
+      "rating": 0.796
+    },
+    {
+      "player": "meowpop",
+      "rating": 0.79
+    },
+    {
+      "player": "mynio",
+      "rating": 0.786
+    },
+    {
+      "player": "nbl",
+      "rating": 0.783
+    },
+    {
+      "player": "fakerealityy",
+      "rating": 0.76
+    },
+    {
+      "player": "x9",
+      "rating": 0.76
+    },
+    {
+      "player": "retchy",
+      "rating": 0.742
+    },
+    {
+      "player": "marekiew",
+      "rating": 0.73
+    },
+    {
+      "player": "shoxs",
+      "rating": 0.73
+    },
+    {
+      "player": "shine",
+      "rating": 0.72
+    },
+    {
+      "player": "mol011",
+      "rating": 0.662
+    },
+    {
+      "player": "crepow",
+      "rating": 0.589
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSC 后端架构演示（Archify 风格）</title>
+<style>
+  :root{
+    --bg:#0e1116; --panel:#161b22; --panel2:#1c222c; --line:#2d3542;
+    --txt:#e6edf3; --dim:#8b949e; --accent:#58a6ff; --green:#3fb950;
+    --amber:#d29922; --red:#f85149; --purple:#bc8cff; --cyan:#39c5cf;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--txt);font-family:"Segoe UI","Microsoft YaHei",system-ui,sans-serif;line-height:1.5;padding:24px}
+  .wrap{max-width:1200px;margin:0 auto}
+  header h1{font-size:22px;letter-spacing:.5px}
+  header .sub{color:var(--dim);font-size:13px;margin-top:4px}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:18px 0}
+  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 14px}
+  .kpi b{display:block;font-size:22px;color:var(--accent)}
+  .kpi span{font-size:12px;color:var(--dim)}
+  nav.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 14px}
+  nav.tabs button{background:var(--panel2);border:1px solid var(--line);color:var(--dim);
+    padding:7px 14px;border-radius:6px;cursor:pointer;font-size:13px}
+  nav.tabs button.active{background:var(--accent);color:#0a0d12;border-color:var(--accent);font-weight:600}
+  .tab{display:none}
+  .tab.active{display:block}
+
+  /* layer diagram */
+  .layers{display:flex;flex-direction:column;gap:10px}
+  .layer{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel)}
+  .layer>.lhead{display:flex;align-items:center;gap:12px;padding:10px 14px;cursor:pointer;user-select:none}
+  .layer>.lhead:hover{background:var(--panel2)}
+  .lhead .pill{min-width:34px;text-align:center;background:var(--line);border-radius:5px;padding:2px 6px;font-weight:700;font-size:13px}
+  .lhead h3{font-size:15px;flex:1}
+  .lhead .desc{color:var(--dim);font-size:12px}
+  .lhead .arrow{color:var(--dim);transition:transform .2s}
+  .layer.open .lhead .arrow{transform:rotate(90deg)}
+  .crates{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px;padding:0 14px 14px;display:none}
+  .layer.open .crates{display:grid}
+  .crate{border:1px solid var(--line);border-radius:8px;padding:8px 10px;background:var(--panel2)}
+  .crate code{color:var(--cyan);font-size:13px;font-weight:600}
+  .crate .duty{font-size:12px;color:var(--dim);margin-top:2px}
+  .crate .loc{font-size:11px;color:var(--amber)}
+  .arrowline{color:var(--dim);text-align:center;font-size:18px;line-height:1;margin:2px 0}
+  .legend{display:flex;flex-wrap:wrap;gap:14px;color:var(--dim);font-size:12px;margin:8px 0 4px}
+  .legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+
+  /* data flow */
+  .flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;margin-bottom:12px}
+  .node{border-radius:8px;padding:8px 12px;font-size:13px;font-weight:600;text-align:center}
+  .node.web{border:1px solid var(--accent);color:var(--accent)}
+  .node.engine{border:1px solid var(--green);color:var(--green)}
+  .node.sys{border:1px solid var(--purple);color:var(--purple)}
+  .node.core{border:1px solid var(--amber);color:var(--amber)}
+  .edge{color:var(--dim);font-size:12px;display:flex;flex-direction:column;align-items:center}
+  .edge .lbl{font-size:11px;max-width:150px;text-align:center}
+  .flow-note{color:var(--dim);font-size:12px;margin-top:4px}
+
+  /* endpoints table */
+  table{width:100%;border-collapse:collapse;font-size:13px;background:var(--panel)}
+  th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--panel2);font-weight:600;position:sticky;top:0}
+  td code{color:var(--cyan)}
+  .m{display:inline-block;padding:0 6px;border-radius:4px;font-weight:700;font-size:11px;min-width:40px;text-align:center}
+  .m-GET{background:#1f3d2a;color:var(--green)}
+  .m-POST{background:#25414d;color:#79c0ff}
+  .m-DELETE{background:#4d2730;color:#ff7b72}
+  .tag{border:1px solid var(--line);border-radius:6px;padding:2px 8px;font-size:11px;color:var(--dim);white-space:nowrap}
+  details{border:1px solid var(--line);border-radius:8px;background:var(--panel);padding:8px 12px;margin-top:6px}
+  summary{cursor:pointer;font-weight:600;color:var(--accent)}
+  .gap{height:10px}
+  .ws-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:900px){.ws-grid{grid-template-columns:1fr}}
+
+  /* issues */
+  .iss{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:10px;margin-top:8px}
+  .card{border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:12px}
+  .card h4{font-size:14px;margin-bottom:6px;display:flex;align-items:center;gap:8px}
+  .badge{border-radius:4px;padding:1px 7px;font-size:11px;font-weight:700}
+  .b-done{background:#1f3d2a;color:var(--green)}
+  .b-limit{background:#3a2c16;color:var(--amber)}
+  .b-wip{background:#25414d;color:#79c0ff}
+  .card p{font-size:13px;color:var(--dim)}
+  .card li{font-size:12px;color:var(--dim);margin-left:18px}
+
+  /* decision enum */
+  .dp{display:flex;flex-wrap:wrap;gap:8px}
+  .dp span{border:1px solid var(--line);border-radius:6px;padding:6px 10px;font-size:12px;background:var(--panel2)}
+  .dp span b{color:var(--purple)}
+  footer{margin-top:22px;color:var(--dim);font-size:12px;border-top:1px solid var(--line);padding-top:12px}
+  .btn2{background:var(--green);color:#0a0d12;border:none;border-radius:6px;padding:6px 14px;cursor:pointer;font-weight:600;margin-top:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>🎮 CSC 职业模拟 —— 后端架构演示</h1>
+    <div class="sub">Rust WASM 重写 · 确定性模拟内核 · axum 服务端 ｜ 源码实读生成（对应 docs/analysis/20 &amp; 21）</div>
+  </header>
+
+  <div class="kpis">
+    <div class="kpi"><b>16</b><span>Cargo crates</span></div>
+    <div class="kpi"><b>~48.7K</b><span>Rust 代码行</span></div>
+    <div class="kpi"><b>47+1</b><span>REST + WebSocket 端点</span></div>
+    <div class="kpi"><b>596</b><span>测试通过 / 0 失败</span></div>
+    <div class="kpi"><b>v9</b><span>存档格式 CURRENT_VERSION</span></div>
+    <div class="kpi"><b>Xoshiro256**</b><span>确定性 RNG</span></div>
+  </div>
+
+  <nav class="tabs">
+    <button data-t="layers" class="active">① Crate 分层</button>
+    <button data-t="flow">② 核心数据流</button>
+    <button data-t="api">③ API 全量</button>
+    <button data-t="ws">④ WebSocket</button>
+    <button data-t="save">⑤ 存档契约</button>
+    <button data-t="dp">⑥ 决策点 / 事件</button>
+    <button data-t="issues">⑦ 已知问题</button>
+  </nav>
+
+  <!-- ============ 1. LAYERS ============ -->
+  <section class="tab active" id="tab-layers">
+    <div class="legend">
+      <span><i style="background:var(--purple)"></i>纯函数规则层</span>
+      <span><i style="background:var(--amber)"></i>编排 / 聚合根</span>
+      <span><i style="background:var(--accent)"></i>进程边界 (server)</span>
+      <span><i style="background:var(--green)"></i>依赖被编译器强制无环 ↓</span>
+    </div>
+    <div class="layers">
+
+      <div class="layer open" data-role>
+        <div class="lhead"><span class="pill">L5</span><h3>服务端 / 应用 / WASM</h3>
+          <span class="desc">axum REST/WS · GameManager · CLI · wasm32 绑定</span><span class="arrow">▸</span></div>
+        <div class="crates">
+          <div class="crate"><code>csc-server</code><span class="loc"> · ~5.1K 行</span><div class="duty">axum REST/WS + channel 决策桥接。每局一个模拟线程，多局天然隔离；GameManager LRU 淘汰/恢复、落盘、LIVE 会话。</div></div>
+          <div class="crate"><code>csc-app</code><span class="loc"> · ~645 行</span><div class="duty">交互式 CLI：决策渲染 + stdin 决策源（StdinDecisionSource）。</div></div>
+          <div class="crate"><code>csc-wasm</code><span class="loc"> · ~316 行</span><div class="duty">浏览器绑定：薄 API + 事件缓冲。当前仅 auto 推演，人类交互列为 v2。</div></div>
+        </div>
+      </div>
+      <div class="arrowline">▼</div>
+
+      <div class="layer">
+        <div class="lhead"><span class="pill">L4</span><h3>编排层 csc-core</h3>
+          <span class="desc">Engine 装配全部子系统 · GameState 聚合根 · 查询层</span><span class="arrow">▸</span></div>
+        <div class="crates">
+          <div class="crate"><code>csc-core</code><span class="loc"> · ~7.8K 行</span><div class="duty">总引擎接线 + <code>GameState</code> 完整存档聚合根（version 9）+ 赛季推进编排 + <code>ClientState</code> 只读查询投影。仅依赖 L0-L3。</div></div>
+        </div>
+      </div>
+      <div class="arrowline">▼</div>
+
+      <div class="layer">
+        <div class="lhead"><span class="pill">L3</span><h3>世界子系统 / 赛事</h3>
+          <span class="desc">chemistry · economy · injury · population · transfer + tournaments</span><span class="arrow">▸</span></div>
+        <div class="crates">
+          <div class="crate"><code>csc-systems</code><span class="loc"> · ~4.6K 行</span><div class="duty">五个子引擎合一：化学、经济、伤病、人口、转会。</div></div>
+          <div class="crate"><code>csc-tournaments</code><span class="loc"> · ~9.0K 行</span><div class="duty">赛事系统：排程 / Swiss·单双败赛制 / 日历 / 结算 / 名次 / TOP20。最大 crate。</div></div>
+        </div>
+      </div>
+      <div class="arrowline">▼</div>
+
+      <div class="layer">
+        <div class="lhead"><span class="pill">L2</span><h3>规则 / 竞技场</h3>
+          <span class="desc">纯函数规则 · VRS · 生涯归档 —— 无 I/O，不反向依赖引擎</span><span class="arrow">▸</span></div>
+        <div class="crates">
+          <div class="crate"><code>csc-simulation</code><span class="loc"> · ~6.8K 行</span><div class="duty"><b>纯函数规则层</b>：胜率 / 成长 / 训练 / 比赛 / LIVE 回合模型（LiveMatchEngine）。</div></div>
+          <div class="crate"><code>csc-vrs</code><span class="loc"> · ~1.2K 行</span><div class="duty">VRS 排名：静态种子分 + 动态 ELO + 窗口剪枝数据库。</div></div>
+          <div class="crate"><code>csc-career</code><span class="loc"> · ~0.8K 行</span><div class="duty">生涯档案：CareerArchive / SeasonRecord / 结局评估。</div></div>
+        </div>
+      </div>
+      <div class="arrowline">▼</div>
+
+      <div class="layer">
+        <div class="lhead"><span class="pill">L1</span><h3>领域值 / 实体 / 事件 / 决策 / 文案 / 时钟</h3>
+          <span class="desc">实体 arena · WorldJournal · DecisionPoint · text 包 · SimClock</span><span class="arrow">▸</span></div>
+        <div class="crates">
+          <div class="crate"><code>csc-entities</code><span class="loc"> · ~1.6K 行</span><div class="duty">选手/队伍 arena + 属性领域 + 生成器（对象图 → ID 引用）。</div></div>
+          <div class="crate"><code>csc-events</code><span class="loc"> · ~1.6K 行</span><div class="duty">WorldJournal 事件流：纯值 + 可序列化 + 增量拉取。</div></div>
+          <div class="crate"><code>csc-decision</code><span class="loc"> · ~0.7K 行</span><div class="duty">DecisionPoint / DecisionSource / DecisionLog（回放基础）。</div></div>
+          <div class="crate"><code>csc-text</code><span class="loc"> · ~0.3K 行</span><div class="duty">文案/叙事文本包（编译期内嵌 + zh-CN.json 运行期覆盖）。</div></div>
+          <div class="crate"><code>csc-time</code><span class="loc"> · ~0.5K 行</span><div class="duty">模拟时钟 + 时间窗口（零日期库，自实现 civil calendar）。</div></div>
+        </div>
+      </div>
+      <div class="arrowline">▼</div>
+
+      <div class="layer">
+        <div class="lhead"><span class="pill">L0</span><h3>共享值对象 / 确定性工具</h3>
+          <span class="desc">零依赖，全 Copy/Clone/PartialEq/Serde</span><span class="arrow">▸</span></div>
+        <div class="crates">
+          <div class="crate"><code>csc-domain</code><span class="loc"> · ~0.7K 行</span><div class="duty">跨系统共享值对象（SeasonGoal 等）。</div></div>
+          <div class="crate"><code>csc-util</code><span class="loc"> · ~1.0K 行</span><div class="duty">Xoshiro256** RNG（与 Kotlin 位级一致）+ 稳定 ID + SimError。</div></div>
+        </div>
+      </div>
+
+      <p style="color:var(--dim);font-size:12px;margin-top:8px">
+        <b style="color:var(--green)">架构红利：</b>依赖方向由 Cargo 编译期强制无环（cargo 检测 cycle），不靠人工守约——这是从 Kotlin 转写最大的架构提升。
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ 2. FLOW ============ -->
+  <section class="tab" id="tab-flow">
+    <h3 style="margin-bottom:8px">推进链路</h3>
+    <div class="flow">
+      <div class="node web">TS 前端 (Solid)</div>
+      <div class="edge">REST/WS JSON<span class="lbl">advance / decide</span></div>
+      <div class="node web">csc-server<br><small style="font-weight:400">GameManager</small></div>
+      <div class="edge">Command mpsc<span class="lbl">每局独立线程</span></div>
+      <div class="node engine">csc-core Engine<br><small style="font-weight:400">月度 8 步编排</small></div>
+      <div class="edge">纯函数调用</div>
+      <div class="node sys">csc-systems<br><small style="font-weight:400">伤病/化学/经济/转会 tick</small></div>
+      <div class="node sys">csc-tournaments<br><small style="font-weight:400">编排 + 结算</small></div>
+      <div class="node core">csc-simulation<br><small style="font-weight:400">胜率/成长结算</small></div>
+      <div class="node core">csc-vrs<br><small style="font-weight:400">排名更新</small></div>
+    </div>
+    <div class="flow-note">→ 遇人类决策：<code>csc-decision</code> 产出 DecisionPoint 经 channel 发布（WS/REST）并阻塞，等提交后继续。</div>
+
+    <h3 style="margin:14px 0 8px">存档链路</h3>
+    <div class="flow">
+      <div class="node web">HTTP /live save</div>
+      <div class="edge">snapshot</div>
+      <div class="node engine">Engine::snapshot<br><small style="font-weight:400">GameState</small></div>
+      <div class="edge">canonical JSON</div>
+      <div class="node engine">CRC32 + gzip</div>
+      <div class="edge">tmp → rename 原子写</div>
+      <div class="node core">磁盘包 v2</div>
+    </div>
+    <div class="flow">
+      <div class="node web">load 入口</div>
+      <div class="edge">CRC 校验失败 → .corrupt 隔离</div>
+      <div class="node engine">migrate_state()<br><small style="font-weight:400">v1–v8 → v9 唯一入口</small></div>
+      <div class="edge">构造-交换 + Result</div>
+      <div class="node core">Engine::restore<br><small style="font-weight:400">失败不留半恢复</small></div>
+      <div class="edge">restore_locks()</div>
+      <div class="node sys">赛事锁重建</div>
+    </div>
+
+    <h3 style="margin:14px 0 8px">容量治理（GameManager）</h3>
+    <div class="flow-note">
+      <code>max_active</code>（默认 4）超出 → 把<b>最久未访问的空闲局</b> gzip 落盘卸载；<code>leased&gt;0</code> / <code>advancing</code> / <code>saving</code> / <code>restoring</code> 中的局不动。<br>
+      并发恢复同局由 <code>restoring</code> 标记去重 —— 有专门竞态回归测试 <code>concurrent_restore_of_same_game_never_404s</code>。
+    </div>
+  </section>
+
+  <!-- ============ 3. API ============ -->
+  <section class="tab" id="tab-api">
+    <p style="color:var(--dim);font-size:13px;margin-bottom:10px">统一错误格式：非 2xx 响应体 = <code>{ "error": "&lt;人话原因&gt;" }</code>。请求体上限 128MB（长生涯读档）。常规状态码：200/201/202(Human 异步)/400/404/409(批次不匹配·推进中·闸门)/413/422/504(&gt;300s)。</p>
+    <table>
+      <thead><tr><th style="width:70px">方法</th><th style="width:44%">端点</th><th>说明</th></tr></thead>
+      <tbody>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/health</code></td><td>健康检查（毫秒级）</td></tr>
+        <tr><td><span class="m m-POST">POST</span></td><td><code>/games</code> <span class="tag">201/422</span></td><td>创建游戏：seed/policy(auto|human)/player_name/role；主角从 VRS 垫底队起步</td></tr>
+        <tr><td><span class="m m-DELETE">DEL</span></td><td><code>/games/{id}</code></td><td>销毁：线程退出 + 存档/LIVE 回收</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/state</code></td><td>完整 GameState 快照 ⚠️ ≈68MB@20年，勿高频拉取</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/save</code> · <code>/save/gzip</code></td><td>下载存档 / gzip（带 x-csc-* 头：version/date/crc32）</td></tr>
+        <tr><td><span class="m m-POST">POST</span></td><td><code>/games/{id}/load</code> · <code>/load/gzip</code></td><td>读档（自动迁移 v1–v8→v9）；gzip 可带 x-csc-expected-crc32 校验</td></tr>
+        <tr><td><span class="m m-POST">POST</span></td><td><code>/games/{id}/advance</code> <span class="tag">months 1..240 | days 1..360</span></td><td>推进（二选一，同传 400）；auto→200，human→202 经 WS</td></tr>
+        <tr><td><span class="m m-POST">POST</span></td><td><code>/games/{id}/advance-season</code></td><td>推进到赛季边界</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/decisions/pending</code></td><td>待决策批次（Human）</td></tr>
+        <tr><td><span class="m m-POST">POST</span></td><td><code>/games/{id}/decisions</code></td><td>提交决策 {decisions, batch_id}（409 批次不匹配）</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/training/options</code></td><td>训练计划选项</td></tr>
+        <tr><td><span class="m m-POST">POST</span></td><td><code>/games/{id}/training</code></td><td>排定训练 {focus}</td></tr>
+        <tr><td><span class="m m-POST">POST</span></td><td><code>/games/{id}/season-goal</code></td><td>设赛季目标 {goal}</td></tr>
+        <tr><td><span class="m m-POST">POST</span></td><td><code>/games/{id}/finance</code></td><td>资金：buyout/invest/skin</td></tr>
+        <tr><td><span class="m m-POST">POST</span></td><td><code>/games/{id}/actions/statement</code></td><td>声明 {tone}</td></tr>
+        <tr><td><span class="m m-POST">POST</span></td><td><code>/games/{id}/actions/match-plan</code></td><td>BP/战术 {style}</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/view</code></td><td><b>ClientState 轻量视图（高频轮询主数据源，≈完整快照 1–3%）</b></td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/calendar?year=</code></td><td>年度赛历（plan+results+player_events）</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/events/{name}</code></td><td>单赛事对象（teams+fixtures+champion+emptiness_reason）</td></tr>
+        <tr><td><span class="m m-POST">POST</span></td><td><code>/games/{id}/fixtures/watched</code></td><td>标记对局已看完（持久，随存档）</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/news</code></td><td>世界新闻流（≤10 条）</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/replay?event=..&amp;date=..&amp;index=</code></td><td>单场直播回放（ReplayBuilder 纯函数确定性生成）</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/journal?since=&amp;channel=&amp;limit=</code></td><td>事件流增量（next_seq 游标，career_feed|world_wire）</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/archive</code> · <code>/ending</code></td><td>生涯档案 / 结局复盘</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/top20</code> · <code>/history</code> · <code>/reference</code></td><td>年度 TOP20 实时榜（跨年回退）· 历届快照 · 真实三年参照</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/world</code></td><td>世界故事流（队伍风云/宿敌，只读派生）</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/insights</code></td><td>生涯洞察（转会/比赛/队伍解释层）</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/calibration</code></td><td>生态校准报告</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/transfers/market</code></td><td>转会窗市场（从 pending 提取主角报价；null=空态）</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/transfers/offers</code></td><td>可签约候选 TransferOffer[]</td></tr>
+        <tr><td><span class="m m-POST">POST</span></td><td><code>/games/{id}/transfers/sign</code></td><td>签约 {team_signature}</td></tr>
+        <tr><td><span class="m m-POST">POST</span></td><td><code>/games/{id}/live</code> <span class="tag">幂等可重进</span></td><td>开 LIVE（体=LiveMapConfig）</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/live/today</code></td><td>今日主角 pending 对阵（比赛日闸门）</td></tr>
+        <tr><td><span class="m m-POST">POST</span></td><td><code>/games/{id}/live/today/skip</code></td><td>跳过今日 LIVE 提示（不改变月末结算）</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/live/{match}</code></td><td>LIVE 会话视图</td></tr>
+        <tr><td><span class="m m-POST">POST</span></td><td><code>/games/{id}/live/{match}/advance</code></td><td>推进一回合</td></tr>
+        <tr><td><span class="m m-POST">POST</span></td><td><code>/games/{id}/live/{match}/decide</code></td><td>回合决策</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/live/{match}/review</code></td><td>复盘回放（关键回合）</td></tr>
+        <tr><td><span class="m m-POST">POST</span></td><td><code>/games/{id}/live/{match}/skip</code></td><td>跳至赛果（MAX_ROUNDS=48 硬上界）</td></tr>
+        <tr><td><span class="m m-POST">POST</span></td><td><code>/games/{id}/live/{match}/watch</code></td><td>标记已看完（幂等）</td></tr>
+        <tr><td><span class="m m-GET">GET</span></td><td><code>/games/{id}/ws</code> <span class="tag">WebSocket</span></td><td>事件推送通道（见 ④ 页签）</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ============ 4. WS ============ -->
+  <section class="tab" id="tab-ws">
+    <div class="ws-grid">
+      <div>
+        <h3 style="margin-bottom:8px">服务端 → 客户端（WsEvent，type=snake_case）</h3>
+        <table>
+          <thead><tr><th>type</th><th>载荷</th></tr></thead>
+          <tbody>
+            <tr><td><code>decisions</code></td><td>PendingBatch（决策面板渲染）</td></tr>
+            <tr><td><code>step</code></td><td>StepSummary（月/日步完成；season_end 弹总结）</td></tr>
+            <tr><td><code>journal</code></td><td>{events, next_seq} 增量（与 REST since= 同口径）</td></tr>
+            <tr><td><code>notice</code></td><td>系统提示（如决策超时）——可忽略不破坏协议</td></tr>
+            <tr><td><code>ping</code></td><td>服务端心跳 {ts}，30s 周期</td></tr>
+            <tr><td><code>lagged</code></td><td>{skipped} 慢消费者丢事件（REST journal 兜底）</td></tr>
+            <tr><td><code>error</code></td><td>{message} 客户端消息错误回执</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h3 style="margin-bottom:8px">客户端 → 服务端（WsIn）</h3>
+        <table>
+          <thead><tr><th>type</th><th>载荷 / 说明</th></tr></thead>
+          <tbody>
+            <tr><td><code>decide</code></td><td>{decisions, batch_id?} 提交决策</td></tr>
+            <tr><td><code>advance</code></td><td>{months?: 1..240} 请求推进</td></tr>
+            <tr><td><code>ping</code></td><td>心跳 → 回 pong</td></tr>
+            <tr><td><code>pong</code></td><td>回应服务端 ping（10s 无 pong 判死）</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <p style="color:var(--dim);font-size:12px;margin-top:10px">通道容量 256，慢消费者溢出丢事件并发 <code>lagged</code>，前端用 REST journal 对账恢复一致性。</p>
+  </section>
+
+  <!-- ============ 5. SAVE ============ -->
+  <section class="tab" id="tab-save">
+    <div style="display:flex;gap:20px;flex-wrap:wrap">
+      <div style="flex:1;min-width:300px">
+        <h3>GameState 字段（v9）</h3>
+        <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:8px">
+          <span class="tag">version</span><span class="tag">month</span><span class="tag">last_contract_year</span>
+          <span class="tag">locks</span><span class="tag">sim_year|month|day</span><span class="tag">rng_state[4]</span>
+          <span class="tag">decisions[]</span><span class="tag">journal[]</span><span class="tag">archive{}</span>
+          <span class="tag">world</span><span class="tag">vrs</span><span class="tag">events[]</span><span class="tag">yearly_rating</span>
+          <span class="tag">top20_history[]</span><span class="tag">scheduled_records[]</span><span class="tag">sim_version</span>
+        </div>
+        <div class="gap"></div>
+        <h3>版本契约四件套</h3>
+        <ul style="margin:8px 0 0 18px;color:var(--dim);font-size:13px">
+          <li><code>deny_unknown_fields</code>：未知字段拒绝解析（防静默默认化）</li>
+          <li>未知版本 &gt; CURRENT_VERSION 拒绝加载</li>
+          <li>旧档读入经唯一入口 <code>migrate_state()</code> 升到 v9（v5 荣誉积分 ×0.1 量纲归一）</li>
+          <li>指纹门禁：FNV-1a64(sim_version ‖ canonical) 随 cargo test 默认执行（禁 ignore）</li>
+        </ul>
+      </div>
+      <div style="flex:1;min-width:300px">
+        <h3>磁盘包格式（PersistedGame v2）</h3>
+        <pre style="background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:12px;font-size:12px;overflow:auto;margin-top:8px"><code>gzip(
+  JSON({
+    format: "csc-persisted-game",
+    format_version: 2,
+    policy: "auto"|"human",
+    state_crc32: crc32fast(canonical(state)),
+    state: { ...GameState v9 }
+  })
+)</code></pre>
+        <p style="color:var(--dim);font-size:12px;margin-top:6px">v1→v2 自动升级；CRC 失败改名 <code>.corrupt</code> 隔离；tmp+rename 原子写。版本演进权威：docs/SAVE-FORMAT.md。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 6. DECISION / EVENT ============ -->
+  <section class="tab" id="tab-dp">
+    <h3>DecisionPoint —— 7 种（SCREAMING_SNAKE_CASE tag）</h3>
+    <div class="dp" style="margin-top:8px">
+      <span><b>TRANSFER_WINDOW</b> · 转会窗 offers</span>
+      <span><b>TRAINING_FOCUS</b> · options</span>
+      <span><b>MATCH_INTERVENTION</b> · 图间暂停</span>
+      <span><b>TEAMMATE_BLUNDER</b> · 队友失误反应</span>
+      <span><b>INJURY_DECISION</b> · 带伤/休养</span>
+      <span><b>SPONSORSHIP_OFFER</b> · 代言</span>
+      <span><b>LIFE_EVENT</b> · 场外人生（含 contact_team_id）</span>
+    </div>
+    <p style="color:var(--dim);font-size:13px;margin:10px 0">每个决策点：<code>id</code>（确定性生成）、<code>date</code>、<code>player_id</code>（稳定 ID）、<code>player_name</code>。<br>提交：<code>PlayerDecision { point_id, option_id }</code>，形如 <code>"2026-06-08|transfer|0"</code>。</p>
+
+    <h3 style="margin-top:14px">WorldEvent —— journal 元素（14 种，全带 date + seq 游标）</h3>
+    <div class="dp" style="margin-top:8px">
+      <span>MATCH_PLAYED</span><span>CHAMPIONSHIP</span><span>TOURNAMENT_STAGE</span>
+      <span>TOURNAMENT_CANCELLED</span><span>TRANSFER_DONE</span><span>RETIREMENT</span>
+      <span>ROOKIE_INTAKE</span><span>INJURY_OCCURRED</span><span>INJURY_RECOVERED</span>
+      <span>CONFLICT</span><span>DECISION_MADE</span><span>TRAINING_DONE</span>
+      <span>HONOUR_AWARDED</span><span>LIVE_UPDATE</span>
+    </div>
+
+    <h3 style="margin-top:14px">训练重点 TrainingFocus / 赛季目标 SeasonGoal / 角色 Role</h3>
+    <div class="dp" style="margin-top:8px">
+      <span><b>AIM</b> UTILITY CLUTCH PHYSICAL MENTAL COMMUNICATION REST</span>
+      <span style="border-color:var(--green)"><b style="color:var(--green)">GOAL:</b> WIN_TITLE · TOP20 · IMPROVE_RATING · SECURE_STARTING · SEEK_TRANSFER · RECOVER_FORM</span>
+      <span style="border-color:var(--amber)"><b style="color:var(--amber)">ROLE:</b> IGL · AWP · RIFLER · ENTRY · SUPPORT · LURKER</span>
+    </div>
+  </section>
+
+  <!-- ============ 7. ISSUES ============ -->
+  <section class="tab" id="tab-issues">
+    <h3 style="margin-bottom:4px">① 已修复闭环（2026-09-06 审查批次）</h3>
+    <div class="iss">
+      <div class="card"><h4><span class="badge b-done">P0</span> CI 格式红</h4><p>fmt 违规已在 HEAD。→ cargo fmt --all 单独 commit。</p></div>
+      <div class="card"><h4><span class="badge b-done">P0</span> LiveSessionStore 无回收</h4><p>内存泄漏 + 同场无法重进 LIVE。→ 加 end + shutdown/LRU 清理 + start 幂等覆盖。</p></div>
+      <div class="card"><h4><span class="badge b-done">P1</span> WASM 读档漏迁移</h4><p>旧档荣誉分量纲错。→ 补 migrate_state() + 入口收敛。</p></div>
+      <div class="card"><h4><span class="badge b-done">P1</span> 读档半恢复引擎</h4><p>panic 后继续对外服务。→ 构造-交换 + Result 化。</p></div>
+      <div class="card"><h4><span class="badge b-done">P1</span> 存档版本未 bump</h4><p>新增字段未升 CURRENT_VERSION。→ bump 到 9 + 同步 SAVE-FORMAT.md。</p></div>
+      <div class="card"><h4><span class="badge b-done">P2</span> 模块文档滞后</h4><p>routes 列 18 实际 47。→ 全量同步端点清单。</p></div>
+      <div class="card"><h4><span class="badge b-done">P2</span> LIVE 两套判定口径</h4><p>实时/复盘比分口径不一致。→ 抽共用判定，统一回合前比分。</p></div>
+      <div class="card"><h4><span class="badge b-done">P2</span> LockRecord 注释错</h4><p>复制粘贴错误。→ 已修正。</p></div>
+    </div>
+
+    <h3 style="margin:18px 0 4px">② 结构性限制（设计内妥协，非 bug）</h3>
+    <div class="iss">
+      <div class="card"><h4><span class="badge b-limit">K1</span> WASM 仅 auto</h4><p>浏览器内人类交互（EngineStep 状态机）列为 v2。</p></div>
+      <div class="card"><h4><span class="badge b-limit">K2</span> 浮点跨语言</h4><p>pow/exp 依赖 libm，跨语言 1-2 ulp 差异；概率整数化已消除分支分叉。</p></div>
+      <div class="card"><h4><span class="badge b-limit">K3</span> 无跨版本决策重放</h4><p>决策点 ID 两次改版，旧档历史日志与新格式重放失配（仅影响展示）。</p></div>
+      <div class="card"><h4><span class="badge b-limit">K4</span> /state 不可高频拉</h4><p>20 年 ≈68MB。轮询走 /view + /journal?since= + WS。</p></div>
+      <div class="card"><h4><span class="badge b-limit">K5</span> 请求体 128MB</h4><p>长生涯读档需要；axum 默认 2MB 会 413。</p></div>
+      <div class="card"><h4><span class="badge b-limit">K6</span> 存档 JSON 起步</h4><p>体积大但调试友好；postcard 为备选，实测超阈值再评估。</p></div>
+    </div>
+
+    <h3 style="margin:18px 0 4px">③ 在途工作（不阻塞）</h3>
+    <div class="iss">
+      <div class="card"><h4><span class="badge b-wip">W1</span> 巨文件拆分</h4>
+        <ul>
+          <li>csc-tournaments/engine.rs 2040 行</li>
+          <li>csc-core/engine.rs 1814 行</li>
+          <li>csc-simulation/live_match.rs 1486 行</li>
+          <li>csc-tournaments/conductor.rs 1298 行</li>
+        </ul>
+      </div>
+      <div class="card"><h4><span class="badge b-wip">W2</span> M11 前端 UX</h4><p>TS 前端交互设计稿。</p></div>
+      <div class="card"><h4><span class="badge b-wip">W3</span> WASM v2 交互</h4><p>EngineStep 状态机推进挂起。</p></div>
+    </div>
+  </section>
+
+  <footer>
+    生成的 HTML 演示。点按任意 crate 分层、7 个页签可切换。配套文字版：<code>docs/analysis/20-archify-backend-analysis.md</code> · <code>docs/analysis/21-archify-api-docs.md</code>
+  </footer>
+</div>
+
+<script>
+  // tab switching
+  document.querySelectorAll('nav.tabs button').forEach(b=>{
+    b.addEventListener('click',()=>{
+      document.querySelectorAll('nav.tabs button').forEach(x=>x.classList.remove('active'));
+      document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+      b.classList.add('active');
+      document.getElementById('tab-'+b.dataset.t).classList.add('active');
+    });
+  });
+  // layer collapse
+  document.querySelectorAll('.layer').forEach(l=>{
+    l.querySelector('.lhead').addEventListener('click',()=>l.classList.toggle('open'));
+  });
+  // open all but first collapsed optionally
+  document.querySelectorAll('.layer:not(.open)').forEach(l=>l.classList.add('open'));
+</script>
+</body>
+</html>

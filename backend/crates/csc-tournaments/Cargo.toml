@@ -1,0 +1,22 @@
+[package]
+name = "csc-tournaments"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "赛事系统：排程/赛制引擎/日历（Kotlin tournaments/ 转写；引擎编排在 M6 后补全）"
+
+[dependencies]
+csc-text = { path = "../csc-text" }
+serde.workspace = true
+csc-domain = { path = "../csc-domain" }
+csc-util = { path = "../csc-util" }
+csc-time = { path = "../csc-time" }
+csc-entities = { path = "../csc-entities" }
+csc-simulation = { path = "../csc-simulation" }
+csc-vrs = { path = "../csc-vrs" }
+csc-events = { path = "../csc-events" }
+csc-decision = { path = "../csc-decision" }
+csc-systems = { path = "../csc-systems" }
+
+[dev-dependencies]
+serde_json.workspace = true

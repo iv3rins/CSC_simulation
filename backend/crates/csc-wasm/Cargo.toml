@@ -1,0 +1,18 @@
+[package]
+name = "csc-wasm"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "WASM 绑定层（M10）：薄 API + 事件缓冲——同一核心编译到浏览器（本地单机模式）"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+csc-core = { path = "../csc-core" }
+csc-decision = { path = "../csc-decision" }
+csc-domain = { path = "../csc-domain" }
+csc-time = { path = "../csc-time" }
+csc-util = { path = "../csc-util" }

@@ -1,0 +1,13 @@
+[package]
+name = "csc-vrs"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "VRS 排名系统：数据库（窗口剪枝）/ ELO 结算 / 静态 Seed / 门面（Kotlin vrs/ 转写）"
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+csc-domain = { path = "../csc-domain" }
+csc-time = { path = "../csc-time" }
+csc-util = { path = "../csc-util" }

@@ -1,0 +1,766 @@
+{
+  "content_version": 2,
+  "arcs": [
+    {
+      "id": "rookie_belonging",
+      "title": "轮到你证明自己",
+      "order": 1
+    },
+    {
+      "id": "pressure_trust",
+      "title": "压力与信任",
+      "order": 2
+    },
+    {
+      "id": "stay_or_leave",
+      "title": "去留与承诺",
+      "order": 3
+    }
+  ],
+  "scenes": [
+    {
+      "id": "rookie.welcome",
+      "arc": "rookie_belonging",
+      "chapter_title": "轮到你证明自己",
+      "title": "训练室的灯还亮着",
+      "location": "基地·训练室",
+      "priority": "important",
+      "actor_role": "teammate",
+      "trigger": {
+        "kind": "arc_entry",
+        "arc": "rookie_belonging"
+      },
+      "paragraphs": [
+        "你来到训练室，几台显示器的背光把椅背的轮廓照得发蓝。新的生涯从这里开始。",
+        "队友把战术板往你面前一推，没有寒暄：“新来的，先说清楚——你打算怎么在这支队里站住脚？”",
+        "这不是客套。他等的是一句实话，也是一份你接下来要兑现的承诺。"
+      ],
+      "choices": [
+        {
+          "id": "EMBRACE_TEAM",
+          "label": "跟着队伍来，我想先学会配合。",
+          "impact_certain": "记录你的立场；与这位队友的关系调整（以结算结果为准）；你的士气调整。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "set_story_flag",
+              "flag": "team_first"
+            },
+            {
+              "kind": "relation_delta",
+              "amount": 4.0
+            },
+            {
+              "kind": "morale_delta",
+              "delta": 2
+            }
+          ],
+          "next_scene": "rookie.first_talk"
+        },
+        {
+          "id": "SOLO_FIRST",
+          "label": "我想先自己整理，找到手感再说。",
+          "impact_certain": "记录你的立场；你的士气调整。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "set_story_flag",
+              "flag": "solo_first"
+            },
+            {
+              "kind": "morale_delta",
+              "delta": 1
+            }
+          ],
+          "next_scene": "rookie.first_talk"
+        }
+      ]
+    },
+    {
+      "id": "rookie.first_talk",
+      "arc": "rookie_belonging",
+      "chapter_title": "轮到你证明自己",
+      "title": "第一场正式比赛之后",
+      "location": "赛后·走廊",
+      "priority": "important",
+      "actor_role": "teammate",
+      "trigger": {
+        "kind": "after_series",
+        "min_series": 1
+      },
+      "requires_any_flag": [
+        "team_first",
+        "solo_first"
+      ],
+      "paragraphs": [
+        "你已经参加过正式系列赛。队友在走廊叫住你，希望聊聊今后怎样一起准备。",
+        "“别急着解释数据。”他说，“你当时脑子里在想什么？下一次，你想让我怎么接？”",
+        "你知道自己的回答会决定接下来几周你们怎么一起准备。"
+      ],
+      "choices": [
+        {
+          "id": "REQUEST_REVIEW",
+          "label": "把我的思路讲清楚，再一起看一遍。",
+          "impact_certain": "记下一个月后回访的约定；与这位队友的关系调整（以结算结果为准）。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "create_promise",
+              "promise": "review_before_next_match",
+              "due_months": 1
+            },
+            {
+              "kind": "relation_delta",
+              "amount": 5.0
+            }
+          ],
+          "next_scene": "rookie.review_followup"
+        },
+        {
+          "id": "KEEP_DISTANCE",
+          "label": "我想先自己调整，明天再谈。",
+          "impact_certain": "记录你的立场；与这位队友的关系调整（以结算结果为准）。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "set_story_flag",
+              "flag": "prefers_solo_preparation"
+            },
+            {
+              "kind": "relation_delta",
+              "amount": -2.0
+            }
+          ],
+          "next_scene": "rookie.solo_followup"
+        }
+      ]
+    },
+    {
+      "id": "rookie.review_followup",
+      "arc": "rookie_belonging",
+      "chapter_title": "轮到你证明自己",
+      "title": "承诺到期的那天",
+      "location": "基地·战术室",
+      "priority": "important",
+      "actor_role": "teammate",
+      "trigger": {
+        "kind": "promise_due",
+        "promise": "review_before_next_match"
+      },
+      "paragraphs": [
+        "约定复盘的月份到了。战术室的门开着，队友把两副耳机放在桌上——他记得你说过的话。",
+        "“给你留着位置。”他敲了敲屏幕上的地图，“要现在过一遍，还是等你准备好？”",
+        "今晚的时间只够做完一件事：兑现承诺，或者把它推到以后。"
+      ],
+      "choices": [
+        {
+          "id": "HONOR_PROMISE",
+          "label": "现在过。我说过的事，先做到。",
+          "impact_certain": "兑现谈话约定；与这位队友的关系调整（以结算结果为准）；队伍凝聚力调整；记录这一阶段的结局。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "fulfill_promise",
+              "promise": "review_before_next_match"
+            },
+            {
+              "kind": "relation_delta",
+              "amount": 8.0
+            },
+            {
+              "kind": "team_cohesion_delta",
+              "delta": 2.0
+            },
+            {
+              "kind": "mark_terminal",
+              "state": "rookie_trusted"
+            }
+          ],
+          "next_scene": null
+        },
+        {
+          "id": "SKIP_REVIEW",
+          "label": "先欠着，我想多打几局热身。",
+          "impact_certain": "记为未兑现约定；与这位队友的关系调整（以结算结果为准）；记录这一阶段的结局。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "break_promise",
+              "promise": "review_before_next_match"
+            },
+            {
+              "kind": "relation_delta",
+              "amount": -6.0
+            },
+            {
+              "kind": "mark_terminal",
+              "state": "rookie_distrusted"
+            }
+          ],
+          "next_scene": null
+        }
+      ]
+    },
+    {
+      "id": "rookie.solo_followup",
+      "arc": "rookie_belonging",
+      "chapter_title": "轮到你证明自己",
+      "title": "独自训练之后",
+      "location": "基地·训练室",
+      "priority": "normal",
+      "actor_role": "teammate",
+      "trigger": {
+        "kind": "delay_months",
+        "after_scene": "rookie.first_talk",
+        "months": 1
+      },
+      "paragraphs": [
+        "你按自己的方式练到了很晚。回去时，队友还坐在位置上，屏幕停在你们的训练地图。",
+        "“刚才那样打，也行。”他没抬头，“不过下次能不能提前说一声——我们可以给你留个位置。”",
+        "你想了想，怎么回应这件事。"
+      ],
+      "choices": [
+        {
+          "id": "ACKNOWLEDGE",
+          "label": "好，下次我提前说。",
+          "impact_certain": "与这位队友的关系调整（以结算结果为准）；记录这一阶段的结局。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "relation_delta",
+              "amount": 5.0
+            },
+            {
+              "kind": "mark_terminal",
+              "state": "rookie_solo_accepted"
+            }
+          ],
+          "next_scene": null
+        },
+        {
+          "id": "DOUBT",
+          "label": "我按自己的节奏来就行。",
+          "impact_certain": "记录你的立场；与这位队友的关系调整（以结算结果为准）；记录这一阶段的结局。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "set_story_flag",
+              "flag": "lone_wolf"
+            },
+            {
+              "kind": "relation_delta",
+              "amount": -3.0
+            },
+            {
+              "kind": "mark_terminal",
+              "state": "rookie_lone_wolf"
+            }
+          ],
+          "next_scene": null
+        }
+      ]
+    },
+    {
+      "id": "pressure.after_loss",
+      "arc": "pressure_trust",
+      "chapter_title": "压力与信任",
+      "title": "败者更衣室",
+      "location": "场馆·更衣室",
+      "priority": "important",
+      "actor_role": "teammate",
+      "trigger": {
+        "kind": "after_loss",
+        "min_losses": 1,
+        "min_series": 2
+      },
+      "paragraphs": [
+        "你已经经历过正式系列赛的失利。训练结束后，有队友提起那些需要重新讨论的问题。",
+        "他把战术板翻到反面：“有人愿意先说说，接下来怎么调整？”",
+        "点名之前，你有一句话的时间决定这场复盘的走向。"
+      ],
+      "choices": [
+        {
+          "id": "OWN_IT",
+          "label": "我先说——问题在我这波的处理。",
+          "impact_certain": "与这位队友的关系调整（以结算结果为准）；你的士气调整。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "relation_delta",
+              "amount": 5.0
+            },
+            {
+              "kind": "morale_delta",
+              "delta": 3
+            }
+          ],
+          "next_scene": "pressure.teammate_dm"
+        },
+        {
+          "id": "BLAME_ENV",
+          "label": "今天的地图池对我们不公平。",
+          "impact_certain": "记录你的立场；与这位队友的关系调整（以结算结果为准）；你的士气调整。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "set_story_flag",
+              "flag": "deflecting"
+            },
+            {
+              "kind": "relation_delta",
+              "amount": -5.0
+            },
+            {
+              "kind": "morale_delta",
+              "delta": -2
+            }
+          ],
+          "next_scene": "pressure.teammate_dm"
+        },
+        {
+          "id": "STAY_SILENT",
+          "label": "先听着，等大家说完。",
+          "impact_certain": "记录你的立场。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "set_story_flag",
+              "flag": "silent_observer"
+            }
+          ],
+          "next_scene": "pressure.teammate_dm"
+        }
+      ]
+    },
+    {
+      "id": "pressure.teammate_dm",
+      "arc": "pressure_trust",
+      "chapter_title": "压力与信任",
+      "title": "凌晨的一条消息",
+      "location": "宿舍·深夜",
+      "priority": "normal",
+      "actor_role": "teammate",
+      "trigger": {
+        "kind": "after_scene",
+        "after_scene": "pressure.after_loss"
+      },
+      "paragraphs": [
+        "手机屏幕亮起来。是参加过刚才谈话的一名队友。",
+        "“我们还得一起准备比赛。”他问，“你愿意再聊聊吗？”",
+        "这句话没有标准答案，但有后果。"
+      ],
+      "choices": [
+        {
+          "id": "SUPPORT",
+          "label": "一起打。问题我们两个人扛。",
+          "impact_certain": "与这位队友的关系调整（以结算结果为准）；队伍凝聚力调整；你的士气调整。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "relation_delta",
+              "amount": 8.0
+            },
+            {
+              "kind": "team_cohesion_delta",
+              "delta": 3.0
+            },
+            {
+              "kind": "morale_delta",
+              "delta": 4
+            }
+          ],
+          "next_scene": "pressure.before_next"
+        },
+        {
+          "id": "CONFRONT",
+          "label": "先把你的失误改了，再说别的。",
+          "impact_certain": "与这位队友的关系调整（以结算结果为准）；你的士气调整。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "relation_delta",
+              "amount": -8.0
+            },
+            {
+              "kind": "morale_delta",
+              "delta": -4
+            }
+          ],
+          "next_scene": "pressure.before_next"
+        }
+      ]
+    },
+    {
+      "id": "pressure.before_next",
+      "arc": "pressure_trust",
+      "chapter_title": "压力与信任",
+      "title": "面对一次采访",
+      "location": "场馆·选手通道",
+      "priority": "important",
+      "actor_role": "media",
+      "trigger": {
+        "kind": "after_scene",
+        "after_scene": "pressure.teammate_dm"
+      },
+      "paragraphs": [
+        "采访里，话题转向了你经历过的失利。记者想知道，你准备怎样面对队内沟通。",
+        "“队伍内部是否有问题？你怎么看队友的表现？”记者问得很直接。",
+        "你的回答会在更衣室被每个人看到。"
+      ],
+      "choices": [
+        {
+          "id": "PUBLIC_BACKING",
+          "label": "这是我们全队的事，下一场一起解决。",
+          "impact_certain": "你的声誉调整；队伍凝聚力调整；记下一个月后回访的约定。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "reputation_delta",
+              "delta": 3
+            },
+            {
+              "kind": "team_cohesion_delta",
+              "delta": 2.0
+            },
+            {
+              "kind": "create_promise",
+              "promise": "trust_conversation",
+              "due_months": 1
+            }
+          ],
+          "next_scene": "pressure.trust_followup"
+        },
+        {
+          "id": "PRIVATE_WORD",
+          "label": "内部的事，我们自己关起门解决。",
+          "impact_certain": "你的声誉调整；记下一个月后回访的约定。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "reputation_delta",
+              "delta": -1
+            },
+            {
+              "kind": "create_promise",
+              "promise": "trust_conversation",
+              "due_months": 1
+            }
+          ],
+          "next_scene": "pressure.trust_followup"
+        }
+      ]
+    },
+    {
+      "id": "pressure.trust_followup",
+      "arc": "pressure_trust",
+      "chapter_title": "压力与信任",
+      "title": "约好的谈话",
+      "location": "赛后·选手休息区",
+      "priority": "important",
+      "actor_role": "teammate",
+      "trigger": {
+        "kind": "promise_due",
+        "promise": "trust_conversation"
+      },
+      "paragraphs": [
+        "一个月的约定到了。队友把耳机摘下来，给你留了一张椅子。",
+        "关于信任，你们需要一个阶段性的答案。"
+      ],
+      "choices": [
+        {
+          "id": "REBUILD",
+          "label": "把话说开，我们把关系重新搭起来。",
+          "impact_certain": "兑现谈话约定；与这位队友的关系调整（以结算结果为准）；队伍凝聚力调整；记录这一阶段的结局。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "fulfill_promise",
+              "promise": "trust_conversation"
+            },
+            {
+              "kind": "relation_delta",
+              "amount": 6.0
+            },
+            {
+              "kind": "team_cohesion_delta",
+              "delta": 2.0
+            },
+            {
+              "kind": "mark_terminal",
+              "state": "trust_repaired"
+            }
+          ],
+          "next_scene": null
+        },
+        {
+          "id": "DRIFT",
+          "label": "先各打各的，成绩说话。",
+          "impact_certain": "记为未兑现约定；记录你的立场；与这位队友的关系调整（以结算结果为准）；记录这一阶段的结局。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "break_promise",
+              "promise": "trust_conversation"
+            },
+            {
+              "kind": "set_story_flag",
+              "flag": "trust_broken"
+            },
+            {
+              "kind": "relation_delta",
+              "amount": -4.0
+            },
+            {
+              "kind": "mark_terminal",
+              "state": "trust_broken"
+            }
+          ],
+          "next_scene": null
+        }
+      ]
+    },
+    {
+      "id": "transfer.letter",
+      "arc": "stay_or_leave",
+      "chapter_title": "去留与承诺",
+      "title": "一封不请自来的邮件",
+      "location": "基地·宿舍",
+      "priority": "important",
+      "actor_role": "manager",
+      "trigger": {
+        "kind": "has_transfer_contact",
+        "min_series": 3
+      },
+      "paragraphs": [
+        "你已经收到过真实招募接触。这让你开始考虑自己的职业方向；接触还不等于正式报价。",
+        "你需要先回答自己：对现状，满意吗？",
+        "表示兴趣不等于签约，但这句话一旦说出口，就会留下痕迹。"
+      ],
+      "choices": [
+        {
+          "id": "EXPLORE",
+          "label": "先了解看看，别急着下结论。",
+          "impact_certain": "记录你的立场。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "set_story_flag",
+              "flag": "exploring_offers"
+            }
+          ],
+          "next_scene": "transfer.talk_team"
+        },
+        {
+          "id": "REJECT_EARLY",
+          "label": "现在不考虑，我还欠这支队一个赛季。",
+          "impact_certain": "你的声誉调整；记录这一阶段的结局。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "reputation_delta",
+              "delta": 1
+            },
+            {
+              "kind": "mark_terminal",
+              "state": "stayed_loyal"
+            }
+          ],
+          "next_scene": "transfer.loyal_followup"
+        }
+      ]
+    },
+    {
+      "id": "transfer.talk_team",
+      "arc": "stay_or_leave",
+      "chapter_title": "去留与承诺",
+      "title": "和现队的谈话",
+      "location": "基地·办公室",
+      "priority": "important",
+      "actor_role": "teammate",
+      "trigger": {
+        "kind": "after_scene",
+        "after_scene": "transfer.letter"
+      },
+      "paragraphs": [
+        "你找队友聊起未来。桌面上没有新合同，只有尚未决定的去向。",
+        "“我想听你亲口说。你是想留下，还是已经在算别的？”",
+        "诚实有代价，隐瞒也有。"
+      ],
+      "choices": [
+        {
+          "id": "BE_HONEST",
+          "label": "我确实在了解别的机会，但我没做决定。",
+          "impact_certain": "记录你的立场；与这位队友的关系调整（以结算结果为准）。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "set_story_flag",
+              "flag": "honest_with_team"
+            },
+            {
+              "kind": "relation_delta",
+              "amount": 2.0
+            }
+          ],
+          "next_scene": "transfer.offer_decision"
+        },
+        {
+          "id": "HIDE",
+          "label": "没有的事，我就是最近状态不好。",
+          "impact_certain": "记录你的立场。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "set_story_flag",
+              "flag": "hiding_from_team"
+            }
+          ],
+          "next_scene": "transfer.offer_decision"
+        }
+      ]
+    },
+    {
+      "id": "transfer.offer_decision",
+      "arc": "stay_or_leave",
+      "chapter_title": "去留与承诺",
+      "title": "先表明你的立场",
+      "location": "基地·会议室",
+      "priority": "critical",
+      "actor_role": "manager",
+      "trigger": {
+        "kind": "after_scene",
+        "after_scene": "transfer.talk_team"
+      },
+      "paragraphs": [
+        "招募接触让你开始考虑下一步，但你还没有在这里签署任何合同。",
+        "这次谈话只记录立场。实际转会资格、报价和签约仍由职业转会系统处理。"
+      ],
+      "choices": [
+        {
+          "id": "EXPRESS_INTEREST",
+          "label": "我愿意继续了解新机会。",
+          "impact_certain": "记录你的立场；记录这一阶段的结局。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "set_story_flag",
+              "flag": "open_to_transfer_discussion"
+            },
+            {
+              "kind": "mark_terminal",
+              "state": "open_to_opportunities"
+            }
+          ],
+          "next_scene": "transfer.after"
+        },
+        {
+          "id": "COMMIT_STAY",
+          "label": "我留在队里，把这赛季打完。",
+          "impact_certain": "记录留队立场，合同不变；队伍凝聚力调整；记录这一阶段的结局。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "stay_team"
+            },
+            {
+              "kind": "team_cohesion_delta",
+              "delta": 2.0
+            },
+            {
+              "kind": "mark_terminal",
+              "state": "renewed_stay"
+            }
+          ],
+          "next_scene": "transfer.after"
+        }
+      ]
+    },
+    {
+      "id": "transfer.after",
+      "arc": "stay_or_leave",
+      "chapter_title": "去留与承诺",
+      "title": "把立场记下来",
+      "location": "基地·门口",
+      "priority": "important",
+      "actor_role": "self",
+      "trigger": {
+        "kind": "delay_months",
+        "after_scene": "transfer.offer_decision",
+        "months": 1
+      },
+      "paragraphs": [
+        "你已经说清了这一阶段的职业立场。合同和球队归属不会因为这段谈话自动变化。",
+        "这次选择留在了你的故事记录里。训练室的灯还亮着。"
+      ],
+      "choices": [
+        {
+          "id": "CLOSE_CHAPTER",
+          "label": "把这一页翻过去，准备下一场。",
+          "impact_certain": "记录这一阶段的结局。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "mark_terminal",
+              "state": "transfer_arc_closed"
+            }
+          ],
+          "next_scene": null
+        }
+      ]
+    },
+    {
+      "id": "transfer.loyal_followup",
+      "arc": "stay_or_leave",
+      "chapter_title": "去留与承诺",
+      "title": "留下的回报",
+      "location": "基地·训练室",
+      "priority": "normal",
+      "actor_role": "teammate",
+      "trigger": {
+        "kind": "delay_months",
+        "after_scene": "transfer.letter",
+        "months": 1
+      },
+      "paragraphs": [
+        "距离那次留下的表态，已经过去一个月。队友在训练结束后叫住你。",
+        "“还愿意一起准备吗？”他问。这是一次谈话，不是首发任命。"
+      ],
+      "choices": [
+        {
+          "id": "ACCEPT_ROLE",
+          "label": "愿意，我们一起准备。",
+          "impact_certain": "你的士气调整；你的声誉调整；记录这一阶段的结局。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "morale_delta",
+              "delta": 4
+            },
+            {
+              "kind": "reputation_delta",
+              "delta": 2
+            },
+            {
+              "kind": "mark_terminal",
+              "state": "loyalty_rewarded"
+            }
+          ],
+          "next_scene": null
+        },
+        {
+          "id": "DEFER_ROLE",
+          "label": "我还需要一些时间。",
+          "impact_certain": "记录这一阶段的结局。",
+          "impact_possible": "后续对话取决于你的选择与职业经历。",
+          "effects": [
+            {
+              "kind": "mark_terminal",
+              "state": "loyalty_deferred"
+            }
+          ],
+          "next_scene": null
+        }
+      ]
+    }
+  ]
+}

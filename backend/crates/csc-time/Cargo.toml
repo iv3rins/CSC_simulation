@@ -1,0 +1,12 @@
+[package]
+name = "csc-time"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "模拟时钟（SimClock）+ 时间窗口（TimeWindow）：零依赖日期算术，Kotlin time/ 的转写"
+
+[dependencies]
+serde.workspace = true
+
+[dev-dependencies]
+serde_json.workspace = true

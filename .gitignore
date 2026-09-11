@@ -1,0 +1,69 @@
+# —— 本地 agent / 工具状态（不入库）——
+.reasonix/
+.dsh-web-profile-backup/
+
+# —— Rust 后端构建产物 ——
+backend/target/
+
+# —— Rust 后端运行时存档（玩家存档，不入库）——
+backend/runtime/
+
+# —— IDE ——
+.idea/
+*.iml
+
+# —— 数据 / 数据库产物 ——
+*.db
+*.sqlite
+
+# —— OS ——
+.DS_Store
+Thumbs.db
+
+# —— 本地凭据/证书（不入库）——
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# —— 试玩/诊断输出（不入库）——
+backend/playthrough_*.txt
+backend/save_test.json
+backend/load_resp.json
+backend/test_out.txt
+backend/clippy-output*.txt
+backend/test-output*.txt
+
+# —— 爬取/抓取中间产物（可再生成，不入库）——
+scripts/data/csapi_stats_cache.json
+scripts/data/hltv_detailed_players.csv
+scripts/data/ratings_all.csv
+
+# 抓取类资产（assets/games 抓取产物，可再生成，不入库）
+assets/games/
+
+# —— 本地 Chrome 下载与运行目录（测试工具，不入库）——
+.chrome/
+
+# —— Windows 下载元数据（NTFS Zone.Identifier）——
+*:Zone.Identifier
+
+# —— 本地运行/测试日志（临时产物，不入库）——
+.*.log
+*.log
+.loop-backend*.log
+
+# —— Pi 助手工作目录（不入库）——
+.pi/
+
+# —— 外部独立仓库工具（不入库，自带 .git）——
+J-Space-Cognition-Suite-V3.6/
+
+# —— 团队协作状态（不入库）——
+.agent-teams/
+
+# —— 试玩存档（可再生成，不入库）——
+docs/playtest-saves/

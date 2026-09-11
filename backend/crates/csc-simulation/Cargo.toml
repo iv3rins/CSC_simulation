@@ -1,0 +1,15 @@
+[package]
+name = "csc-simulation"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "对战模拟规则系统：MatchSimulator/WinRate/Form/Growth/Condition/... 纯函数规则层（Kotlin simulation/ 转写）"
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+csc-domain = { path = "../csc-domain" }
+csc-util = { path = "../csc-util" }
+csc-entities = { path = "../csc-entities" }
+
+[dev-dependencies]

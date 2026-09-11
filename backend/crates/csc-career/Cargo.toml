@@ -1,0 +1,16 @@
+[package]
+name = "csc-career"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "生涯档案系统：CareerArchive/SeasonRecord（Kotlin career/ 转写；YearlyRatingTracker 已迁至 csc-tournaments）"
+
+[dependencies]
+csc-text = { path = "../csc-text" }
+serde.workspace = true
+csc-domain = { path = "../csc-domain" }
+csc-entities = { path = "../csc-entities" }
+csc-util = { path = "../csc-util" }
+
+[dev-dependencies]
+serde_json.workspace = true

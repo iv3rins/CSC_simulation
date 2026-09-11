@@ -1,0 +1,13 @@
+[package]
+name = "csc-domain"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "跨系统共享值对象（Kotlin domain/ 的 Rust 转写）：零依赖，可被所有系统 crate 引用"
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+
+[dev-dependencies]
+serde_json.workspace = true

@@ -1,0 +1,6054 @@
+{
+  "generated_at": "2026-08-14T05:16:16.446Z",
+  "source": "csapi.de matches+stats",
+  "players": [
+    {
+      "player": "donk",
+      "matches": 36,
+      "rating": 1.487,
+      "kd": 1.331,
+      "adr": 96.1,
+      "kast": 78.1,
+      "winrate": 0.769
+    },
+    {
+      "player": "zywoo",
+      "matches": 33,
+      "rating": 1.424,
+      "kd": 1.545,
+      "adr": 88.3,
+      "kast": 78.7,
+      "winrate": 0.808
+    },
+    {
+      "player": "junyme",
+      "matches": 4,
+      "rating": 1.346,
+      "kd": 1.314,
+      "adr": 82,
+      "kast": 71,
+      "winrate": 0.6
+    },
+    {
+      "player": "m0nesy",
+      "matches": 33,
+      "rating": 1.318,
+      "kd": 1.387,
+      "adr": 81.8,
+      "kast": 77.4,
+      "winrate": 0.728
+    },
+    {
+      "player": "annihilation",
+      "matches": 3,
+      "rating": 1.283,
+      "kd": 1.518,
+      "adr": 84.8,
+      "kast": 74.7,
+      "winrate": 0.333
+    },
+    {
+      "player": "dan9armatura",
+      "matches": 4,
+      "rating": 1.263,
+      "kd": 1.205,
+      "adr": 80.3,
+      "kast": 76.1,
+      "winrate": 0.75
+    },
+    {
+      "player": "demente",
+      "matches": 6,
+      "rating": 1.257,
+      "kd": 1.282,
+      "adr": 78.8,
+      "kast": 74.9,
+      "winrate": 0.475
+    },
+    {
+      "player": "asap",
+      "matches": 11,
+      "rating": 1.239,
+      "kd": 1.085,
+      "adr": 83.7,
+      "kast": 73.5,
+      "winrate": 0.43
+    },
+    {
+      "player": "flamez",
+      "matches": 33,
+      "rating": 1.238,
+      "kd": 1.133,
+      "adr": 80.2,
+      "kast": 76.9,
+      "winrate": 0.808
+    },
+    {
+      "player": "nitzie",
+      "matches": 11,
+      "rating": 1.238,
+      "kd": 1.307,
+      "adr": 79.3,
+      "kast": 74.6,
+      "winrate": 0.747
+    },
+    {
+      "player": "senzu",
+      "matches": 20,
+      "rating": 1.228,
+      "kd": 1.19,
+      "adr": 83.9,
+      "kast": 73,
+      "winrate": 0.484
+    },
+    {
+      "player": "magnojez",
+      "matches": 37,
+      "rating": 1.219,
+      "kd": 1.1,
+      "adr": 85.1,
+      "kast": 72.7,
+      "winrate": 0.629
+    },
+    {
+      "player": "mazay",
+      "matches": 6,
+      "rating": 1.199,
+      "kd": 1.245,
+      "adr": 79.1,
+      "kast": 72.2,
+      "winrate": 0.592
+    },
+    {
+      "player": "martinezsa",
+      "matches": 7,
+      "rating": 1.198,
+      "kd": 1.16,
+      "adr": 71.7,
+      "kast": 72.2,
+      "winrate": 0.492
+    },
+    {
+      "player": "raijin",
+      "matches": 23,
+      "rating": 1.197,
+      "kd": 1.151,
+      "adr": 82.7,
+      "kast": 72,
+      "winrate": 0.442
+    },
+    {
+      "player": "fnk",
+      "matches": 5,
+      "rating": 1.196,
+      "kd": 1.009,
+      "adr": 84.3,
+      "kast": 73.5,
+      "winrate": 0.6
+    },
+    {
+      "player": "oneun1que",
+      "matches": 12,
+      "rating": 1.193,
+      "kd": 1.183,
+      "adr": 84.3,
+      "kast": 75.7,
+      "winrate": 0.299
+    },
+    {
+      "player": "staehr",
+      "matches": 41,
+      "rating": 1.192,
+      "kd": 1.088,
+      "adr": 82.3,
+      "kast": 71.6,
+      "winrate": 0.513
+    },
+    {
+      "player": "sl3nd",
+      "matches": 22,
+      "rating": 1.191,
+      "kd": 1.262,
+      "adr": 82.7,
+      "kast": 73.4,
+      "winrate": 0.493
+    },
+    {
+      "player": "latto",
+      "matches": 40,
+      "rating": 1.19,
+      "kd": 1.195,
+      "adr": 78.5,
+      "kast": 76,
+      "winrate": 0.617
+    },
+    {
+      "player": "pleynnn",
+      "matches": 4,
+      "rating": 1.19,
+      "kd": 1.088,
+      "adr": 78.5,
+      "kast": 77.2,
+      "winrate": 0.75
+    },
+    {
+      "player": "sh1ro",
+      "matches": 36,
+      "rating": 1.189,
+      "kd": 1.38,
+      "adr": 76.2,
+      "kast": 77.4,
+      "winrate": 0.769
+    },
+    {
+      "player": "adamb",
+      "matches": 22,
+      "rating": 1.187,
+      "kd": 1.151,
+      "adr": 76.5,
+      "kast": 73.9,
+      "winrate": 0.429
+    },
+    {
+      "player": "jks",
+      "matches": 17,
+      "rating": 1.186,
+      "kd": 1.116,
+      "adr": 79.8,
+      "kast": 74.4,
+      "winrate": 0.329
+    },
+    {
+      "player": "kscerato",
+      "matches": 31,
+      "rating": 1.185,
+      "kd": 1.185,
+      "adr": 78.6,
+      "kast": 75,
+      "winrate": 0.522
+    },
+    {
+      "player": "b1st",
+      "matches": 25,
+      "rating": 1.185,
+      "kd": 1.237,
+      "adr": 75.7,
+      "kast": 72.6,
+      "winrate": 0.714
+    },
+    {
+      "player": "deko",
+      "matches": 35,
+      "rating": 1.183,
+      "kd": 1.275,
+      "adr": 81.3,
+      "kast": 70.9,
+      "winrate": 0.569
+    },
+    {
+      "player": "nqz",
+      "matches": 23,
+      "rating": 1.183,
+      "kd": 1.21,
+      "adr": 76.5,
+      "kast": 73.2,
+      "winrate": 0.497
+    },
+    {
+      "player": "insani",
+      "matches": 28,
+      "rating": 1.182,
+      "kd": 1.104,
+      "adr": 85.8,
+      "kast": 72.4,
+      "winrate": 0.539
+    },
+    {
+      "player": "luchov",
+      "matches": 35,
+      "rating": 1.18,
+      "kd": 1.081,
+      "adr": 82.1,
+      "kast": 70.5,
+      "winrate": 0.667
+    },
+    {
+      "player": "karnez",
+      "matches": 6,
+      "rating": 1.18,
+      "kd": 1.086,
+      "adr": 84.2,
+      "kast": 73.6,
+      "winrate": 0.674
+    },
+    {
+      "player": "kyousuke",
+      "matches": 32,
+      "rating": 1.178,
+      "kd": 1.102,
+      "adr": 82.5,
+      "kast": 74.3,
+      "winrate": 0.719
+    },
+    {
+      "player": "blamef",
+      "matches": 41,
+      "rating": 1.177,
+      "kd": 1.186,
+      "adr": 82.8,
+      "kast": 76.2,
+      "winrate": 0.587
+    },
+    {
+      "player": "tasman",
+      "matches": 10,
+      "rating": 1.175,
+      "kd": 1.127,
+      "adr": 79.3,
+      "kast": 73.2,
+      "winrate": 0.515
+    },
+    {
+      "player": "ropz",
+      "matches": 33,
+      "rating": 1.174,
+      "kd": 1.257,
+      "adr": 76.2,
+      "kast": 76.7,
+      "winrate": 0.808
+    },
+    {
+      "player": "heavygod",
+      "matches": 48,
+      "rating": 1.173,
+      "kd": 1.077,
+      "adr": 75.1,
+      "kast": 74.8,
+      "winrate": 0.48
+    },
+    {
+      "player": "nicoodoz",
+      "matches": 23,
+      "rating": 1.171,
+      "kd": 1.242,
+      "adr": 83.1,
+      "kast": 74.5,
+      "winrate": 0.311
+    },
+    {
+      "player": "eraa",
+      "matches": 42,
+      "rating": 1.168,
+      "kd": 1.334,
+      "adr": 80,
+      "kast": 75.4,
+      "winrate": 0.72
+    },
+    {
+      "player": "dumau",
+      "matches": 40,
+      "rating": 1.168,
+      "kd": 1.138,
+      "adr": 84.1,
+      "kast": 74.5,
+      "winrate": 0.617
+    },
+    {
+      "player": "r3salt",
+      "matches": 43,
+      "rating": 1.167,
+      "kd": 1.051,
+      "adr": 81.5,
+      "kast": 74.2,
+      "winrate": 0.582
+    },
+    {
+      "player": "miq",
+      "matches": 12,
+      "rating": 1.163,
+      "kd": 1.07,
+      "adr": 84.6,
+      "kast": 69.4,
+      "winrate": 0.522
+    },
+    {
+      "player": "flayy",
+      "matches": 25,
+      "rating": 1.162,
+      "kd": 1.157,
+      "adr": 77.7,
+      "kast": 72.6,
+      "winrate": 0.368
+    },
+    {
+      "player": "fenomen",
+      "matches": 32,
+      "rating": 1.16,
+      "kd": 1.29,
+      "adr": 76.2,
+      "kast": 75.1,
+      "winrate": 0.374
+    },
+    {
+      "player": "ckzao",
+      "matches": 7,
+      "rating": 1.16,
+      "kd": 1.07,
+      "adr": 77,
+      "kast": 74.4,
+      "winrate": 0.415
+    },
+    {
+      "player": "wicadia",
+      "matches": 42,
+      "rating": 1.158,
+      "kd": 1.116,
+      "adr": 81.4,
+      "kast": 72,
+      "winrate": 0.546
+    },
+    {
+      "player": "hampus",
+      "matches": 4,
+      "rating": 1.158,
+      "kd": 1.063,
+      "adr": 86.1,
+      "kast": 68.6,
+      "winrate": 0.5
+    },
+    {
+      "player": "ax1le",
+      "matches": 50,
+      "rating": 1.156,
+      "kd": 1.129,
+      "adr": 80.6,
+      "kast": 74.8,
+      "winrate": 0.615
+    },
+    {
+      "player": "youka",
+      "matches": 5,
+      "rating": 1.156,
+      "kd": 1.107,
+      "adr": 71.7,
+      "kast": 68.4,
+      "winrate": 0.483
+    },
+    {
+      "player": "syph0",
+      "matches": 44,
+      "rating": 1.154,
+      "kd": 1.067,
+      "adr": 79.4,
+      "kast": 72.6,
+      "winrate": 0.563
+    },
+    {
+      "player": "mizu",
+      "matches": 38,
+      "rating": 1.154,
+      "kd": 1.074,
+      "adr": 78.7,
+      "kast": 71.6,
+      "winrate": 0.523
+    },
+    {
+      "player": "niko",
+      "matches": 33,
+      "rating": 1.153,
+      "kd": 1.077,
+      "adr": 76.4,
+      "kast": 73.4,
+      "winrate": 0.728
+    },
+    {
+      "player": "dezl3bio",
+      "matches": 4,
+      "rating": 1.153,
+      "kd": 1.156,
+      "adr": 80.6,
+      "kast": 71.9,
+      "winrate": 0.75
+    },
+    {
+      "player": "childking",
+      "matches": 3,
+      "rating": 1.153,
+      "kd": 1.124,
+      "adr": 80.4,
+      "kast": 70.6,
+      "winrate": 0.75
+    },
+    {
+      "player": "molodoy",
+      "matches": 31,
+      "rating": 1.152,
+      "kd": 1.245,
+      "adr": 76.4,
+      "kast": 74,
+      "winrate": 0.522
+    },
+    {
+      "player": "flouzer",
+      "matches": 44,
+      "rating": 1.151,
+      "kd": 1.076,
+      "adr": 81.2,
+      "kast": 73.8,
+      "winrate": 0.614
+    },
+    {
+      "player": "nilo",
+      "matches": 37,
+      "rating": 1.151,
+      "kd": 1.15,
+      "adr": 76.5,
+      "kast": 73.2,
+      "winrate": 0.417
+    },
+    {
+      "player": "maxster",
+      "matches": 28,
+      "rating": 1.151,
+      "kd": 1.111,
+      "adr": 74.1,
+      "kast": 72.3,
+      "winrate": 0.536
+    },
+    {
+      "player": "tenzy",
+      "matches": 26,
+      "rating": 1.151,
+      "kd": 1.061,
+      "adr": 76.2,
+      "kast": 71.7,
+      "winrate": 0.552
+    },
+    {
+      "player": "cacanito",
+      "matches": 17,
+      "rating": 1.151,
+      "kd": 1.076,
+      "adr": 80.6,
+      "kast": 72.6,
+      "winrate": 0.622
+    },
+    {
+      "player": "sstinix",
+      "matches": 11,
+      "rating": 1.149,
+      "kd": 1.103,
+      "adr": 82.8,
+      "kast": 70.6,
+      "winrate": 0.409
+    },
+    {
+      "player": "qw1nk1",
+      "matches": 47,
+      "rating": 1.148,
+      "kd": 1.016,
+      "adr": 75.5,
+      "kast": 72.7,
+      "winrate": 0.552
+    },
+    {
+      "player": "alxc",
+      "matches": 3,
+      "rating": 1.147,
+      "kd": 1.022,
+      "adr": 77.1,
+      "kast": 67.4,
+      "winrate": 0.333
+    },
+    {
+      "player": "910",
+      "matches": 42,
+      "rating": 1.146,
+      "kd": 1.183,
+      "adr": 75.5,
+      "kast": 72,
+      "winrate": 0.543
+    },
+    {
+      "player": "rez",
+      "matches": 35,
+      "rating": 1.146,
+      "kd": 1.072,
+      "adr": 79.2,
+      "kast": 73.3,
+      "winrate": 0.539
+    },
+    {
+      "player": "executor",
+      "matches": 20,
+      "rating": 1.144,
+      "kd": 1.111,
+      "adr": 76.4,
+      "kast": 71.9,
+      "winrate": 0.354
+    },
+    {
+      "player": "kl1m",
+      "matches": 23,
+      "rating": 1.143,
+      "kd": 1.219,
+      "adr": 74,
+      "kast": 73.4,
+      "winrate": 0.519
+    },
+    {
+      "player": "mail09",
+      "matches": 41,
+      "rating": 1.142,
+      "kd": 1.119,
+      "adr": 77.8,
+      "kast": 75,
+      "winrate": 0.671
+    },
+    {
+      "player": "makazze",
+      "matches": 39,
+      "rating": 1.141,
+      "kd": 1.029,
+      "adr": 79.9,
+      "kast": 73.3,
+      "winrate": 0.614
+    },
+    {
+      "player": "mescadi",
+      "matches": 3,
+      "rating": 1.14,
+      "kd": 1.269,
+      "adr": 65.3,
+      "kast": 79.6,
+      "winrate": 1
+    },
+    {
+      "player": "jamyoung",
+      "matches": 32,
+      "rating": 1.139,
+      "kd": 1.01,
+      "adr": 78.1,
+      "kast": 72.7,
+      "winrate": 0.488
+    },
+    {
+      "player": "tomaszin",
+      "matches": 26,
+      "rating": 1.139,
+      "kd": 1.035,
+      "adr": 82.2,
+      "kast": 73.5,
+      "winrate": 0.461
+    },
+    {
+      "player": "redstar",
+      "matches": 24,
+      "rating": 1.139,
+      "kd": 1.116,
+      "adr": 76.7,
+      "kast": 75,
+      "winrate": 0.448
+    },
+    {
+      "player": "h4rn",
+      "matches": 35,
+      "rating": 1.137,
+      "kd": 1.206,
+      "adr": 78.4,
+      "kast": 73.7,
+      "winrate": 0.389
+    },
+    {
+      "player": "b1t",
+      "matches": 39,
+      "rating": 1.135,
+      "kd": 1.116,
+      "adr": 77.4,
+      "kast": 74.6,
+      "winrate": 0.614
+    },
+    {
+      "player": "w0nderful",
+      "matches": 39,
+      "rating": 1.135,
+      "kd": 1.259,
+      "adr": 71.6,
+      "kast": 75.3,
+      "winrate": 0.614
+    },
+    {
+      "player": "dziugss",
+      "matches": 38,
+      "rating": 1.135,
+      "kd": 1.057,
+      "adr": 76.1,
+      "kast": 74.7,
+      "winrate": 0.593
+    },
+    {
+      "player": "f1ku",
+      "matches": 20,
+      "rating": 1.135,
+      "kd": 1.086,
+      "adr": 74.6,
+      "kast": 72.2,
+      "winrate": 0.388
+    },
+    {
+      "player": "j3kie",
+      "matches": 11,
+      "rating": 1.135,
+      "kd": 1.052,
+      "adr": 75.8,
+      "kast": 68.7,
+      "winrate": 0.432
+    },
+    {
+      "player": "dawy",
+      "matches": 29,
+      "rating": 1.134,
+      "kd": 1.054,
+      "adr": 83.8,
+      "kast": 75.6,
+      "winrate": 0.538
+    },
+    {
+      "player": "hallzerk",
+      "matches": 4,
+      "rating": 1.134,
+      "kd": 1.248,
+      "adr": 75.3,
+      "kast": 78.3,
+      "winrate": 0.5
+    },
+    {
+      "player": "m1quse",
+      "matches": 42,
+      "rating": 1.133,
+      "kd": 1.047,
+      "adr": 76.9,
+      "kast": 75.1,
+      "winrate": 0.642
+    },
+    {
+      "player": "xertion",
+      "matches": 40,
+      "rating": 1.133,
+      "kd": 1.058,
+      "adr": 81.2,
+      "kast": 74.3,
+      "winrate": 0.607
+    },
+    {
+      "player": "fl4mus",
+      "matches": 34,
+      "rating": 1.133,
+      "kd": 1.056,
+      "adr": 77.2,
+      "kast": 68.8,
+      "winrate": 0.627
+    },
+    {
+      "player": "adams",
+      "matches": 26,
+      "rating": 1.133,
+      "kd": 1.107,
+      "adr": 71.1,
+      "kast": 76.2,
+      "winrate": 0.635
+    },
+    {
+      "player": "icy",
+      "matches": 7,
+      "rating": 1.133,
+      "kd": 1.303,
+      "adr": 77.3,
+      "kast": 72.4,
+      "winrate": 0.298
+    },
+    {
+      "player": "bexyz",
+      "matches": 3,
+      "rating": 1.133,
+      "kd": 1.235,
+      "adr": 77,
+      "kast": 76,
+      "winrate": 0.333
+    },
+    {
+      "player": "xantares",
+      "matches": 42,
+      "rating": 1.132,
+      "kd": 1.103,
+      "adr": 81.2,
+      "kast": 74.4,
+      "winrate": 0.546
+    },
+    {
+      "player": "poiii",
+      "matches": 38,
+      "rating": 1.132,
+      "kd": 1.046,
+      "adr": 80.5,
+      "kast": 73.1,
+      "winrate": 0.479
+    },
+    {
+      "player": "alkaren",
+      "matches": 12,
+      "rating": 1.132,
+      "kd": 1.171,
+      "adr": 74.5,
+      "kast": 68.9,
+      "winrate": 0.558
+    },
+    {
+      "player": "xeedo",
+      "matches": 47,
+      "rating": 1.131,
+      "kd": 1.042,
+      "adr": 78.6,
+      "kast": 72.5,
+      "winrate": 0.552
+    },
+    {
+      "player": "k1ssly",
+      "matches": 11,
+      "rating": 1.131,
+      "kd": 1.048,
+      "adr": 75.6,
+      "kast": 74.4,
+      "winrate": 0.747
+    },
+    {
+      "player": "tried",
+      "matches": 10,
+      "rating": 1.131,
+      "kd": 1.222,
+      "adr": 74.5,
+      "kast": 69.5,
+      "winrate": 0.47
+    },
+    {
+      "player": "olimp",
+      "matches": 33,
+      "rating": 1.13,
+      "kd": 0.998,
+      "adr": 82.7,
+      "kast": 69.8,
+      "winrate": 0.711
+    },
+    {
+      "player": "zyphon",
+      "matches": 29,
+      "rating": 1.13,
+      "kd": 1.041,
+      "adr": 77.4,
+      "kast": 75.6,
+      "winrate": 0.49
+    },
+    {
+      "player": "n0rb3r7",
+      "matches": 38,
+      "rating": 1.129,
+      "kd": 0.992,
+      "adr": 78.7,
+      "kast": 70.1,
+      "winrate": 0.523
+    },
+    {
+      "player": "masval",
+      "matches": 26,
+      "rating": 1.129,
+      "kd": 1.03,
+      "adr": 73.9,
+      "kast": 72.3,
+      "winrate": 0.552
+    },
+    {
+      "player": "frozen",
+      "matches": 31,
+      "rating": 1.128,
+      "kd": 1.051,
+      "adr": 75.8,
+      "kast": 73.6,
+      "winrate": 0.35
+    },
+    {
+      "player": "pesadelo",
+      "matches": 5,
+      "rating": 1.128,
+      "kd": 1.065,
+      "adr": 76.6,
+      "kast": 75.7,
+      "winrate": 0.8
+    },
+    {
+      "player": "jackasmo",
+      "matches": 32,
+      "rating": 1.127,
+      "kd": 1.047,
+      "adr": 82,
+      "kast": 73.6,
+      "winrate": 0.311
+    },
+    {
+      "player": "device",
+      "matches": 38,
+      "rating": 1.126,
+      "kd": 1.193,
+      "adr": 74,
+      "kast": 73.9,
+      "winrate": 0.479
+    },
+    {
+      "player": "jambo",
+      "matches": 32,
+      "rating": 1.125,
+      "kd": 1.116,
+      "adr": 74.6,
+      "kast": 73.2,
+      "winrate": 0.311
+    },
+    {
+      "player": "d1ledez",
+      "matches": 23,
+      "rating": 1.125,
+      "kd": 1.096,
+      "adr": 75.2,
+      "kast": 71.6,
+      "winrate": 0.633
+    },
+    {
+      "player": "b1elany",
+      "matches": 42,
+      "rating": 1.124,
+      "kd": 1.075,
+      "adr": 76,
+      "kast": 72.4,
+      "winrate": 0.356
+    },
+    {
+      "player": "neuz",
+      "matches": 7,
+      "rating": 1.124,
+      "kd": 1.029,
+      "adr": 81.6,
+      "kast": 67.1,
+      "winrate": 0.423
+    },
+    {
+      "player": "cronuss",
+      "matches": 32,
+      "rating": 1.123,
+      "kd": 0.996,
+      "adr": 80.5,
+      "kast": 71.2,
+      "winrate": 0.457
+    },
+    {
+      "player": "jottaaa",
+      "matches": 26,
+      "rating": 1.123,
+      "kd": 1.067,
+      "adr": 78.1,
+      "kast": 70.4,
+      "winrate": 0.439
+    },
+    {
+      "player": "nut-nut",
+      "matches": 18,
+      "rating": 1.123,
+      "kd": 1.034,
+      "adr": 71.7,
+      "kast": 72.4,
+      "winrate": 0.364
+    },
+    {
+      "player": "dgt",
+      "matches": 35,
+      "rating": 1.122,
+      "kd": 1.103,
+      "adr": 77.9,
+      "kast": 73.1,
+      "winrate": 0.667
+    },
+    {
+      "player": "xkacpersky",
+      "matches": 27,
+      "rating": 1.122,
+      "kd": 1.062,
+      "adr": 81.3,
+      "kast": 71,
+      "winrate": 0.443
+    },
+    {
+      "player": "huasopeek",
+      "matches": 35,
+      "rating": 1.121,
+      "kd": 1.024,
+      "adr": 72.4,
+      "kast": 72.2,
+      "winrate": 0.667
+    },
+    {
+      "player": "banjo",
+      "matches": 27,
+      "rating": 1.121,
+      "kd": 1.03,
+      "adr": 74.9,
+      "kast": 73.3,
+      "winrate": 0.464
+    },
+    {
+      "player": "hext",
+      "matches": 18,
+      "rating": 1.12,
+      "kd": 1.125,
+      "adr": 69,
+      "kast": 69.9,
+      "winrate": 0.515
+    },
+    {
+      "player": "yumsan",
+      "matches": 45,
+      "rating": 1.119,
+      "kd": 1.151,
+      "adr": 73.8,
+      "kast": 72.6,
+      "winrate": 0.566
+    },
+    {
+      "player": "dea",
+      "matches": 4,
+      "rating": 1.119,
+      "kd": 1.244,
+      "adr": 75.4,
+      "kast": 74.2,
+      "winrate": 0.417
+    },
+    {
+      "player": "xfl0ud",
+      "matches": 33,
+      "rating": 1.118,
+      "kd": 0.949,
+      "adr": 80.8,
+      "kast": 72.9,
+      "winrate": 0.43
+    },
+    {
+      "player": "s1mple",
+      "matches": 18,
+      "rating": 1.118,
+      "kd": 1.191,
+      "adr": 77.5,
+      "kast": 74.1,
+      "winrate": 0.211
+    },
+    {
+      "player": "xelex",
+      "matches": 53,
+      "rating": 1.117,
+      "kd": 1.08,
+      "adr": 74.3,
+      "kast": 71.3,
+      "winrate": 0.544
+    },
+    {
+      "player": "jboen",
+      "matches": 5,
+      "rating": 1.116,
+      "kd": 1.223,
+      "adr": 72.9,
+      "kast": 68.7,
+      "winrate": 0.776
+    },
+    {
+      "player": "squezxc",
+      "matches": 4,
+      "rating": 1.115,
+      "kd": 1.188,
+      "adr": 72.4,
+      "kast": 75.1,
+      "winrate": 0.75
+    },
+    {
+      "player": "spooke",
+      "matches": 22,
+      "rating": 1.114,
+      "kd": 1.04,
+      "adr": 77.2,
+      "kast": 71,
+      "winrate": 0.429
+    },
+    {
+      "player": "dav1deus",
+      "matches": 18,
+      "rating": 1.114,
+      "kd": 1.062,
+      "adr": 80.7,
+      "kast": 68.2,
+      "winrate": 0.228
+    },
+    {
+      "player": "jdc",
+      "matches": 40,
+      "rating": 1.112,
+      "kd": 1.005,
+      "adr": 78.4,
+      "kast": 73.8,
+      "winrate": 0.599
+    },
+    {
+      "player": "djon8",
+      "matches": 36,
+      "rating": 1.111,
+      "kd": 1.064,
+      "adr": 78.8,
+      "kast": 70.8,
+      "winrate": 0.389
+    },
+    {
+      "player": "gbb",
+      "matches": 20,
+      "rating": 1.11,
+      "kd": 1.026,
+      "adr": 79,
+      "kast": 73.7,
+      "winrate": 0.393
+    },
+    {
+      "player": "tomate",
+      "matches": 20,
+      "rating": 1.11,
+      "kd": 1.065,
+      "adr": 75.1,
+      "kast": 73.8,
+      "winrate": 0.393
+    },
+    {
+      "player": "nettik",
+      "matches": 17,
+      "rating": 1.11,
+      "kd": 0.949,
+      "adr": 75.6,
+      "kast": 77,
+      "winrate": 0.329
+    },
+    {
+      "player": "hobbit",
+      "matches": 3,
+      "rating": 1.11,
+      "kd": 1.124,
+      "adr": 79.4,
+      "kast": 72.7,
+      "winrate": 0.667
+    },
+    {
+      "player": "jl",
+      "matches": 18,
+      "rating": 1.109,
+      "kd": 1.056,
+      "adr": 72.1,
+      "kast": 72.6,
+      "winrate": 0.586
+    },
+    {
+      "player": "ex1st",
+      "matches": 29,
+      "rating": 1.108,
+      "kd": 1.006,
+      "adr": 78.6,
+      "kast": 71.4,
+      "winrate": 0.517
+    },
+    {
+      "player": "dssj",
+      "matches": 19,
+      "rating": 1.108,
+      "kd": 1.127,
+      "adr": 76.3,
+      "kast": 70.3,
+      "winrate": 0.477
+    },
+    {
+      "player": "nbqq",
+      "matches": 5,
+      "rating": 1.107,
+      "kd": 1.018,
+      "adr": 80.5,
+      "kast": 70.1,
+      "winrate": 0.364
+    },
+    {
+      "player": "sdaim",
+      "matches": 47,
+      "rating": 1.106,
+      "kd": 1.008,
+      "adr": 75.5,
+      "kast": 72.3,
+      "winrate": 0.589
+    },
+    {
+      "player": "avid",
+      "matches": 42,
+      "rating": 1.103,
+      "kd": 1.039,
+      "adr": 77.2,
+      "kast": 74.7,
+      "winrate": 0.72
+    },
+    {
+      "player": "lattykk",
+      "matches": 32,
+      "rating": 1.103,
+      "kd": 1.173,
+      "adr": 69.7,
+      "kast": 73,
+      "winrate": 0.457
+    },
+    {
+      "player": "xellow",
+      "matches": 3,
+      "rating": 1.103,
+      "kd": 1.133,
+      "adr": 70.4,
+      "kast": 68.1,
+      "winrate": 0.667
+    },
+    {
+      "player": "ct0m",
+      "matches": 40,
+      "rating": 1.102,
+      "kd": 1.04,
+      "adr": 81.5,
+      "kast": 68.9,
+      "winrate": 0.524
+    },
+    {
+      "player": "im",
+      "matches": 39,
+      "rating": 1.101,
+      "kd": 1.033,
+      "adr": 77.6,
+      "kast": 73.5,
+      "winrate": 0.614
+    },
+    {
+      "player": "gr1ks",
+      "matches": 41,
+      "rating": 1.1,
+      "kd": 1.173,
+      "adr": 73.2,
+      "kast": 73.2,
+      "winrate": 0.587
+    },
+    {
+      "player": "tikuak",
+      "matches": 15,
+      "rating": 1.1,
+      "kd": 1.048,
+      "adr": 72.3,
+      "kast": 69.2,
+      "winrate": 0.456
+    },
+    {
+      "player": "pepe",
+      "matches": 17,
+      "rating": 1.099,
+      "kd": 1.024,
+      "adr": 76.7,
+      "kast": 71.7,
+      "winrate": 0.337
+    },
+    {
+      "player": "sirah",
+      "matches": 38,
+      "rating": 1.098,
+      "kd": 1.053,
+      "adr": 73.4,
+      "kast": 73.2,
+      "winrate": 0.479
+    },
+    {
+      "player": "kisserek",
+      "matches": 36,
+      "rating": 1.098,
+      "kd": 0.989,
+      "adr": 79.2,
+      "kast": 71.6,
+      "winrate": 0.482
+    },
+    {
+      "player": "npl",
+      "matches": 43,
+      "rating": 1.097,
+      "kd": 1.021,
+      "adr": 77.8,
+      "kast": 69.1,
+      "winrate": 0.4
+    },
+    {
+      "player": "jabbi",
+      "matches": 41,
+      "rating": 1.097,
+      "kd": 1.009,
+      "adr": 74.1,
+      "kast": 71.6,
+      "winrate": 0.513
+    },
+    {
+      "player": "twistzz",
+      "matches": 31,
+      "rating": 1.097,
+      "kd": 0.988,
+      "adr": 74.5,
+      "kast": 70.3,
+      "winrate": 0.35
+    },
+    {
+      "player": "topo",
+      "matches": 6,
+      "rating": 1.097,
+      "kd": 1.193,
+      "adr": 68.1,
+      "kast": 72,
+      "winrate": 0.674
+    },
+    {
+      "player": "elige",
+      "matches": 37,
+      "rating": 1.096,
+      "kd": 0.99,
+      "adr": 78.5,
+      "kast": 72.4,
+      "winrate": 0.402
+    },
+    {
+      "player": "nemanha",
+      "matches": 34,
+      "rating": 1.096,
+      "kd": 0.953,
+      "adr": 79.2,
+      "kast": 71.5,
+      "winrate": 0.64
+    },
+    {
+      "player": "jeorge",
+      "matches": 22,
+      "rating": 1.096,
+      "kd": 0.973,
+      "adr": 77.6,
+      "kast": 71.7,
+      "winrate": 0.297
+    },
+    {
+      "player": "khan",
+      "matches": 44,
+      "rating": 1.095,
+      "kd": 1.166,
+      "adr": 72.3,
+      "kast": 72.4,
+      "winrate": 0.563
+    },
+    {
+      "player": "launx",
+      "matches": 33,
+      "rating": 1.095,
+      "kd": 1,
+      "adr": 72.8,
+      "kast": 74.3,
+      "winrate": 0.624
+    },
+    {
+      "player": "yekindar",
+      "matches": 31,
+      "rating": 1.094,
+      "kd": 0.979,
+      "adr": 79.3,
+      "kast": 71.6,
+      "winrate": 0.522
+    },
+    {
+      "player": "kaide",
+      "matches": 24,
+      "rating": 1.093,
+      "kd": 1.035,
+      "adr": 82.3,
+      "kast": 73.2,
+      "winrate": 0.608
+    },
+    {
+      "player": "spirit",
+      "matches": 11,
+      "rating": 1.093,
+      "kd": 0.929,
+      "adr": 74.6,
+      "kast": 73.2,
+      "winrate": 0.409
+    },
+    {
+      "player": "mir",
+      "matches": 19,
+      "rating": 1.092,
+      "kd": 0.95,
+      "adr": 78.9,
+      "kast": 71.2,
+      "winrate": 0.716
+    },
+    {
+      "player": "mzinho",
+      "matches": 42,
+      "rating": 1.091,
+      "kd": 0.988,
+      "adr": 73.5,
+      "kast": 71.3,
+      "winrate": 0.537
+    },
+    {
+      "player": "mag1k3y",
+      "matches": 47,
+      "rating": 1.09,
+      "kd": 1.171,
+      "adr": 69.9,
+      "kast": 73.6,
+      "winrate": 0.589
+    },
+    {
+      "player": "notineki",
+      "matches": 5,
+      "rating": 1.09,
+      "kd": 1.069,
+      "adr": 71.9,
+      "kast": 74,
+      "winrate": 0.4
+    },
+    {
+      "player": "sunpayus",
+      "matches": 44,
+      "rating": 1.089,
+      "kd": 1.193,
+      "adr": 70.5,
+      "kast": 75.4,
+      "winrate": 0.468
+    },
+    {
+      "player": "nertz",
+      "matches": 37,
+      "rating": 1.089,
+      "kd": 0.989,
+      "adr": 77.9,
+      "kast": 71.1,
+      "winrate": 0.489
+    },
+    {
+      "player": "sinnopsyy",
+      "matches": 27,
+      "rating": 1.089,
+      "kd": 0.922,
+      "adr": 79.2,
+      "kast": 72.4,
+      "winrate": 0.58
+    },
+    {
+      "player": "r1nkle",
+      "matches": 18,
+      "rating": 1.089,
+      "kd": 1.158,
+      "adr": 77.6,
+      "kast": 74.2,
+      "winrate": 0.414
+    },
+    {
+      "player": "jorko",
+      "matches": 30,
+      "rating": 1.088,
+      "kd": 1.16,
+      "adr": 72,
+      "kast": 73.6,
+      "winrate": 0.574
+    },
+    {
+      "player": "electronic",
+      "matches": 18,
+      "rating": 1.088,
+      "kd": 0.97,
+      "adr": 74.4,
+      "kast": 71.9,
+      "winrate": 0.211
+    },
+    {
+      "player": "noni",
+      "matches": 11,
+      "rating": 1.087,
+      "kd": 1.074,
+      "adr": 69.4,
+      "kast": 72.2,
+      "winrate": 0.44
+    },
+    {
+      "player": "tuurtle",
+      "matches": 7,
+      "rating": 1.087,
+      "kd": 0.997,
+      "adr": 75.1,
+      "kast": 70.4,
+      "winrate": 0.415
+    },
+    {
+      "player": "r4dyx",
+      "matches": 3,
+      "rating": 1.087,
+      "kd": 0.952,
+      "adr": 71.8,
+      "kast": 73.3,
+      "winrate": 0.333
+    },
+    {
+      "player": "moseyuh",
+      "matches": 32,
+      "rating": 1.086,
+      "kd": 1.014,
+      "adr": 71.3,
+      "kast": 74.5,
+      "winrate": 0.488
+    },
+    {
+      "player": "junior",
+      "matches": 20,
+      "rating": 1.086,
+      "kd": 1.135,
+      "adr": 71.1,
+      "kast": 68.8,
+      "winrate": 0.281
+    },
+    {
+      "player": "tn1r",
+      "matches": 36,
+      "rating": 1.085,
+      "kd": 0.996,
+      "adr": 73.2,
+      "kast": 73.6,
+      "winrate": 0.769
+    },
+    {
+      "player": "dycha",
+      "matches": 27,
+      "rating": 1.084,
+      "kd": 0.925,
+      "adr": 71.8,
+      "kast": 71.5,
+      "winrate": 0.648
+    },
+    {
+      "player": "swiz",
+      "matches": 3,
+      "rating": 1.084,
+      "kd": 0.968,
+      "adr": 83,
+      "kast": 64.3,
+      "winrate": 0
+    },
+    {
+      "player": "fraguty",
+      "matches": 16,
+      "rating": 1.083,
+      "kd": 0.986,
+      "adr": 70.8,
+      "kast": 72.2,
+      "winrate": 0.414
+    },
+    {
+      "player": "h4san4tor",
+      "matches": 48,
+      "rating": 1.082,
+      "kd": 0.968,
+      "adr": 78.2,
+      "kast": 72.5,
+      "winrate": 0.532
+    },
+    {
+      "player": "vexite",
+      "matches": 17,
+      "rating": 1.082,
+      "kd": 1.04,
+      "adr": 75.8,
+      "kast": 73.4,
+      "winrate": 0.329
+    },
+    {
+      "player": "saadzin",
+      "matches": 42,
+      "rating": 1.081,
+      "kd": 1.196,
+      "adr": 67.3,
+      "kast": 74.3,
+      "winrate": 0.618
+    },
+    {
+      "player": "spinx",
+      "matches": 40,
+      "rating": 1.081,
+      "kd": 1.092,
+      "adr": 73.4,
+      "kast": 74.2,
+      "winrate": 0.607
+    },
+    {
+      "player": "kylar",
+      "matches": 35,
+      "rating": 1.081,
+      "kd": 0.998,
+      "adr": 71.8,
+      "kast": 68.6,
+      "winrate": 0.325
+    },
+    {
+      "player": "zero",
+      "matches": 32,
+      "rating": 1.081,
+      "kd": 0.937,
+      "adr": 73.6,
+      "kast": 71.2,
+      "winrate": 0.488
+    },
+    {
+      "player": "swisher",
+      "matches": 31,
+      "rating": 1.081,
+      "kd": 0.928,
+      "adr": 74.8,
+      "kast": 72.2,
+      "winrate": 0.392
+    },
+    {
+      "player": "kair0n",
+      "matches": 45,
+      "rating": 1.08,
+      "kd": 0.996,
+      "adr": 78.3,
+      "kast": 71.2,
+      "winrate": 0.57
+    },
+    {
+      "player": "ayuki",
+      "matches": 44,
+      "rating": 1.08,
+      "kd": 1.039,
+      "adr": 69.6,
+      "kast": 75.4,
+      "winrate": 0.614
+    },
+    {
+      "player": "torzsi",
+      "matches": 40,
+      "rating": 1.08,
+      "kd": 1.227,
+      "adr": 67.7,
+      "kast": 72.9,
+      "winrate": 0.607
+    },
+    {
+      "player": "frontales",
+      "matches": 31,
+      "rating": 1.08,
+      "kd": 1.131,
+      "adr": 68.4,
+      "kast": 71.6,
+      "winrate": 0.509
+    },
+    {
+      "player": "yuramyata",
+      "matches": 8,
+      "rating": 1.08,
+      "kd": 1.163,
+      "adr": 70.9,
+      "kast": 66.5,
+      "winrate": 0.431
+    },
+    {
+      "player": "ottob",
+      "matches": 3,
+      "rating": 1.08,
+      "kd": 1.158,
+      "adr": 70.5,
+      "kast": 69.6,
+      "winrate": 0.333
+    },
+    {
+      "player": "prism",
+      "matches": 38,
+      "rating": 1.079,
+      "kd": 0.945,
+      "adr": 77,
+      "kast": 69.4,
+      "winrate": 0.425
+    },
+    {
+      "player": "pump",
+      "matches": 10,
+      "rating": 1.079,
+      "kd": 1.069,
+      "adr": 77.9,
+      "kast": 73.2,
+      "winrate": 0.515
+    },
+    {
+      "player": "triborgg1",
+      "matches": 6,
+      "rating": 1.079,
+      "kd": 0.943,
+      "adr": 80.7,
+      "kast": 72.6,
+      "winrate": 0.706
+    },
+    {
+      "player": "headtr1ck",
+      "matches": 25,
+      "rating": 1.077,
+      "kd": 1.233,
+      "adr": 71,
+      "kast": 75.6,
+      "winrate": 0.488
+    },
+    {
+      "player": "woxic",
+      "matches": 42,
+      "rating": 1.076,
+      "kd": 1.156,
+      "adr": 71,
+      "kast": 72.5,
+      "winrate": 0.546
+    },
+    {
+      "player": "oz1k",
+      "matches": 32,
+      "rating": 1.076,
+      "kd": 0.966,
+      "adr": 71.8,
+      "kast": 72.1,
+      "winrate": 0.457
+    },
+    {
+      "player": "alisson",
+      "matches": 14,
+      "rating": 1.076,
+      "kd": 1.09,
+      "adr": 73.8,
+      "kast": 70.4,
+      "winrate": 0.448
+    },
+    {
+      "player": "reck",
+      "matches": 18,
+      "rating": 1.074,
+      "kd": 1.018,
+      "adr": 68.9,
+      "kast": 73.1,
+      "winrate": 0.515
+    },
+    {
+      "player": "chucky",
+      "matches": 18,
+      "rating": 1.074,
+      "kd": 1.092,
+      "adr": 66.6,
+      "kast": 72.9,
+      "winrate": 0.362
+    },
+    {
+      "player": "keen",
+      "matches": 10,
+      "rating": 1.074,
+      "kd": 1.064,
+      "adr": 76.1,
+      "kast": 68.4,
+      "winrate": 0.323
+    },
+    {
+      "player": "try",
+      "matches": 23,
+      "rating": 1.073,
+      "kd": 1.114,
+      "adr": 70.6,
+      "kast": 75.1,
+      "winrate": 0.396
+    },
+    {
+      "player": "cairne",
+      "matches": 28,
+      "rating": 1.072,
+      "kd": 1.004,
+      "adr": 73.1,
+      "kast": 72.5,
+      "winrate": 0.482
+    },
+    {
+      "player": "clax",
+      "matches": 10,
+      "rating": 1.072,
+      "kd": 0.991,
+      "adr": 73.8,
+      "kast": 72.2,
+      "winrate": 0.46
+    },
+    {
+      "player": "pr",
+      "matches": 38,
+      "rating": 1.071,
+      "kd": 1.031,
+      "adr": 77.4,
+      "kast": 72.7,
+      "winrate": 0.604
+    },
+    {
+      "player": "jame",
+      "matches": 33,
+      "rating": 1.071,
+      "kd": 1.133,
+      "adr": 70.5,
+      "kast": 72.3,
+      "winrate": 0.437
+    },
+    {
+      "player": "0samas",
+      "matches": 27,
+      "rating": 1.071,
+      "kd": 0.979,
+      "adr": 70.6,
+      "kast": 73.4,
+      "winrate": 0.58
+    },
+    {
+      "player": "grim",
+      "matches": 25,
+      "rating": 1.071,
+      "kd": 0.944,
+      "adr": 75.7,
+      "kast": 68.2,
+      "winrate": 0.236
+    },
+    {
+      "player": "buda",
+      "matches": 26,
+      "rating": 1.07,
+      "kd": 0.996,
+      "adr": 78.1,
+      "kast": 72.5,
+      "winrate": 0.461
+    },
+    {
+      "player": "ponter",
+      "matches": 17,
+      "rating": 1.07,
+      "kd": 0.967,
+      "adr": 73,
+      "kast": 71.8,
+      "winrate": 0.337
+    },
+    {
+      "player": "malbsmd",
+      "matches": 42,
+      "rating": 1.069,
+      "kd": 0.943,
+      "adr": 75.1,
+      "kast": 71.2,
+      "winrate": 0.431
+    },
+    {
+      "player": "moonwalk",
+      "matches": 33,
+      "rating": 1.069,
+      "kd": 1.003,
+      "adr": 75,
+      "kast": 70.2,
+      "winrate": 0.711
+    },
+    {
+      "player": "kyuubii",
+      "matches": 25,
+      "rating": 1.069,
+      "kd": 0.936,
+      "adr": 74.3,
+      "kast": 70.2,
+      "winrate": 0.404
+    },
+    {
+      "player": "kiy0o",
+      "matches": 9,
+      "rating": 1.069,
+      "kd": 0.948,
+      "adr": 77.7,
+      "kast": 69,
+      "winrate": 0.468
+    },
+    {
+      "player": "sh1nejezzz",
+      "matches": 48,
+      "rating": 1.068,
+      "kd": 1.063,
+      "adr": 69.3,
+      "kast": 73.3,
+      "winrate": 0.532
+    },
+    {
+      "player": "teses",
+      "matches": 33,
+      "rating": 1.068,
+      "kd": 0.98,
+      "adr": 67.2,
+      "kast": 73.4,
+      "winrate": 0.728
+    },
+    {
+      "player": "k1slll",
+      "matches": 22,
+      "rating": 1.068,
+      "kd": 0.928,
+      "adr": 76.3,
+      "kast": 70.6,
+      "winrate": 0.394
+    },
+    {
+      "player": "naz",
+      "matches": 17,
+      "rating": 1.068,
+      "kd": 0.934,
+      "adr": 71.3,
+      "kast": 71.5,
+      "winrate": 0.438
+    },
+    {
+      "player": "el1an",
+      "matches": 24,
+      "rating": 1.067,
+      "kd": 1.151,
+      "adr": 75.8,
+      "kast": 69.7,
+      "winrate": 0.25
+    },
+    {
+      "player": "botpa1",
+      "matches": 24,
+      "rating": 1.067,
+      "kd": 0.962,
+      "adr": 76.7,
+      "kast": 67.7,
+      "winrate": 0.379
+    },
+    {
+      "player": "patsi",
+      "matches": 11,
+      "rating": 1.067,
+      "kd": 0.957,
+      "adr": 71.7,
+      "kast": 69.7,
+      "winrate": 0.375
+    },
+    {
+      "player": "dem0n",
+      "matches": 38,
+      "rating": 1.066,
+      "kd": 1.002,
+      "adr": 70.7,
+      "kast": 70.5,
+      "winrate": 0.593
+    },
+    {
+      "player": "draken",
+      "matches": 8,
+      "rating": 1.066,
+      "kd": 1.147,
+      "adr": 76.1,
+      "kast": 73.4,
+      "winrate": 0.319
+    },
+    {
+      "player": "xant3r",
+      "matches": 39,
+      "rating": 1.065,
+      "kd": 0.959,
+      "adr": 70,
+      "kast": 72.1,
+      "winrate": 0.632
+    },
+    {
+      "player": "regali",
+      "matches": 12,
+      "rating": 1.065,
+      "kd": 1.175,
+      "adr": 68.9,
+      "kast": 70.7,
+      "winrate": 0.564
+    },
+    {
+      "player": "arrozdoce",
+      "matches": 12,
+      "rating": 1.065,
+      "kd": 0.939,
+      "adr": 70.3,
+      "kast": 73,
+      "winrate": 0.563
+    },
+    {
+      "player": "nafany",
+      "matches": 50,
+      "rating": 1.064,
+      "kd": 0.948,
+      "adr": 75.2,
+      "kast": 70.4,
+      "winrate": 0.615
+    },
+    {
+      "player": "bondik",
+      "matches": 11,
+      "rating": 1.064,
+      "kd": 1.023,
+      "adr": 73.8,
+      "kast": 73.4,
+      "winrate": 0.432
+    },
+    {
+      "player": "krabeni",
+      "matches": 38,
+      "rating": 1.063,
+      "kd": 0.983,
+      "adr": 78.4,
+      "kast": 69.2,
+      "winrate": 0.593
+    },
+    {
+      "player": "aquars",
+      "matches": 25,
+      "rating": 1.063,
+      "kd": 0.948,
+      "adr": 73.1,
+      "kast": 71.4,
+      "winrate": 0.714
+    },
+    {
+      "player": "hoolig4n",
+      "matches": 7,
+      "rating": 1.063,
+      "kd": 1.085,
+      "adr": 70.4,
+      "kast": 70.3,
+      "winrate": 0.423
+    },
+    {
+      "player": "zweih",
+      "matches": 33,
+      "rating": 1.062,
+      "kd": 0.957,
+      "adr": 70.7,
+      "kast": 71,
+      "winrate": 0.437
+    },
+    {
+      "player": "stavn",
+      "matches": 13,
+      "rating": 1.062,
+      "kd": 1.169,
+      "adr": 72.8,
+      "kast": 70.2,
+      "winrate": 0.538
+    },
+    {
+      "player": "rate",
+      "matches": 7,
+      "rating": 1.062,
+      "kd": 0.993,
+      "adr": 72,
+      "kast": 72.9,
+      "winrate": 0.423
+    },
+    {
+      "player": "history",
+      "matches": 5,
+      "rating": 1.062,
+      "kd": 1.124,
+      "adr": 69.1,
+      "kast": 70.4,
+      "winrate": 0.2
+    },
+    {
+      "player": "matys",
+      "matches": 48,
+      "rating": 1.061,
+      "kd": 1.018,
+      "adr": 73,
+      "kast": 73.9,
+      "winrate": 0.48
+    },
+    {
+      "player": "modo",
+      "matches": 36,
+      "rating": 1.061,
+      "kd": 1.163,
+      "adr": 67.9,
+      "kast": 73.9,
+      "winrate": 0.482
+    },
+    {
+      "player": "sonic",
+      "matches": 23,
+      "rating": 1.061,
+      "kd": 0.909,
+      "adr": 77.2,
+      "kast": 70.2,
+      "winrate": 0.221
+    },
+    {
+      "player": "dwushka",
+      "matches": 15,
+      "rating": 1.061,
+      "kd": 1.01,
+      "adr": 71.7,
+      "kast": 69.8,
+      "winrate": 0.569
+    },
+    {
+      "player": "norwi",
+      "matches": 7,
+      "rating": 1.06,
+      "kd": 0.92,
+      "adr": 72.1,
+      "kast": 69.1,
+      "winrate": 0.227
+    },
+    {
+      "player": "tex1y",
+      "matches": 47,
+      "rating": 1.059,
+      "kd": 0.987,
+      "adr": 72.7,
+      "kast": 73.2,
+      "winrate": 0.589
+    },
+    {
+      "player": "plopski",
+      "matches": 26,
+      "rating": 1.059,
+      "kd": 0.987,
+      "adr": 77.2,
+      "kast": 72,
+      "winrate": 0.38
+    },
+    {
+      "player": "artfr0st",
+      "matches": 40,
+      "rating": 1.058,
+      "kd": 1.232,
+      "adr": 67.6,
+      "kast": 75,
+      "winrate": 0.623
+    },
+    {
+      "player": "forsyy",
+      "matches": 26,
+      "rating": 1.058,
+      "kd": 1.149,
+      "adr": 70.5,
+      "kast": 71.5,
+      "winrate": 0.38
+    },
+    {
+      "player": "decenty",
+      "matches": 17,
+      "rating": 1.058,
+      "kd": 1.053,
+      "adr": 76.8,
+      "kast": 71.6,
+      "winrate": 0.51
+    },
+    {
+      "player": "fluffy",
+      "matches": 15,
+      "rating": 1.058,
+      "kd": 1.054,
+      "adr": 70.7,
+      "kast": 67.6,
+      "winrate": 0.43
+    },
+    {
+      "player": "stressarn",
+      "matches": 36,
+      "rating": 1.057,
+      "kd": 1.066,
+      "adr": 74.9,
+      "kast": 72.7,
+      "winrate": 0.482
+    },
+    {
+      "player": "hypex",
+      "matches": 35,
+      "rating": 1.057,
+      "kd": 1.085,
+      "adr": 64.2,
+      "kast": 73.9,
+      "winrate": 0.539
+    },
+    {
+      "player": "krimz",
+      "matches": 27,
+      "rating": 1.057,
+      "kd": 0.958,
+      "adr": 72.6,
+      "kast": 71.1,
+      "winrate": 0.272
+    },
+    {
+      "player": "fineshine52",
+      "matches": 6,
+      "rating": 1.057,
+      "kd": 1.138,
+      "adr": 72.1,
+      "kast": 74.8,
+      "winrate": 0.349
+    },
+    {
+      "player": "z1k4",
+      "matches": 44,
+      "rating": 1.056,
+      "kd": 1.111,
+      "adr": 71.5,
+      "kast": 72.7,
+      "winrate": 0.614
+    },
+    {
+      "player": "ryujin",
+      "matches": 23,
+      "rating": 1.056,
+      "kd": 0.963,
+      "adr": 70.4,
+      "kast": 71.8,
+      "winrate": 0.442
+    },
+    {
+      "player": "ivz",
+      "matches": 17,
+      "rating": 1.056,
+      "kd": 1.04,
+      "adr": 72.6,
+      "kast": 71.2,
+      "winrate": 0.438
+    },
+    {
+      "player": "zealot",
+      "matches": 11,
+      "rating": 1.056,
+      "kd": 0.99,
+      "adr": 80.5,
+      "kast": 69.9,
+      "winrate": 0.747
+    },
+    {
+      "player": "venomzera",
+      "matches": 28,
+      "rating": 1.055,
+      "kd": 0.953,
+      "adr": 69,
+      "kast": 72,
+      "winrate": 0.539
+    },
+    {
+      "player": "piriajr",
+      "matches": 32,
+      "rating": 1.054,
+      "kd": 1.018,
+      "adr": 73.4,
+      "kast": 68.6,
+      "winrate": 0.434
+    },
+    {
+      "player": "s1ren",
+      "matches": 25,
+      "rating": 1.054,
+      "kd": 1,
+      "adr": 70.5,
+      "kast": 73.7,
+      "winrate": 0.627
+    },
+    {
+      "player": "bluewh1te",
+      "matches": 20,
+      "rating": 1.054,
+      "kd": 0.963,
+      "adr": 71.9,
+      "kast": 70.9,
+      "winrate": 0.354
+    },
+    {
+      "player": "flierax",
+      "matches": 11,
+      "rating": 1.054,
+      "kd": 1.185,
+      "adr": 69.9,
+      "kast": 73,
+      "winrate": 0.5
+    },
+    {
+      "player": "kaluber",
+      "matches": 49,
+      "rating": 1.053,
+      "kd": 1.003,
+      "adr": 71.9,
+      "kast": 71.7,
+      "winrate": 0.472
+    },
+    {
+      "player": "slaxz",
+      "matches": 31,
+      "rating": 1.053,
+      "kd": 1.069,
+      "adr": 66.7,
+      "kast": 71.2,
+      "winrate": 0.392
+    },
+    {
+      "player": "m1n1",
+      "matches": 23,
+      "rating": 1.053,
+      "kd": 1.172,
+      "adr": 69.9,
+      "kast": 73.4,
+      "winrate": 0.597
+    },
+    {
+      "player": "sowalio",
+      "matches": 44,
+      "rating": 1.052,
+      "kd": 0.993,
+      "adr": 72.1,
+      "kast": 71.9,
+      "winrate": 0.563
+    },
+    {
+      "player": "misutaaa",
+      "matches": 36,
+      "rating": 1.052,
+      "kd": 0.968,
+      "adr": 74.6,
+      "kast": 73.3,
+      "winrate": 0.324
+    },
+    {
+      "player": "shield",
+      "matches": 9,
+      "rating": 1.052,
+      "kd": 1.077,
+      "adr": 68.8,
+      "kast": 73.8,
+      "winrate": 0.367
+    },
+    {
+      "player": "naf",
+      "matches": 37,
+      "rating": 1.051,
+      "kd": 0.981,
+      "adr": 75,
+      "kast": 72.5,
+      "winrate": 0.402
+    },
+    {
+      "player": "nacho",
+      "matches": 26,
+      "rating": 1.051,
+      "kd": 0.981,
+      "adr": 68.3,
+      "kast": 69.7,
+      "winrate": 0.461
+    },
+    {
+      "player": "buzz",
+      "matches": 18,
+      "rating": 1.051,
+      "kd": 0.956,
+      "adr": 70.2,
+      "kast": 72.2,
+      "winrate": 0.364
+    },
+    {
+      "player": "sk0r",
+      "matches": 16,
+      "rating": 1.051,
+      "kd": 1.005,
+      "adr": 76.6,
+      "kast": 66.3,
+      "winrate": 0.246
+    },
+    {
+      "player": "twist",
+      "matches": 42,
+      "rating": 1.05,
+      "kd": 0.932,
+      "adr": 71.5,
+      "kast": 74.9,
+      "winrate": 0.72
+    },
+    {
+      "player": "altekz",
+      "matches": 38,
+      "rating": 1.05,
+      "kd": 0.958,
+      "adr": 70.9,
+      "kast": 70.6,
+      "winrate": 0.413
+    },
+    {
+      "player": "jocab",
+      "matches": 37,
+      "rating": 1.05,
+      "kd": 1.013,
+      "adr": 72.3,
+      "kast": 72.5,
+      "winrate": 0.312
+    },
+    {
+      "player": "adai",
+      "matches": 24,
+      "rating": 1.05,
+      "kd": 0.975,
+      "adr": 75.8,
+      "kast": 66.5,
+      "winrate": 0.379
+    },
+    {
+      "player": "jimpphat",
+      "matches": 23,
+      "rating": 1.05,
+      "kd": 1.106,
+      "adr": 70.4,
+      "kast": 75.1,
+      "winrate": 0.591
+    },
+    {
+      "player": "sk1tt",
+      "matches": 11,
+      "rating": 1.05,
+      "kd": 0.931,
+      "adr": 71.7,
+      "kast": 69.8,
+      "winrate": 0.711
+    },
+    {
+      "player": "fnl",
+      "matches": 3,
+      "rating": 1.05,
+      "kd": 1.023,
+      "adr": 61.6,
+      "kast": 76.1,
+      "winrate": 0.667
+    },
+    {
+      "player": "zesta",
+      "matches": 11,
+      "rating": 1.049,
+      "kd": 0.923,
+      "adr": 69.9,
+      "kast": 68.1,
+      "winrate": 0.565
+    },
+    {
+      "player": "tjp",
+      "matches": 11,
+      "rating": 1.049,
+      "kd": 0.878,
+      "adr": 69.4,
+      "kast": 71.5,
+      "winrate": 0.43
+    },
+    {
+      "player": "gokushima",
+      "matches": 8,
+      "rating": 1.049,
+      "kd": 0.995,
+      "adr": 70.5,
+      "kast": 70,
+      "winrate": 0.633
+    },
+    {
+      "player": "relaxxie",
+      "matches": 54,
+      "rating": 1.048,
+      "kd": 0.977,
+      "adr": 74.6,
+      "kast": 70.1,
+      "winrate": 0.578
+    },
+    {
+      "player": "fr3nd",
+      "matches": 31,
+      "rating": 1.048,
+      "kd": 1.142,
+      "adr": 67.8,
+      "kast": 71.3,
+      "winrate": 0.488
+    },
+    {
+      "player": "l00m1",
+      "matches": 31,
+      "rating": 1.048,
+      "kd": 1.029,
+      "adr": 68.1,
+      "kast": 70.1,
+      "winrate": 0.412
+    },
+    {
+      "player": "travis",
+      "matches": 24,
+      "rating": 1.048,
+      "kd": 0.998,
+      "adr": 71.5,
+      "kast": 70.6,
+      "winrate": 0.25
+    },
+    {
+      "player": "fame",
+      "matches": 21,
+      "rating": 1.048,
+      "kd": 0.99,
+      "adr": 69.7,
+      "kast": 71.6,
+      "winrate": 0.444
+    },
+    {
+      "player": "marko",
+      "matches": 5,
+      "rating": 1.048,
+      "kd": 1.02,
+      "adr": 72.8,
+      "kast": 68.6,
+      "winrate": 0.185
+    },
+    {
+      "player": "7kick",
+      "matches": 38,
+      "rating": 1.047,
+      "kd": 1.071,
+      "adr": 71.1,
+      "kast": 70.3,
+      "winrate": 0.529
+    },
+    {
+      "player": "lake",
+      "matches": 31,
+      "rating": 1.047,
+      "kd": 0.9,
+      "adr": 73.9,
+      "kast": 68.8,
+      "winrate": 0.392
+    },
+    {
+      "player": "yxngstxr",
+      "matches": 31,
+      "rating": 1.047,
+      "kd": 1.067,
+      "adr": 68.1,
+      "kast": 72.9,
+      "winrate": 0.382
+    },
+    {
+      "player": "kashl1d",
+      "matches": 47,
+      "rating": 1.046,
+      "kd": 1.07,
+      "adr": 64.6,
+      "kast": 70,
+      "winrate": 0.552
+    },
+    {
+      "player": "phzy",
+      "matches": 41,
+      "rating": 1.045,
+      "kd": 1.052,
+      "adr": 69.7,
+      "kast": 70.5,
+      "winrate": 0.513
+    },
+    {
+      "player": "luken",
+      "matches": 20,
+      "rating": 1.045,
+      "kd": 1.06,
+      "adr": 73.5,
+      "kast": 71.2,
+      "winrate": 0.333
+    },
+    {
+      "player": "kvem",
+      "matches": 25,
+      "rating": 1.044,
+      "kd": 0.982,
+      "adr": 79.3,
+      "kast": 69.3,
+      "winrate": 0.383
+    },
+    {
+      "player": "kraghen",
+      "matches": 23,
+      "rating": 1.044,
+      "kd": 0.908,
+      "adr": 70.5,
+      "kast": 72.9,
+      "winrate": 0.32
+    },
+    {
+      "player": "marat2k",
+      "matches": 12,
+      "rating": 1.044,
+      "kd": 1.027,
+      "adr": 74.3,
+      "kast": 72.7,
+      "winrate": 0.299
+    },
+    {
+      "player": "qlocuu",
+      "matches": 45,
+      "rating": 1.043,
+      "kd": 0.976,
+      "adr": 73.2,
+      "kast": 72.5,
+      "winrate": 0.478
+    },
+    {
+      "player": "demho",
+      "matches": 38,
+      "rating": 1.043,
+      "kd": 0.977,
+      "adr": 72.3,
+      "kast": 73,
+      "winrate": 0.425
+    },
+    {
+      "player": "bajmi",
+      "matches": 33,
+      "rating": 1.043,
+      "kd": 0.954,
+      "adr": 73.1,
+      "kast": 71.6,
+      "winrate": 0.711
+    },
+    {
+      "player": "synyx",
+      "matches": 23,
+      "rating": 1.043,
+      "kd": 0.997,
+      "adr": 74.7,
+      "kast": 71.7,
+      "winrate": 0.442
+    },
+    {
+      "player": "zerrofix",
+      "matches": 29,
+      "rating": 1.042,
+      "kd": 0.98,
+      "adr": 73.1,
+      "kast": 71.5,
+      "winrate": 0.538
+    },
+    {
+      "player": "magisk",
+      "matches": 4,
+      "rating": 1.042,
+      "kd": 1.072,
+      "adr": 69.9,
+      "kast": 76.5,
+      "winrate": 0.655
+    },
+    {
+      "player": "magixx",
+      "matches": 36,
+      "rating": 1.041,
+      "kd": 0.947,
+      "adr": 68.8,
+      "kast": 74.5,
+      "winrate": 0.769
+    },
+    {
+      "player": "samey",
+      "matches": 33,
+      "rating": 1.041,
+      "kd": 1.17,
+      "adr": 66.3,
+      "kast": 72.7,
+      "winrate": 0.711
+    },
+    {
+      "player": "z1nny",
+      "matches": 20,
+      "rating": 1.041,
+      "kd": 0.952,
+      "adr": 74.3,
+      "kast": 69.2,
+      "winrate": 0.354
+    },
+    {
+      "player": "glowiing",
+      "matches": 42,
+      "rating": 1.04,
+      "kd": 0.973,
+      "adr": 78,
+      "kast": 68.4,
+      "winrate": 0.403
+    },
+    {
+      "player": "f0r3ver",
+      "matches": 25,
+      "rating": 1.04,
+      "kd": 0.962,
+      "adr": 71.4,
+      "kast": 70.8,
+      "winrate": 0.714
+    },
+    {
+      "player": "mhl",
+      "matches": 18,
+      "rating": 1.039,
+      "kd": 1.108,
+      "adr": 71.6,
+      "kast": 70.8,
+      "winrate": 0.515
+    },
+    {
+      "player": "shock",
+      "matches": 36,
+      "rating": 1.038,
+      "kd": 0.982,
+      "adr": 68.3,
+      "kast": 70.2,
+      "winrate": 0.482
+    },
+    {
+      "player": "to0ro",
+      "matches": 25,
+      "rating": 1.038,
+      "kd": 0.999,
+      "adr": 68.1,
+      "kast": 71.3,
+      "winrate": 0.714
+    },
+    {
+      "player": "noway",
+      "matches": 17,
+      "rating": 1.038,
+      "kd": 0.966,
+      "adr": 71.6,
+      "kast": 72.2,
+      "winrate": 0.51
+    },
+    {
+      "player": "erkast",
+      "matches": 12,
+      "rating": 1.038,
+      "kd": 0.948,
+      "adr": 74.2,
+      "kast": 68.5,
+      "winrate": 0.522
+    },
+    {
+      "player": "brollan",
+      "matches": 28,
+      "rating": 1.037,
+      "kd": 0.929,
+      "adr": 70.7,
+      "kast": 69.5,
+      "winrate": 0.504
+    },
+    {
+      "player": "s4ltovsk1yy",
+      "matches": 12,
+      "rating": 1.037,
+      "kd": 1.129,
+      "adr": 65.9,
+      "kast": 72.6,
+      "winrate": 0.481
+    },
+    {
+      "player": "4x1s",
+      "matches": 6,
+      "rating": 1.037,
+      "kd": 0.941,
+      "adr": 73.5,
+      "kast": 69.2,
+      "winrate": 0.674
+    },
+    {
+      "player": "hadji",
+      "matches": 35,
+      "rating": 1.036,
+      "kd": 0.945,
+      "adr": 73.7,
+      "kast": 72.9,
+      "winrate": 0.556
+    },
+    {
+      "player": "bobeksde",
+      "matches": 30,
+      "rating": 1.036,
+      "kd": 0.893,
+      "adr": 77.5,
+      "kast": 66.6,
+      "winrate": 0.563
+    },
+    {
+      "player": "anlelele",
+      "matches": 29,
+      "rating": 1.035,
+      "kd": 0.967,
+      "adr": 72,
+      "kast": 73.5,
+      "winrate": 0.497
+    },
+    {
+      "player": "nawwk",
+      "matches": 27,
+      "rating": 1.035,
+      "kd": 1.135,
+      "adr": 67.7,
+      "kast": 73.5,
+      "winrate": 0.335
+    },
+    {
+      "player": "demqq",
+      "matches": 22,
+      "rating": 1.035,
+      "kd": 0.984,
+      "adr": 68.9,
+      "kast": 74.1,
+      "winrate": 0.445
+    },
+    {
+      "player": "yuurih",
+      "matches": 31,
+      "rating": 1.034,
+      "kd": 0.994,
+      "adr": 68.7,
+      "kast": 75.5,
+      "winrate": 0.522
+    },
+    {
+      "player": "matheos",
+      "matches": 27,
+      "rating": 1.034,
+      "kd": 0.941,
+      "adr": 75.2,
+      "kast": 70.6,
+      "winrate": 0.464
+    },
+    {
+      "player": "vldn",
+      "matches": 8,
+      "rating": 1.034,
+      "kd": 0.95,
+      "adr": 68.4,
+      "kast": 71.3,
+      "winrate": 0.344
+    },
+    {
+      "player": "mokuj1n",
+      "matches": 42,
+      "rating": 1.033,
+      "kd": 0.976,
+      "adr": 72.6,
+      "kast": 69.3,
+      "winrate": 0.403
+    },
+    {
+      "player": "acor",
+      "matches": 40,
+      "rating": 1.033,
+      "kd": 1.118,
+      "adr": 71.7,
+      "kast": 70.2,
+      "winrate": 0.476
+    },
+    {
+      "player": "ag1l",
+      "matches": 30,
+      "rating": 1.033,
+      "kd": 0.976,
+      "adr": 72.2,
+      "kast": 72.3,
+      "winrate": 0.498
+    },
+    {
+      "player": "lnz",
+      "matches": 28,
+      "rating": 1.033,
+      "kd": 0.932,
+      "adr": 67.5,
+      "kast": 70.4,
+      "winrate": 0.539
+    },
+    {
+      "player": "kreaz",
+      "matches": 22,
+      "rating": 1.033,
+      "kd": 0.966,
+      "adr": 82.5,
+      "kast": 67.1,
+      "winrate": 0.493
+    },
+    {
+      "player": "zorte",
+      "matches": 45,
+      "rating": 1.032,
+      "kd": 1.152,
+      "adr": 67.3,
+      "kast": 72.9,
+      "winrate": 0.628
+    },
+    {
+      "player": "forester",
+      "matches": 26,
+      "rating": 1.032,
+      "kd": 1.027,
+      "adr": 71,
+      "kast": 73.5,
+      "winrate": 0.482
+    },
+    {
+      "player": "dragon",
+      "matches": 13,
+      "rating": 1.032,
+      "kd": 1.015,
+      "adr": 74.6,
+      "kast": 73.7,
+      "winrate": 0.325
+    },
+    {
+      "player": "cadian",
+      "matches": 22,
+      "rating": 1.031,
+      "kd": 1.038,
+      "adr": 69.2,
+      "kast": 72.4,
+      "winrate": 0.429
+    },
+    {
+      "player": "tauson",
+      "matches": 35,
+      "rating": 1.03,
+      "kd": 0.97,
+      "adr": 70.4,
+      "kast": 70,
+      "winrate": 0.539
+    },
+    {
+      "player": "zock",
+      "matches": 17,
+      "rating": 1.03,
+      "kd": 0.972,
+      "adr": 74,
+      "kast": 71,
+      "winrate": 0.337
+    },
+    {
+      "player": "shg",
+      "matches": 4,
+      "rating": 1.03,
+      "kd": 0.929,
+      "adr": 71.8,
+      "kast": 69,
+      "winrate": 0.269
+    },
+    {
+      "player": "yksjupe",
+      "matches": 4,
+      "rating": 1.03,
+      "kd": 0.914,
+      "adr": 76.1,
+      "kast": 71.7,
+      "winrate": 0.6
+    },
+    {
+      "player": "apex",
+      "matches": 33,
+      "rating": 1.029,
+      "kd": 0.909,
+      "adr": 74.9,
+      "kast": 72.8,
+      "winrate": 0.808
+    },
+    {
+      "player": "soulfly",
+      "matches": 36,
+      "rating": 1.028,
+      "kd": 0.927,
+      "adr": 69,
+      "kast": 72.5,
+      "winrate": 0.53
+    },
+    {
+      "player": "1nvisiblee",
+      "matches": 26,
+      "rating": 1.028,
+      "kd": 0.889,
+      "adr": 78.7,
+      "kast": 68.4,
+      "winrate": 0.425
+    },
+    {
+      "player": "tak",
+      "matches": 7,
+      "rating": 1.028,
+      "kd": 0.949,
+      "adr": 70.3,
+      "kast": 72.7,
+      "winrate": 0.429
+    },
+    {
+      "player": "dgl",
+      "matches": 10,
+      "rating": 1.027,
+      "kd": 1.143,
+      "adr": 70.5,
+      "kast": 68.8,
+      "winrate": 0.276
+    },
+    {
+      "player": "adren",
+      "matches": 3,
+      "rating": 1.027,
+      "kd": 0.919,
+      "adr": 67.3,
+      "kast": 73.2,
+      "winrate": 1
+    },
+    {
+      "player": "n1ssim",
+      "matches": 40,
+      "rating": 1.026,
+      "kd": 1.006,
+      "adr": 67.1,
+      "kast": 73.5,
+      "winrate": 0.617
+    },
+    {
+      "player": "m3wsu",
+      "matches": 34,
+      "rating": 1.026,
+      "kd": 0.981,
+      "adr": 72.2,
+      "kast": 71.5,
+      "winrate": 0.504
+    },
+    {
+      "player": "ro1f",
+      "matches": 28,
+      "rating": 1.026,
+      "kd": 0.917,
+      "adr": 70.1,
+      "kast": 71,
+      "winrate": 0.489
+    },
+    {
+      "player": "myltsi",
+      "matches": 28,
+      "rating": 1.026,
+      "kd": 0.903,
+      "adr": 72.8,
+      "kast": 69,
+      "winrate": 0.384
+    },
+    {
+      "player": "aidkit",
+      "matches": 5,
+      "rating": 1.026,
+      "kd": 1.142,
+      "adr": 67.2,
+      "kast": 66.7,
+      "winrate": 0.364
+    },
+    {
+      "player": "hitori",
+      "matches": 4,
+      "rating": 1.026,
+      "kd": 1.015,
+      "adr": 69.9,
+      "kast": 70.2,
+      "winrate": 0.6
+    },
+    {
+      "player": "timo",
+      "matches": 23,
+      "rating": 1.025,
+      "kd": 0.917,
+      "adr": 66.7,
+      "kast": 70.2,
+      "winrate": 0.536
+    },
+    {
+      "player": "detr0ittj",
+      "matches": 11,
+      "rating": 1.025,
+      "kd": 0.992,
+      "adr": 68.6,
+      "kast": 68.5,
+      "winrate": 0.262
+    },
+    {
+      "player": "x5g7v",
+      "matches": 47,
+      "rating": 1.024,
+      "kd": 0.908,
+      "adr": 75.4,
+      "kast": 71.1,
+      "winrate": 0.552
+    },
+    {
+      "player": "cobrazera",
+      "matches": 38,
+      "rating": 1.024,
+      "kd": 0.978,
+      "adr": 73,
+      "kast": 70,
+      "winrate": 0.53
+    },
+    {
+      "player": "dytor",
+      "matches": 23,
+      "rating": 1.024,
+      "kd": 0.912,
+      "adr": 72.3,
+      "kast": 71.6,
+      "winrate": 0.477
+    },
+    {
+      "player": "finw",
+      "matches": 22,
+      "rating": 1.024,
+      "kd": 0.97,
+      "adr": 70.9,
+      "kast": 73.3,
+      "winrate": 0.394
+    },
+    {
+      "player": "mwlky",
+      "matches": 20,
+      "rating": 1.024,
+      "kd": 0.993,
+      "adr": 66.8,
+      "kast": 66.8,
+      "winrate": 0.39
+    },
+    {
+      "player": "skrimo",
+      "matches": 49,
+      "rating": 1.023,
+      "kd": 0.908,
+      "adr": 69.2,
+      "kast": 70.3,
+      "winrate": 0.472
+    },
+    {
+      "player": "cptkurtka023",
+      "matches": 29,
+      "rating": 1.023,
+      "kd": 0.912,
+      "adr": 70.9,
+      "kast": 70.2,
+      "winrate": 0.538
+    },
+    {
+      "player": "sa1nty",
+      "matches": 4,
+      "rating": 1.023,
+      "kd": 0.979,
+      "adr": 71.9,
+      "kast": 69.6,
+      "winrate": 0.759
+    },
+    {
+      "player": "c4llm3su3",
+      "matches": 13,
+      "rating": 1.022,
+      "kd": 0.967,
+      "adr": 68.5,
+      "kast": 72.7,
+      "winrate": 0.362
+    },
+    {
+      "player": "levi",
+      "matches": 13,
+      "rating": 1.022,
+      "kd": 1.098,
+      "adr": 68.7,
+      "kast": 70.7,
+      "winrate": 0.513
+    },
+    {
+      "player": "danistzz",
+      "matches": 11,
+      "rating": 1.022,
+      "kd": 0.956,
+      "adr": 72.6,
+      "kast": 71.9,
+      "winrate": 0.243
+    },
+    {
+      "player": "yiksrezo",
+      "matches": 9,
+      "rating": 1.022,
+      "kd": 1.002,
+      "adr": 72.2,
+      "kast": 67.5,
+      "winrate": 0.571
+    },
+    {
+      "player": "lucky",
+      "matches": 40,
+      "rating": 1.021,
+      "kd": 0.965,
+      "adr": 71.2,
+      "kast": 72,
+      "winrate": 0.324
+    },
+    {
+      "player": "boombl4",
+      "matches": 37,
+      "rating": 1.021,
+      "kd": 0.9,
+      "adr": 71.4,
+      "kast": 70.7,
+      "winrate": 0.629
+    },
+    {
+      "player": "cmtry",
+      "matches": 38,
+      "rating": 1.02,
+      "kd": 1.016,
+      "adr": 67.1,
+      "kast": 70.8,
+      "winrate": 0.593
+    },
+    {
+      "player": "chr1zn",
+      "matches": 37,
+      "rating": 1.02,
+      "kd": 0.899,
+      "adr": 69.3,
+      "kast": 70.8,
+      "winrate": 0.417
+    },
+    {
+      "player": "bekker",
+      "matches": 11,
+      "rating": 1.019,
+      "kd": 1.003,
+      "adr": 69.6,
+      "kast": 69.7,
+      "winrate": 0.193
+    },
+    {
+      "player": "hazr",
+      "matches": 10,
+      "rating": 1.019,
+      "kd": 0.882,
+      "adr": 69.4,
+      "kast": 69.2,
+      "winrate": 0.323
+    },
+    {
+      "player": "kensizor",
+      "matches": 43,
+      "rating": 1.018,
+      "kd": 0.909,
+      "adr": 74.1,
+      "kast": 70.4,
+      "winrate": 0.4
+    },
+    {
+      "player": "cabbi",
+      "matches": 40,
+      "rating": 1.018,
+      "kd": 0.926,
+      "adr": 71.4,
+      "kast": 69.9,
+      "winrate": 0.476
+    },
+    {
+      "player": "rain",
+      "matches": 38,
+      "rating": 1.018,
+      "kd": 0.944,
+      "adr": 72,
+      "kast": 72,
+      "winrate": 0.479
+    },
+    {
+      "player": "bibu",
+      "matches": 27,
+      "rating": 1.018,
+      "kd": 1.045,
+      "adr": 69.1,
+      "kast": 71.2,
+      "winrate": 0.58
+    },
+    {
+      "player": "lack1",
+      "matches": 15,
+      "rating": 1.018,
+      "kd": 0.934,
+      "adr": 76.1,
+      "kast": 66.9,
+      "winrate": 0.269
+    },
+    {
+      "player": "mezii",
+      "matches": 33,
+      "rating": 1.017,
+      "kd": 0.996,
+      "adr": 65.7,
+      "kast": 76.3,
+      "winrate": 0.808
+    },
+    {
+      "player": "sjuush",
+      "matches": 27,
+      "rating": 1.017,
+      "kd": 0.946,
+      "adr": 67.7,
+      "kast": 70.4,
+      "winrate": 0.443
+    },
+    {
+      "player": "tom1jed",
+      "matches": 17,
+      "rating": 1.017,
+      "kd": 0.919,
+      "adr": 75.2,
+      "kast": 68.4,
+      "winrate": 0.438
+    },
+    {
+      "player": "chelo",
+      "matches": 17,
+      "rating": 1.016,
+      "kd": 0.906,
+      "adr": 71.9,
+      "kast": 73.8,
+      "winrate": 0.51
+    },
+    {
+      "player": "abizz",
+      "matches": 17,
+      "rating": 1.016,
+      "kd": 0.935,
+      "adr": 71.4,
+      "kast": 68.3,
+      "winrate": 0.438
+    },
+    {
+      "player": "ksloks",
+      "matches": 17,
+      "rating": 1.016,
+      "kd": 0.959,
+      "adr": 71.2,
+      "kast": 69,
+      "winrate": 0.271
+    },
+    {
+      "player": "starry",
+      "matches": 13,
+      "rating": 1.016,
+      "kd": 1.022,
+      "adr": 72.9,
+      "kast": 68,
+      "winrate": 0.362
+    },
+    {
+      "player": "sugar",
+      "matches": 39,
+      "rating": 1.015,
+      "kd": 0.945,
+      "adr": 69.1,
+      "kast": 73.7,
+      "winrate": 0.632
+    },
+    {
+      "player": "blytz",
+      "matches": 25,
+      "rating": 1.015,
+      "kd": 0.931,
+      "adr": 69.7,
+      "kast": 72.2,
+      "winrate": 0.509
+    },
+    {
+      "player": "sellter",
+      "matches": 47,
+      "rating": 1.014,
+      "kd": 0.928,
+      "adr": 69.7,
+      "kast": 71.6,
+      "winrate": 0.589
+    },
+    {
+      "player": "jee",
+      "matches": 32,
+      "rating": 1.014,
+      "kd": 1.026,
+      "adr": 67.1,
+      "kast": 72,
+      "winrate": 0.488
+    },
+    {
+      "player": "maka",
+      "matches": 37,
+      "rating": 1.013,
+      "kd": 1.017,
+      "adr": 70.3,
+      "kast": 71.8,
+      "winrate": 0.308
+    },
+    {
+      "player": "stadodo",
+      "matches": 19,
+      "rating": 1.013,
+      "kd": 0.984,
+      "adr": 66.3,
+      "kast": 70.8,
+      "winrate": 0.301
+    },
+    {
+      "player": "alistair",
+      "matches": 11,
+      "rating": 1.013,
+      "kd": 1.173,
+      "adr": 65.9,
+      "kast": 70.3,
+      "winrate": 0.43
+    },
+    {
+      "player": "sergelen19k",
+      "matches": 5,
+      "rating": 1.013,
+      "kd": 0.949,
+      "adr": 66.8,
+      "kast": 67.5,
+      "winrate": 0.313
+    },
+    {
+      "player": "ogwizard",
+      "matches": 5,
+      "rating": 1.013,
+      "kd": 1.162,
+      "adr": 65.3,
+      "kast": 68,
+      "winrate": 0.444
+    },
+    {
+      "player": "ryu",
+      "matches": 41,
+      "rating": 1.012,
+      "kd": 0.931,
+      "adr": 70.4,
+      "kast": 72,
+      "winrate": 0.513
+    },
+    {
+      "player": "emiliaqaq",
+      "matches": 13,
+      "rating": 1.012,
+      "kd": 0.965,
+      "adr": 66.6,
+      "kast": 64.9,
+      "winrate": 0.362
+    },
+    {
+      "player": "susp",
+      "matches": 37,
+      "rating": 1.011,
+      "kd": 0.867,
+      "adr": 67.8,
+      "kast": 73.5,
+      "winrate": 0.417
+    },
+    {
+      "player": "story",
+      "matches": 17,
+      "rating": 1.011,
+      "kd": 1.148,
+      "adr": 65.2,
+      "kast": 70.7,
+      "winrate": 0.329
+    },
+    {
+      "player": "faven",
+      "matches": 41,
+      "rating": 1.01,
+      "kd": 0.939,
+      "adr": 66.8,
+      "kast": 71,
+      "winrate": 0.587
+    },
+    {
+      "player": "s0und",
+      "matches": 5,
+      "rating": 1.01,
+      "kd": 0.828,
+      "adr": 71.5,
+      "kast": 65.3,
+      "winrate": 0.6
+    },
+    {
+      "player": "k4nfuz",
+      "matches": 38,
+      "rating": 1.008,
+      "kd": 0.908,
+      "adr": 66.3,
+      "kast": 71.8,
+      "winrate": 0.37
+    },
+    {
+      "player": "aw",
+      "matches": 26,
+      "rating": 1.008,
+      "kd": 0.972,
+      "adr": 71.5,
+      "kast": 70.1,
+      "winrate": 0.552
+    },
+    {
+      "player": "exit",
+      "matches": 26,
+      "rating": 1.008,
+      "kd": 0.941,
+      "adr": 69.5,
+      "kast": 70.4,
+      "winrate": 0.32
+    },
+    {
+      "player": "s1zzi",
+      "matches": 43,
+      "rating": 1.007,
+      "kd": 0.991,
+      "adr": 69,
+      "kast": 69.2,
+      "winrate": 0.4
+    },
+    {
+      "player": "tmkj",
+      "matches": 19,
+      "rating": 1.007,
+      "kd": 0.867,
+      "adr": 70.1,
+      "kast": 69.8,
+      "winrate": 0.301
+    },
+    {
+      "player": "keoz",
+      "matches": 16,
+      "rating": 1.006,
+      "kd": 0.843,
+      "adr": 70.2,
+      "kast": 67.7,
+      "winrate": 0.395
+    },
+    {
+      "player": "ayano",
+      "matches": 10,
+      "rating": 1.006,
+      "kd": 0.921,
+      "adr": 65.3,
+      "kast": 69.9,
+      "winrate": 0.721
+    },
+    {
+      "player": "shaik",
+      "matches": 25,
+      "rating": 1.005,
+      "kd": 0.91,
+      "adr": 69.9,
+      "kast": 68.4,
+      "winrate": 0.495
+    },
+    {
+      "player": "magic",
+      "matches": 9,
+      "rating": 1.005,
+      "kd": 1.054,
+      "adr": 66.1,
+      "kast": 71.8,
+      "winrate": 0.468
+    },
+    {
+      "player": "riskyb0b",
+      "matches": 3,
+      "rating": 1.005,
+      "kd": 1.096,
+      "adr": 80.6,
+      "kast": 65.2,
+      "winrate": 0.368
+    },
+    {
+      "player": "esenthial",
+      "matches": 43,
+      "rating": 1.003,
+      "kd": 0.946,
+      "adr": 66.6,
+      "kast": 70.2,
+      "winrate": 0.4
+    },
+    {
+      "player": "mistr",
+      "matches": 40,
+      "rating": 1.003,
+      "kd": 0.928,
+      "adr": 69,
+      "kast": 71.8,
+      "winrate": 0.476
+    },
+    {
+      "player": "robo",
+      "matches": 32,
+      "rating": 1.003,
+      "kd": 0.935,
+      "adr": 71.3,
+      "kast": 69.3,
+      "winrate": 0.581
+    },
+    {
+      "player": "raalz",
+      "matches": 26,
+      "rating": 1.003,
+      "kd": 0.876,
+      "adr": 68.9,
+      "kast": 68.5,
+      "winrate": 0.332
+    },
+    {
+      "player": "djoko",
+      "matches": 18,
+      "rating": 1.003,
+      "kd": 0.927,
+      "adr": 71.7,
+      "kast": 67.9,
+      "winrate": 0.362
+    },
+    {
+      "player": "hunter",
+      "matches": 45,
+      "rating": 1.001,
+      "kd": 0.963,
+      "adr": 69.7,
+      "kast": 72.6,
+      "winrate": 0.493
+    },
+    {
+      "player": "hen1",
+      "matches": 20,
+      "rating": 1.001,
+      "kd": 1.047,
+      "adr": 69,
+      "kast": 70.7,
+      "winrate": 0.333
+    },
+    {
+      "player": "zmb",
+      "matches": 14,
+      "rating": 1.001,
+      "kd": 0.86,
+      "adr": 73.8,
+      "kast": 69.7,
+      "winrate": 0.448
+    },
+    {
+      "player": "sapec",
+      "matches": 27,
+      "rating": 1,
+      "kd": 0.842,
+      "adr": 69.8,
+      "kast": 70.9,
+      "winrate": 0.295
+    },
+    {
+      "player": "shalfey",
+      "matches": 5,
+      "rating": 1,
+      "kd": 0.934,
+      "adr": 73.4,
+      "kast": 69.2,
+      "winrate": 0.241
+    },
+    {
+      "player": "vini",
+      "matches": 17,
+      "rating": 0.999,
+      "kd": 0.855,
+      "adr": 67.7,
+      "kast": 71.8,
+      "winrate": 0.51
+    },
+    {
+      "player": "cej0t",
+      "matches": 24,
+      "rating": 0.998,
+      "kd": 0.936,
+      "adr": 71.4,
+      "kast": 71.2,
+      "winrate": 0.357
+    },
+    {
+      "player": "snapy",
+      "matches": 19,
+      "rating": 0.998,
+      "kd": 0.823,
+      "adr": 74.8,
+      "kast": 66.6,
+      "winrate": 0.301
+    },
+    {
+      "player": "juanflatroo",
+      "matches": 13,
+      "rating": 0.998,
+      "kd": 0.902,
+      "adr": 80.5,
+      "kast": 65.2,
+      "winrate": 0.438
+    },
+    {
+      "player": "accuracytg",
+      "matches": 12,
+      "rating": 0.998,
+      "kd": 0.948,
+      "adr": 67.5,
+      "kast": 68.7,
+      "winrate": 0.522
+    },
+    {
+      "player": "ins",
+      "matches": 17,
+      "rating": 0.997,
+      "kd": 0.938,
+      "adr": 70.9,
+      "kast": 70,
+      "winrate": 0.329
+    },
+    {
+      "player": "bnox",
+      "matches": 17,
+      "rating": 0.997,
+      "kd": 0.893,
+      "adr": 69.3,
+      "kast": 72.5,
+      "winrate": 0.392
+    },
+    {
+      "player": "ultimate",
+      "matches": 28,
+      "rating": 0.996,
+      "kd": 1.008,
+      "adr": 65.2,
+      "kast": 68.7,
+      "winrate": 0.32
+    },
+    {
+      "player": "kauez",
+      "matches": 9,
+      "rating": 0.996,
+      "kd": 0.894,
+      "adr": 69.3,
+      "kast": 68.5,
+      "winrate": 0.182
+    },
+    {
+      "player": "tiger",
+      "matches": 6,
+      "rating": 0.996,
+      "kd": 0.994,
+      "adr": 73.2,
+      "kast": 68.5,
+      "winrate": 0.444
+    },
+    {
+      "player": "kye",
+      "matches": 24,
+      "rating": 0.995,
+      "kd": 0.958,
+      "adr": 71.5,
+      "kast": 69.6,
+      "winrate": 0.341
+    },
+    {
+      "player": "k0s",
+      "matches": 22,
+      "rating": 0.995,
+      "kd": 0.907,
+      "adr": 74.9,
+      "kast": 70.5,
+      "winrate": 0.394
+    },
+    {
+      "player": "destiny",
+      "matches": 20,
+      "rating": 0.995,
+      "kd": 0.93,
+      "adr": 69.4,
+      "kast": 71.2,
+      "winrate": 0.393
+    },
+    {
+      "player": "amster",
+      "matches": 12,
+      "rating": 0.995,
+      "kd": 1.014,
+      "adr": 70,
+      "kast": 72.1,
+      "winrate": 0.299
+    },
+    {
+      "player": "her1tage",
+      "matches": 10,
+      "rating": 0.995,
+      "kd": 0.854,
+      "adr": 71.1,
+      "kast": 68.9,
+      "winrate": 0.382
+    },
+    {
+      "player": "zont1x",
+      "matches": 36,
+      "rating": 0.993,
+      "kd": 0.914,
+      "adr": 67.2,
+      "kast": 74.5,
+      "winrate": 0.769
+    },
+    {
+      "player": "kaiser",
+      "matches": 17,
+      "rating": 0.993,
+      "kd": 0.994,
+      "adr": 64.4,
+      "kast": 71.5,
+      "winrate": 0.337
+    },
+    {
+      "player": "nikitea",
+      "matches": 9,
+      "rating": 0.993,
+      "kd": 0.915,
+      "adr": 64.6,
+      "kast": 71.4,
+      "winrate": 0.468
+    },
+    {
+      "player": "yami",
+      "matches": 6,
+      "rating": 0.993,
+      "kd": 1.011,
+      "adr": 68.9,
+      "kast": 67.6,
+      "winrate": 0.333
+    },
+    {
+      "player": "hades",
+      "matches": 29,
+      "rating": 0.992,
+      "kd": 1.036,
+      "adr": 64.6,
+      "kast": 70,
+      "winrate": 0.348
+    },
+    {
+      "player": "joey",
+      "matches": 24,
+      "rating": 0.992,
+      "kd": 0.95,
+      "adr": 73.6,
+      "kast": 71.1,
+      "winrate": 0.485
+    },
+    {
+      "player": "beccie",
+      "matches": 29,
+      "rating": 0.991,
+      "kd": 0.864,
+      "adr": 64.9,
+      "kast": 70.4,
+      "winrate": 0.396
+    },
+    {
+      "player": "cxzi",
+      "matches": 27,
+      "rating": 0.991,
+      "kd": 0.852,
+      "adr": 72.6,
+      "kast": 69.2,
+      "winrate": 0.42
+    },
+    {
+      "player": "reiko",
+      "matches": 22,
+      "rating": 0.991,
+      "kd": 0.932,
+      "adr": 76.7,
+      "kast": 71.3,
+      "winrate": 0.711
+    },
+    {
+      "player": "woro2k",
+      "matches": 16,
+      "rating": 0.991,
+      "kd": 1.001,
+      "adr": 70.5,
+      "kast": 68.3,
+      "winrate": 0.319
+    },
+    {
+      "player": "marix",
+      "matches": 22,
+      "rating": 0.99,
+      "kd": 0.925,
+      "adr": 68.6,
+      "kast": 70.7,
+      "winrate": 0.375
+    },
+    {
+      "player": "techno",
+      "matches": 42,
+      "rating": 0.989,
+      "kd": 0.887,
+      "adr": 66.7,
+      "kast": 69.9,
+      "winrate": 0.543
+    },
+    {
+      "player": "mo0n",
+      "matches": 23,
+      "rating": 0.989,
+      "kd": 1.04,
+      "adr": 69.2,
+      "kast": 68.1,
+      "winrate": 0.553
+    },
+    {
+      "player": "shane",
+      "matches": 10,
+      "rating": 0.989,
+      "kd": 0.87,
+      "adr": 69.5,
+      "kast": 68.2,
+      "winrate": 0.355
+    },
+    {
+      "player": "volt",
+      "matches": 28,
+      "rating": 0.988,
+      "kd": 0.881,
+      "adr": 67.1,
+      "kast": 73.4,
+      "winrate": 0.468
+    },
+    {
+      "player": "eskyy",
+      "matches": 26,
+      "rating": 0.988,
+      "kd": 0.868,
+      "adr": 66,
+      "kast": 68.8,
+      "winrate": 0.309
+    },
+    {
+      "player": "saffee",
+      "matches": 14,
+      "rating": 0.988,
+      "kd": 1.015,
+      "adr": 67.5,
+      "kast": 67.5,
+      "winrate": 0.41
+    },
+    {
+      "player": "krad",
+      "matches": 8,
+      "rating": 0.988,
+      "kd": 0.876,
+      "adr": 75,
+      "kast": 66.8,
+      "winrate": 0.1
+    },
+    {
+      "player": "tw1sterzaza",
+      "matches": 4,
+      "rating": 0.988,
+      "kd": 0.871,
+      "adr": 71.1,
+      "kast": 71.5,
+      "winrate": 0.75
+    },
+    {
+      "player": "beastik",
+      "matches": 36,
+      "rating": 0.987,
+      "kd": 0.892,
+      "adr": 69.6,
+      "kast": 71.2,
+      "winrate": 0.482
+    },
+    {
+      "player": "br0",
+      "matches": 22,
+      "rating": 0.987,
+      "kd": 0.838,
+      "adr": 70.1,
+      "kast": 69.2,
+      "winrate": 0.235
+    },
+    {
+      "player": "hardzao",
+      "matches": 8,
+      "rating": 0.987,
+      "kd": 0.893,
+      "adr": 71.8,
+      "kast": 72.9,
+      "winrate": 0.37
+    },
+    {
+      "player": "get-jeka",
+      "matches": 23,
+      "rating": 0.984,
+      "kd": 0.925,
+      "adr": 67.3,
+      "kast": 74.4,
+      "winrate": 0.442
+    },
+    {
+      "player": "liazz",
+      "matches": 11,
+      "rating": 0.984,
+      "kd": 0.98,
+      "adr": 67.8,
+      "kast": 72.4,
+      "winrate": 0.43
+    },
+    {
+      "player": "podi",
+      "matches": 13,
+      "rating": 0.983,
+      "kd": 1.022,
+      "adr": 66.6,
+      "kast": 68.4,
+      "winrate": 0.296
+    },
+    {
+      "player": "mercury",
+      "matches": 32,
+      "rating": 0.982,
+      "kd": 0.92,
+      "adr": 68.1,
+      "kast": 69.8,
+      "winrate": 0.488
+    },
+    {
+      "player": "jw",
+      "matches": 29,
+      "rating": 0.981,
+      "kd": 0.952,
+      "adr": 70,
+      "kast": 69.7,
+      "winrate": 0.507
+    },
+    {
+      "player": "blitz",
+      "matches": 42,
+      "rating": 0.98,
+      "kd": 0.888,
+      "adr": 74.5,
+      "kast": 69.6,
+      "winrate": 0.543
+    },
+    {
+      "player": "jba",
+      "matches": 31,
+      "rating": 0.98,
+      "kd": 0.902,
+      "adr": 66.2,
+      "kast": 68.7,
+      "winrate": 0.392
+    },
+    {
+      "player": "darkmeister",
+      "matches": 4,
+      "rating": 0.98,
+      "kd": 1.085,
+      "adr": 71.1,
+      "kast": 71.7,
+      "winrate": 0.692
+    },
+    {
+      "player": "onic",
+      "matches": 29,
+      "rating": 0.979,
+      "kd": 0.865,
+      "adr": 65.6,
+      "kast": 70.9,
+      "winrate": 0.538
+    },
+    {
+      "player": "k1not1",
+      "matches": 11,
+      "rating": 0.979,
+      "kd": 1.001,
+      "adr": 61.5,
+      "kast": 72.5,
+      "winrate": 0.59
+    },
+    {
+      "player": "snow",
+      "matches": 32,
+      "rating": 0.978,
+      "kd": 0.917,
+      "adr": 68.6,
+      "kast": 69.4,
+      "winrate": 0.434
+    },
+    {
+      "player": "lekr0",
+      "matches": 30,
+      "rating": 0.978,
+      "kd": 0.848,
+      "adr": 68.9,
+      "kast": 69,
+      "winrate": 0.323
+    },
+    {
+      "player": "kade0",
+      "matches": 18,
+      "rating": 0.978,
+      "kd": 0.871,
+      "adr": 68.7,
+      "kast": 69.5,
+      "winrate": 0.574
+    },
+    {
+      "player": "happ",
+      "matches": 14,
+      "rating": 0.978,
+      "kd": 0.868,
+      "adr": 63.7,
+      "kast": 69.9,
+      "winrate": 0.448
+    },
+    {
+      "player": "snk",
+      "matches": 14,
+      "rating": 0.978,
+      "kd": 0.962,
+      "adr": 68.2,
+      "kast": 68.8,
+      "winrate": 0.365
+    },
+    {
+      "player": "drop",
+      "matches": 9,
+      "rating": 0.978,
+      "kd": 0.916,
+      "adr": 73.6,
+      "kast": 69.5,
+      "winrate": 0.182
+    },
+    {
+      "player": "drg",
+      "matches": 4,
+      "rating": 0.978,
+      "kd": 0.917,
+      "adr": 65.2,
+      "kast": 72.4,
+      "winrate": 0.4
+    },
+    {
+      "player": "neofrag",
+      "matches": 5,
+      "rating": 0.976,
+      "kd": 0.93,
+      "adr": 76,
+      "kast": 67.5,
+      "winrate": 0.2
+    },
+    {
+      "player": "1eer",
+      "matches": 43,
+      "rating": 0.975,
+      "kd": 0.842,
+      "adr": 68.1,
+      "kast": 70.7,
+      "winrate": 0.567
+    },
+    {
+      "player": "tmb",
+      "matches": 29,
+      "rating": 0.975,
+      "kd": 0.83,
+      "adr": 71.1,
+      "kast": 71.1,
+      "winrate": 0.427
+    },
+    {
+      "player": "reyoz",
+      "matches": 29,
+      "rating": 0.975,
+      "kd": 0.927,
+      "adr": 68.8,
+      "kast": 69.6,
+      "winrate": 0.433
+    },
+    {
+      "player": "mistem",
+      "matches": 12,
+      "rating": 0.975,
+      "kd": 0.913,
+      "adr": 69.7,
+      "kast": 68.8,
+      "winrate": 0.564
+    },
+    {
+      "player": "diozera",
+      "matches": 13,
+      "rating": 0.974,
+      "kd": 0.906,
+      "adr": 67.8,
+      "kast": 68.7,
+      "winrate": 0.138
+    },
+    {
+      "player": "n0te",
+      "matches": 5,
+      "rating": 0.974,
+      "kd": 0.951,
+      "adr": 72.7,
+      "kast": 63.2,
+      "winrate": 0.4
+    },
+    {
+      "player": "vsm",
+      "matches": 32,
+      "rating": 0.973,
+      "kd": 0.928,
+      "adr": 69.2,
+      "kast": 67.6,
+      "winrate": 0.434
+    },
+    {
+      "player": "jcobbb",
+      "matches": 31,
+      "rating": 0.973,
+      "kd": 0.888,
+      "adr": 66.9,
+      "kast": 69,
+      "winrate": 0.35
+    },
+    {
+      "player": "freq",
+      "matches": 17,
+      "rating": 0.973,
+      "kd": 0.884,
+      "adr": 67.3,
+      "kast": 70.6,
+      "winrate": 0.337
+    },
+    {
+      "player": "sdy",
+      "matches": 12,
+      "rating": 0.973,
+      "kd": 0.821,
+      "adr": 71.8,
+      "kast": 70.8,
+      "winrate": 0.208
+    },
+    {
+      "player": "senka",
+      "matches": 44,
+      "rating": 0.972,
+      "kd": 0.825,
+      "adr": 69.2,
+      "kast": 70.2,
+      "winrate": 0.614
+    },
+    {
+      "player": "alex666",
+      "matches": 43,
+      "rating": 0.972,
+      "kd": 0.873,
+      "adr": 66.6,
+      "kast": 70.6,
+      "winrate": 0.4
+    },
+    {
+      "player": "upe",
+      "matches": 42,
+      "rating": 0.972,
+      "kd": 0.93,
+      "adr": 64.2,
+      "kast": 71.8,
+      "winrate": 0.72
+    },
+    {
+      "player": "isak",
+      "matches": 22,
+      "rating": 0.972,
+      "kd": 0.929,
+      "adr": 69.8,
+      "kast": 67.7,
+      "winrate": 0.435
+    },
+    {
+      "player": "brilliance",
+      "matches": 5,
+      "rating": 0.972,
+      "kd": 0.82,
+      "adr": 71.5,
+      "kast": 69.1,
+      "winrate": 0.483
+    },
+    {
+      "player": "dex",
+      "matches": 29,
+      "rating": 0.97,
+      "kd": 0.907,
+      "adr": 70.2,
+      "kast": 67.7,
+      "winrate": 0.507
+    },
+    {
+      "player": "h1te",
+      "matches": 15,
+      "rating": 0.97,
+      "kd": 0.983,
+      "adr": 64.1,
+      "kast": 70.4,
+      "winrate": 0.456
+    },
+    {
+      "player": "meyern",
+      "matches": 35,
+      "rating": 0.969,
+      "kd": 1.033,
+      "adr": 60.7,
+      "kast": 71.5,
+      "winrate": 0.667
+    },
+    {
+      "player": "sfade8",
+      "matches": 26,
+      "rating": 0.969,
+      "kd": 0.878,
+      "adr": 74.6,
+      "kast": 68.6,
+      "winrate": 0.552
+    },
+    {
+      "player": "qikert",
+      "matches": 24,
+      "rating": 0.969,
+      "kd": 0.882,
+      "adr": 67.3,
+      "kast": 73.2,
+      "winrate": 0.503
+    },
+    {
+      "player": "rigon",
+      "matches": 22,
+      "rating": 0.969,
+      "kd": 0.907,
+      "adr": 72.1,
+      "kast": 69.8,
+      "winrate": 0.445
+    },
+    {
+      "player": "polbandana",
+      "matches": 4,
+      "rating": 0.969,
+      "kd": 0.899,
+      "adr": 59.3,
+      "kast": 73.3,
+      "winrate": 0.444
+    },
+    {
+      "player": "nikodeon",
+      "matches": 32,
+      "rating": 0.968,
+      "kd": 0.894,
+      "adr": 68.9,
+      "kast": 68.7,
+      "winrate": 0.398
+    },
+    {
+      "player": "kei",
+      "matches": 33,
+      "rating": 0.967,
+      "kd": 0.918,
+      "adr": 73.3,
+      "kast": 67.9,
+      "winrate": 0.288
+    },
+    {
+      "player": "br4tko",
+      "matches": 26,
+      "rating": 0.967,
+      "kd": 0.911,
+      "adr": 67.6,
+      "kast": 70.1,
+      "winrate": 0.327
+    },
+    {
+      "player": "grizz",
+      "matches": 19,
+      "rating": 0.967,
+      "kd": 0.91,
+      "adr": 74.4,
+      "kast": 65.4,
+      "winrate": 0.308
+    },
+    {
+      "player": "shadiy",
+      "matches": 10,
+      "rating": 0.967,
+      "kd": 0.868,
+      "adr": 70.5,
+      "kast": 69.5,
+      "winrate": 0.323
+    },
+    {
+      "player": "naitte",
+      "matches": 17,
+      "rating": 0.965,
+      "kd": 0.857,
+      "adr": 73.7,
+      "kast": 69.4,
+      "winrate": 0.271
+    },
+    {
+      "player": "awayken",
+      "matches": 17,
+      "rating": 0.965,
+      "kd": 1.002,
+      "adr": 62.2,
+      "kast": 73,
+      "winrate": 0.625
+    },
+    {
+      "player": "xielo",
+      "matches": 33,
+      "rating": 0.964,
+      "kd": 0.864,
+      "adr": 67,
+      "kast": 67.9,
+      "winrate": 0.437
+    },
+    {
+      "player": "broky",
+      "matches": 26,
+      "rating": 0.964,
+      "kd": 1.023,
+      "adr": 64.9,
+      "kast": 70.1,
+      "winrate": 0.263
+    },
+    {
+      "player": "kiro",
+      "matches": 18,
+      "rating": 0.964,
+      "kd": 0.96,
+      "adr": 68,
+      "kast": 69.6,
+      "winrate": 0.343
+    },
+    {
+      "player": "n1xen",
+      "matches": 11,
+      "rating": 0.964,
+      "kd": 0.953,
+      "adr": 73.4,
+      "kast": 67.9,
+      "winrate": 0.193
+    },
+    {
+      "player": "tabsen",
+      "matches": 41,
+      "rating": 0.963,
+      "kd": 0.826,
+      "adr": 66.1,
+      "kast": 72.9,
+      "winrate": 0.587
+    },
+    {
+      "player": "art",
+      "matches": 40,
+      "rating": 0.963,
+      "kd": 0.868,
+      "adr": 70.5,
+      "kast": 71.3,
+      "winrate": 0.617
+    },
+    {
+      "player": "snav",
+      "matches": 24,
+      "rating": 0.963,
+      "kd": 0.904,
+      "adr": 69.5,
+      "kast": 69.3,
+      "winrate": 0.302
+    },
+    {
+      "player": "xm1nd",
+      "matches": 22,
+      "rating": 0.963,
+      "kd": 1.047,
+      "adr": 67.3,
+      "kast": 68.5,
+      "winrate": 0.354
+    },
+    {
+      "player": "brooxsy",
+      "matches": 18,
+      "rating": 0.963,
+      "kd": 0.875,
+      "adr": 72.6,
+      "kast": 69.7,
+      "winrate": 0.362
+    },
+    {
+      "player": "lucaozy",
+      "matches": 20,
+      "rating": 0.962,
+      "kd": 0.932,
+      "adr": 72.3,
+      "kast": 68.2,
+      "winrate": 0.354
+    },
+    {
+      "player": "bl1x1",
+      "matches": 42,
+      "rating": 0.961,
+      "kd": 0.86,
+      "adr": 64.9,
+      "kast": 70.2,
+      "winrate": 0.403
+    },
+    {
+      "player": "k1to",
+      "matches": 36,
+      "rating": 0.96,
+      "kd": 0.831,
+      "adr": 71.7,
+      "kast": 68.1,
+      "winrate": 0.376
+    },
+    {
+      "player": "jota",
+      "matches": 20,
+      "rating": 0.96,
+      "kd": 0.942,
+      "adr": 73.1,
+      "kast": 67.5,
+      "winrate": 0.333
+    },
+    {
+      "player": "svedjehed",
+      "matches": 5,
+      "rating": 0.96,
+      "kd": 0.85,
+      "adr": 60.1,
+      "kast": 69.6,
+      "winrate": 0.4
+    },
+    {
+      "player": "cass1n",
+      "matches": 26,
+      "rating": 0.959,
+      "kd": 1.027,
+      "adr": 67.6,
+      "kast": 71.2,
+      "winrate": 0.461
+    },
+    {
+      "player": "titulus",
+      "matches": 5,
+      "rating": 0.958,
+      "kd": 0.786,
+      "adr": 68.8,
+      "kast": 72.3,
+      "winrate": 0.375
+    },
+    {
+      "player": "krasnal",
+      "matches": 7,
+      "rating": 0.957,
+      "kd": 0.926,
+      "adr": 71.4,
+      "kast": 69.2,
+      "winrate": 0.286
+    },
+    {
+      "player": "buster",
+      "matches": 3,
+      "rating": 0.957,
+      "kd": 0.919,
+      "adr": 68.1,
+      "kast": 69.2,
+      "winrate": 0
+    },
+    {
+      "player": "interz",
+      "matches": 3,
+      "rating": 0.957,
+      "kd": 0.933,
+      "adr": 62.6,
+      "kast": 73.4,
+      "winrate": 0.667
+    },
+    {
+      "player": "heap",
+      "matches": 30,
+      "rating": 0.956,
+      "kd": 0.918,
+      "adr": 68.5,
+      "kast": 67.7,
+      "winrate": 0.323
+    },
+    {
+      "player": "anber",
+      "matches": 12,
+      "rating": 0.955,
+      "kd": 0.812,
+      "adr": 67.3,
+      "kast": 67.1,
+      "winrate": 0.183
+    },
+    {
+      "player": "ztr",
+      "matches": 27,
+      "rating": 0.954,
+      "kd": 0.856,
+      "adr": 69.9,
+      "kast": 69,
+      "winrate": 0.464
+    },
+    {
+      "player": "s1n",
+      "matches": 31,
+      "rating": 0.953,
+      "kd": 0.867,
+      "adr": 62.8,
+      "kast": 69.7,
+      "winrate": 0.392
+    },
+    {
+      "player": "neityu",
+      "matches": 23,
+      "rating": 0.953,
+      "kd": 0.859,
+      "adr": 67.6,
+      "kast": 70.9,
+      "winrate": 0.502
+    },
+    {
+      "player": "kyxsan",
+      "matches": 20,
+      "rating": 0.953,
+      "kd": 0.859,
+      "adr": 62,
+      "kast": 71.6,
+      "winrate": 0.721
+    },
+    {
+      "player": "modesavage",
+      "matches": 5,
+      "rating": 0.952,
+      "kd": 0.946,
+      "adr": 64.1,
+      "kast": 65.4,
+      "winrate": 0.4
+    },
+    {
+      "player": "malkiss",
+      "matches": 12,
+      "rating": 0.951,
+      "kd": 1.094,
+      "adr": 65.4,
+      "kast": 73.5,
+      "winrate": 0.299
+    },
+    {
+      "player": "ssen",
+      "matches": 11,
+      "rating": 0.95,
+      "kd": 0.843,
+      "adr": 64.1,
+      "kast": 72.3,
+      "winrate": 0.193
+    },
+    {
+      "player": "ex3rcice",
+      "matches": 33,
+      "rating": 0.949,
+      "kd": 0.888,
+      "adr": 66.4,
+      "kast": 68.1,
+      "winrate": 0.293
+    },
+    {
+      "player": "sol",
+      "matches": 26,
+      "rating": 0.949,
+      "kd": 0.883,
+      "adr": 67.5,
+      "kast": 68.5,
+      "winrate": 0.425
+    },
+    {
+      "player": "hasteka",
+      "matches": 6,
+      "rating": 0.948,
+      "kd": 0.836,
+      "adr": 72.4,
+      "kast": 69.5,
+      "winrate": 0.333
+    },
+    {
+      "player": "jt",
+      "matches": 30,
+      "rating": 0.947,
+      "kd": 0.821,
+      "adr": 67.6,
+      "kast": 68.1,
+      "winrate": 0.476
+    },
+    {
+      "player": "dr3nquu",
+      "matches": 30,
+      "rating": 0.947,
+      "kd": 0.869,
+      "adr": 67.9,
+      "kast": 67.7,
+      "winrate": 0.336
+    },
+    {
+      "player": "nopeej",
+      "matches": 19,
+      "rating": 0.947,
+      "kd": 0.866,
+      "adr": 65.4,
+      "kast": 70.2,
+      "winrate": 0.301
+    },
+    {
+      "player": "uli",
+      "matches": 3,
+      "rating": 0.947,
+      "kd": 0.778,
+      "adr": 67.8,
+      "kast": 72.5,
+      "winrate": 0.333
+    },
+    {
+      "player": "belchonokk",
+      "matches": 43,
+      "rating": 0.946,
+      "kd": 0.853,
+      "adr": 65.3,
+      "kast": 68.7,
+      "winrate": 0.467
+    },
+    {
+      "player": "kalash",
+      "matches": 27,
+      "rating": 0.945,
+      "kd": 0.856,
+      "adr": 66,
+      "kast": 68,
+      "winrate": 0.475
+    },
+    {
+      "player": "opdust",
+      "matches": 32,
+      "rating": 0.944,
+      "kd": 0.83,
+      "adr": 67,
+      "kast": 68.8,
+      "winrate": 0.398
+    },
+    {
+      "player": "kinqie",
+      "matches": 20,
+      "rating": 0.944,
+      "kd": 0.818,
+      "adr": 65.8,
+      "kast": 69.7,
+      "winrate": 0.354
+    },
+    {
+      "player": "sm3t",
+      "matches": 8,
+      "rating": 0.941,
+      "kd": 0.913,
+      "adr": 69.7,
+      "kast": 64.9,
+      "winrate": 0.431
+    },
+    {
+      "player": "addict",
+      "matches": 7,
+      "rating": 0.941,
+      "kd": 0.795,
+      "adr": 66.7,
+      "kast": 68.9,
+      "winrate": 0.357
+    },
+    {
+      "player": "summer",
+      "matches": 6,
+      "rating": 0.941,
+      "kd": 0.85,
+      "adr": 70.2,
+      "kast": 65.7,
+      "winrate": 0.444
+    },
+    {
+      "player": "wumbo",
+      "matches": 5,
+      "rating": 0.939,
+      "kd": 0.807,
+      "adr": 68,
+      "kast": 69.5,
+      "winrate": 0.444
+    },
+    {
+      "player": "maden",
+      "matches": 23,
+      "rating": 0.938,
+      "kd": 0.871,
+      "adr": 73.7,
+      "kast": 67.3,
+      "winrate": 0.3
+    },
+    {
+      "player": "infinite",
+      "matches": 13,
+      "rating": 0.938,
+      "kd": 0.856,
+      "adr": 68.4,
+      "kast": 69.3,
+      "winrate": 0.349
+    },
+    {
+      "player": "smash",
+      "matches": 12,
+      "rating": 0.938,
+      "kd": 0.813,
+      "adr": 68.3,
+      "kast": 67.6,
+      "winrate": 0.481
+    },
+    {
+      "player": "sliimey",
+      "matches": 3,
+      "rating": 0.938,
+      "kd": 0.866,
+      "adr": 67.7,
+      "kast": 68.5,
+      "winrate": 0.25
+    },
+    {
+      "player": "bodyy",
+      "matches": 25,
+      "rating": 0.936,
+      "kd": 0.865,
+      "adr": 72.2,
+      "kast": 69.1,
+      "winrate": 0.366
+    },
+    {
+      "player": "nota",
+      "matches": 32,
+      "rating": 0.935,
+      "kd": 0.85,
+      "adr": 68.3,
+      "kast": 68.9,
+      "winrate": 0.449
+    },
+    {
+      "player": "divine",
+      "matches": 14,
+      "rating": 0.935,
+      "kd": 1.038,
+      "adr": 62.1,
+      "kast": 69.4,
+      "winrate": 0.448
+    },
+    {
+      "player": "kl1o",
+      "matches": 12,
+      "rating": 0.935,
+      "kd": 0.873,
+      "adr": 65.1,
+      "kast": 72.8,
+      "winrate": 0.299
+    },
+    {
+      "player": "st0m4k",
+      "matches": 10,
+      "rating": 0.935,
+      "kd": 0.836,
+      "adr": 69.1,
+      "kast": 66.7,
+      "winrate": 0.286
+    },
+    {
+      "player": "maj3r",
+      "matches": 36,
+      "rating": 0.933,
+      "kd": 0.842,
+      "adr": 63,
+      "kast": 69.9,
+      "winrate": 0.53
+    },
+    {
+      "player": "fessor",
+      "matches": 9,
+      "rating": 0.933,
+      "kd": 0.851,
+      "adr": 70.2,
+      "kast": 68.4,
+      "winrate": 0.52
+    },
+    {
+      "player": "xerolte",
+      "matches": 19,
+      "rating": 0.93,
+      "kd": 0.847,
+      "adr": 67.2,
+      "kast": 64.4,
+      "winrate": 0.328
+    },
+    {
+      "player": "nosrac",
+      "matches": 24,
+      "rating": 0.929,
+      "kd": 0.861,
+      "adr": 68.6,
+      "kast": 67.5,
+      "winrate": 0.302
+    },
+    {
+      "player": "bl4sez",
+      "matches": 15,
+      "rating": 0.929,
+      "kd": 0.853,
+      "adr": 63.6,
+      "kast": 68.8,
+      "winrate": 0.418
+    },
+    {
+      "player": "kelien",
+      "matches": 39,
+      "rating": 0.928,
+      "kd": 0.814,
+      "adr": 65.9,
+      "kast": 66.7,
+      "winrate": 0.516
+    },
+    {
+      "player": "cool4st",
+      "matches": 5,
+      "rating": 0.928,
+      "kd": 0.951,
+      "adr": 65.5,
+      "kast": 67.3,
+      "winrate": 0.333
+    },
+    {
+      "player": "woozzzi",
+      "matches": 5,
+      "rating": 0.928,
+      "kd": 1.018,
+      "adr": 69.5,
+      "kast": 68.3,
+      "winrate": 0.2
+    },
+    {
+      "player": "wolfy",
+      "matches": 14,
+      "rating": 0.926,
+      "kd": 0.897,
+      "adr": 64.3,
+      "kast": 68.4,
+      "winrate": 0.274
+    },
+    {
+      "player": "motm",
+      "matches": 14,
+      "rating": 0.926,
+      "kd": 0.868,
+      "adr": 64.4,
+      "kast": 67.5,
+      "winrate": 0.274
+    },
+    {
+      "player": "z4kr",
+      "matches": 13,
+      "rating": 0.926,
+      "kd": 1.025,
+      "adr": 65.6,
+      "kast": 67.2,
+      "winrate": 0.362
+    },
+    {
+      "player": "moriisko",
+      "matches": 5,
+      "rating": 0.926,
+      "kd": 0.842,
+      "adr": 65.8,
+      "kast": 67,
+      "winrate": 0.2
+    },
+    {
+      "player": "brnz4n",
+      "matches": 28,
+      "rating": 0.924,
+      "kd": 0.845,
+      "adr": 64.8,
+      "kast": 69.2,
+      "winrate": 0.539
+    },
+    {
+      "player": "zedko",
+      "matches": 5,
+      "rating": 0.924,
+      "kd": 0.821,
+      "adr": 61.6,
+      "kast": 69.1,
+      "winrate": 0.364
+    },
+    {
+      "player": "alpha",
+      "matches": 42,
+      "rating": 0.923,
+      "kd": 0.869,
+      "adr": 69.3,
+      "kast": 69.3,
+      "winrate": 0.403
+    },
+    {
+      "player": "savage",
+      "matches": 10,
+      "rating": 0.923,
+      "kd": 0.834,
+      "adr": 63.4,
+      "kast": 67.7,
+      "winrate": 0.323
+    },
+    {
+      "player": "biguzera",
+      "matches": 32,
+      "rating": 0.922,
+      "kd": 0.84,
+      "adr": 67,
+      "kast": 66.6,
+      "winrate": 0.434
+    },
+    {
+      "player": "ligroo",
+      "matches": 4,
+      "rating": 0.922,
+      "kd": 0.83,
+      "adr": 70.3,
+      "kast": 66.8,
+      "winrate": 0.2
+    },
+    {
+      "player": "graviti",
+      "matches": 37,
+      "rating": 0.921,
+      "kd": 0.873,
+      "adr": 65.4,
+      "kast": 70.8,
+      "winrate": 0.308
+    },
+    {
+      "player": "gizmy",
+      "matches": 8,
+      "rating": 0.921,
+      "kd": 0.838,
+      "adr": 66.7,
+      "kast": 65.7,
+      "winrate": 0.425
+    },
+    {
+      "player": "dukefissura",
+      "matches": 20,
+      "rating": 0.92,
+      "kd": 0.803,
+      "adr": 66.6,
+      "kast": 67.1,
+      "winrate": 0.48
+    },
+    {
+      "player": "def1zer",
+      "matches": 10,
+      "rating": 0.92,
+      "kd": 0.857,
+      "adr": 67,
+      "kast": 68.6,
+      "winrate": 0.309
+    },
+    {
+      "player": "m1key",
+      "matches": 5,
+      "rating": 0.92,
+      "kd": 0.89,
+      "adr": 68.6,
+      "kast": 69.8,
+      "winrate": 0.2
+    },
+    {
+      "player": "aldikon",
+      "matches": 3,
+      "rating": 0.92,
+      "kd": 1,
+      "adr": 63.8,
+      "kast": 73.2,
+      "winrate": 0.333
+    },
+    {
+      "player": "nin9",
+      "matches": 19,
+      "rating": 0.919,
+      "kd": 0.92,
+      "adr": 67.5,
+      "kast": 62.8,
+      "winrate": 0.255
+    },
+    {
+      "player": "nitr0",
+      "matches": 23,
+      "rating": 0.918,
+      "kd": 0.777,
+      "adr": 60.1,
+      "kast": 69.2,
+      "winrate": 0.221
+    },
+    {
+      "player": "sobol",
+      "matches": 13,
+      "rating": 0.918,
+      "kd": 0.855,
+      "adr": 65.6,
+      "kast": 70.5,
+      "winrate": 0.32
+    },
+    {
+      "player": "stanislaw",
+      "matches": 15,
+      "rating": 0.917,
+      "kd": 0.801,
+      "adr": 62.7,
+      "kast": 68.3,
+      "winrate": 0.366
+    },
+    {
+      "player": "mhn1",
+      "matches": 15,
+      "rating": 0.915,
+      "kd": 0.811,
+      "adr": 64.9,
+      "kast": 71.8,
+      "winrate": 0.6
+    },
+    {
+      "player": "fallen",
+      "matches": 31,
+      "rating": 0.914,
+      "kd": 0.835,
+      "adr": 61.1,
+      "kast": 71.2,
+      "winrate": 0.522
+    },
+    {
+      "player": "aleksib",
+      "matches": 39,
+      "rating": 0.912,
+      "kd": 0.792,
+      "adr": 60.7,
+      "kast": 72.7,
+      "winrate": 0.614
+    },
+    {
+      "player": "nickelback",
+      "matches": 24,
+      "rating": 0.912,
+      "kd": 0.775,
+      "adr": 68.4,
+      "kast": 66.1,
+      "winrate": 0.25
+    },
+    {
+      "player": "forkyz",
+      "matches": 10,
+      "rating": 0.912,
+      "kd": 0.787,
+      "adr": 71.6,
+      "kast": 65.9,
+      "winrate": 0.382
+    },
+    {
+      "player": "ariucle",
+      "matches": 7,
+      "rating": 0.912,
+      "kd": 0.788,
+      "adr": 65.6,
+      "kast": 69.9,
+      "winrate": 0.423
+    },
+    {
+      "player": "dan4o",
+      "matches": 24,
+      "rating": 0.91,
+      "kd": 0.816,
+      "adr": 62.7,
+      "kast": 66.5,
+      "winrate": 0.379
+    },
+    {
+      "player": "delle",
+      "matches": 9,
+      "rating": 0.91,
+      "kd": 0.755,
+      "adr": 67.7,
+      "kast": 68,
+      "winrate": 0.315
+    },
+    {
+      "player": "bsover",
+      "matches": 5,
+      "rating": 0.91,
+      "kd": 0.909,
+      "adr": 68.2,
+      "kast": 69.2,
+      "winrate": 0.4
+    },
+    {
+      "player": "sh1seido",
+      "matches": 3,
+      "rating": 0.91,
+      "kd": 0.767,
+      "adr": 63,
+      "kast": 66.7,
+      "winrate": 0
+    },
+    {
+      "player": "ay0k",
+      "matches": 32,
+      "rating": 0.909,
+      "kd": 0.879,
+      "adr": 61.8,
+      "kast": 67.3,
+      "winrate": 0.398
+    },
+    {
+      "player": "kunai",
+      "matches": 30,
+      "rating": 0.909,
+      "kd": 0.833,
+      "adr": 66.8,
+      "kast": 65.8,
+      "winrate": 0.352
+    },
+    {
+      "player": "something",
+      "matches": 4,
+      "rating": 0.908,
+      "kd": 0.844,
+      "adr": 64.5,
+      "kast": 67.8,
+      "winrate": 0.318
+    },
+    {
+      "player": "hooxi",
+      "matches": 41,
+      "rating": 0.906,
+      "kd": 0.771,
+      "adr": 62.3,
+      "kast": 68,
+      "winrate": 0.513
+    },
+    {
+      "player": "dexter",
+      "matches": 11,
+      "rating": 0.906,
+      "kd": 0.824,
+      "adr": 73,
+      "kast": 67.7,
+      "winrate": 0.43
+    },
+    {
+      "player": "clouden",
+      "matches": 7,
+      "rating": 0.906,
+      "kd": 0.763,
+      "adr": 71.8,
+      "kast": 67.5,
+      "winrate": 0.423
+    },
+    {
+      "player": "salazar",
+      "matches": 7,
+      "rating": 0.904,
+      "kd": 0.81,
+      "adr": 67.1,
+      "kast": 67.1,
+      "winrate": 0.58
+    },
+    {
+      "player": "max",
+      "matches": 35,
+      "rating": 0.903,
+      "kd": 0.805,
+      "adr": 62.7,
+      "kast": 69.7,
+      "winrate": 0.667
+    },
+    {
+      "player": "kursy",
+      "matches": 5,
+      "rating": 0.903,
+      "kd": 0.948,
+      "adr": 63.4,
+      "kast": 73.3,
+      "winrate": 0.351
+    },
+    {
+      "player": "wetfy",
+      "matches": 3,
+      "rating": 0.903,
+      "kd": 0.918,
+      "adr": 57.5,
+      "kast": 68,
+      "winrate": 0
+    },
+    {
+      "player": "icarus",
+      "matches": 19,
+      "rating": 0.902,
+      "kd": 0.801,
+      "adr": 64.3,
+      "kast": 67.5,
+      "winrate": 0.301
+    },
+    {
+      "player": "yab0ku",
+      "matches": 9,
+      "rating": 0.902,
+      "kd": 0.744,
+      "adr": 61.2,
+      "kast": 66.4,
+      "winrate": 0.468
+    },
+    {
+      "player": "tr0uble",
+      "matches": 8,
+      "rating": 0.901,
+      "kd": 0.866,
+      "adr": 66.5,
+      "kast": 62.1,
+      "winrate": 0.07
+    },
+    {
+      "player": "rack",
+      "matches": 4,
+      "rating": 0.9,
+      "kd": 0.914,
+      "adr": 70.1,
+      "kast": 67.8,
+      "winrate": 0.5
+    },
+    {
+      "player": "westmelon",
+      "matches": 13,
+      "rating": 0.899,
+      "kd": 0.825,
+      "adr": 64.4,
+      "kast": 67.2,
+      "winrate": 0.362
+    },
+    {
+      "player": "l1hang",
+      "matches": 6,
+      "rating": 0.898,
+      "kd": 0.86,
+      "adr": 70.5,
+      "kast": 66.2,
+      "winrate": 0.444
+    },
+    {
+      "player": "puuha",
+      "matches": 3,
+      "rating": 0.897,
+      "kd": 0.853,
+      "adr": 64.2,
+      "kast": 66.9,
+      "winrate": 0.333
+    },
+    {
+      "player": "zevy",
+      "matches": 26,
+      "rating": 0.895,
+      "kd": 0.945,
+      "adr": 64.4,
+      "kast": 68.5,
+      "winrate": 0.32
+    },
+    {
+      "player": "osee",
+      "matches": 19,
+      "rating": 0.895,
+      "kd": 0.869,
+      "adr": 60.5,
+      "kast": 68.1,
+      "winrate": 0.176
+    },
+    {
+      "player": "gooddeph",
+      "matches": 18,
+      "rating": 0.895,
+      "kd": 0.832,
+      "adr": 60.2,
+      "kast": 69.7,
+      "winrate": 0.371
+    },
+    {
+      "player": "chengking",
+      "matches": 6,
+      "rating": 0.89,
+      "kd": 0.842,
+      "adr": 65.6,
+      "kast": 69.2,
+      "winrate": 0.444
+    },
+    {
+      "player": "felps",
+      "matches": 19,
+      "rating": 0.887,
+      "kd": 0.842,
+      "adr": 69.8,
+      "kast": 67.9,
+      "winrate": 0.503
+    },
+    {
+      "player": "wood7",
+      "matches": 17,
+      "rating": 0.886,
+      "kd": 0.821,
+      "adr": 67.2,
+      "kast": 68.4,
+      "winrate": 0.271
+    },
+    {
+      "player": "refuzr",
+      "matches": 3,
+      "rating": 0.886,
+      "kd": 0.745,
+      "adr": 57.4,
+      "kast": 69.1,
+      "winrate": 0.588
+    },
+    {
+      "player": "chayjesus",
+      "matches": 9,
+      "rating": 0.885,
+      "kd": 0.843,
+      "adr": 67.2,
+      "kast": 69.3,
+      "winrate": 0.182
+    },
+    {
+      "player": "peeping",
+      "matches": 5,
+      "rating": 0.885,
+      "kd": 0.71,
+      "adr": 61.5,
+      "kast": 70.4,
+      "winrate": 0.35
+    },
+    {
+      "player": "fear",
+      "matches": 32,
+      "rating": 0.883,
+      "kd": 0.793,
+      "adr": 65.4,
+      "kast": 70.2,
+      "winrate": 0.311
+    },
+    {
+      "player": "innocent",
+      "matches": 34,
+      "rating": 0.882,
+      "kd": 0.832,
+      "adr": 64.5,
+      "kast": 68.2,
+      "winrate": 0.388
+    },
+    {
+      "player": "maison",
+      "matches": 21,
+      "rating": 0.88,
+      "kd": 0.793,
+      "adr": 60.6,
+      "kast": 64.8,
+      "winrate": 0.386
+    },
+    {
+      "player": "snappi",
+      "matches": 27,
+      "rating": 0.879,
+      "kd": 0.83,
+      "adr": 62.6,
+      "kast": 66.1,
+      "winrate": 0.443
+    },
+    {
+      "player": "kumao",
+      "matches": 10,
+      "rating": 0.879,
+      "kd": 0.812,
+      "adr": 61.6,
+      "kast": 69.7,
+      "winrate": 0.382
+    },
+    {
+      "player": "spellan",
+      "matches": 49,
+      "rating": 0.877,
+      "kd": 0.771,
+      "adr": 67.9,
+      "kast": 68.8,
+      "winrate": 0.472
+    },
+    {
+      "player": "pr1metapz",
+      "matches": 14,
+      "rating": 0.876,
+      "kd": 0.743,
+      "adr": 56,
+      "kast": 71.1,
+      "winrate": 0.293
+    },
+    {
+      "player": "snax",
+      "matches": 35,
+      "rating": 0.875,
+      "kd": 0.76,
+      "adr": 65.3,
+      "kast": 66.7,
+      "winrate": 0.539
+    },
+    {
+      "player": "aiyvan",
+      "matches": 3,
+      "rating": 0.873,
+      "kd": 0.848,
+      "adr": 64.2,
+      "kast": 73.4,
+      "winrate": 0.333
+    },
+    {
+      "player": "controlez",
+      "matches": 19,
+      "rating": 0.872,
+      "kd": 0.801,
+      "adr": 67.3,
+      "kast": 61.6,
+      "winrate": 0.255
+    },
+    {
+      "player": "vert",
+      "matches": 9,
+      "rating": 0.872,
+      "kd": 0.844,
+      "adr": 64.4,
+      "kast": 69.8,
+      "winrate": 0.593
+    },
+    {
+      "player": "nicx",
+      "matches": 21,
+      "rating": 0.871,
+      "kd": 0.815,
+      "adr": 58,
+      "kast": 65.6,
+      "winrate": 0.377
+    },
+    {
+      "player": "corn",
+      "matches": 6,
+      "rating": 0.87,
+      "kd": 0.714,
+      "adr": 59,
+      "kast": 60.2,
+      "winrate": 0.204
+    },
+    {
+      "player": "leomonster",
+      "matches": 14,
+      "rating": 0.868,
+      "kd": 0.823,
+      "adr": 69.3,
+      "kast": 68,
+      "winrate": 0.448
+    },
+    {
+      "player": "maggent",
+      "matches": 8,
+      "rating": 0.867,
+      "kd": 0.805,
+      "adr": 62.7,
+      "kast": 63.1,
+      "winrate": 0.07
+    },
+    {
+      "player": "strogo",
+      "matches": 35,
+      "rating": 0.863,
+      "kd": 0.77,
+      "adr": 59,
+      "kast": 67.2,
+      "winrate": 0.518
+    },
+    {
+      "player": "aleks",
+      "matches": 6,
+      "rating": 0.862,
+      "kd": 0.699,
+      "adr": 65.6,
+      "kast": 59.1,
+      "winrate": 0.204
+    },
+    {
+      "player": "fer",
+      "matches": 5,
+      "rating": 0.862,
+      "kd": 0.704,
+      "adr": 68.6,
+      "kast": 61.7,
+      "winrate": 0
+    },
+    {
+      "player": "k1-fida",
+      "matches": 5,
+      "rating": 0.862,
+      "kd": 0.91,
+      "adr": 60,
+      "kast": 68,
+      "winrate": 0.2
+    },
+    {
+      "player": "sh1fu",
+      "matches": 6,
+      "rating": 0.861,
+      "kd": 0.714,
+      "adr": 62.1,
+      "kast": 65.8,
+      "winrate": 0.149
+    },
+    {
+      "player": "mutiris",
+      "matches": 12,
+      "rating": 0.86,
+      "kd": 0.791,
+      "adr": 64.1,
+      "kast": 66.1,
+      "winrate": 0.129
+    },
+    {
+      "player": "majky",
+      "matches": 5,
+      "rating": 0.859,
+      "kd": 0.788,
+      "adr": 63,
+      "kast": 64.4,
+      "winrate": 0.364
+    },
+    {
+      "player": "kensi",
+      "matches": 7,
+      "rating": 0.858,
+      "kd": 0.829,
+      "adr": 62.2,
+      "kast": 66.9,
+      "winrate": 0.109
+    },
+    {
+      "player": "nekiz",
+      "matches": 20,
+      "rating": 0.855,
+      "kd": 0.73,
+      "adr": 57.6,
+      "kast": 64.3,
+      "winrate": 0.333
+    },
+    {
+      "player": "aragornn",
+      "matches": 12,
+      "rating": 0.854,
+      "kd": 0.719,
+      "adr": 60.7,
+      "kast": 70.3,
+      "winrate": 0.129
+    },
+    {
+      "player": "nardes",
+      "matches": 13,
+      "rating": 0.853,
+      "kd": 0.868,
+      "adr": 61,
+      "kast": 65.4,
+      "winrate": 0.138
+    },
+    {
+      "player": "mlhzin",
+      "matches": 18,
+      "rating": 0.849,
+      "kd": 0.792,
+      "adr": 61.7,
+      "kast": 69.2,
+      "winrate": 0.386
+    },
+    {
+      "player": "ray5ive",
+      "matches": 3,
+      "rating": 0.849,
+      "kd": 0.759,
+      "adr": 64.4,
+      "kast": 69.9,
+      "winrate": 0
+    },
+    {
+      "player": "emstar",
+      "matches": 14,
+      "rating": 0.848,
+      "kd": 0.711,
+      "adr": 63,
+      "kast": 66,
+      "winrate": 0.316
+    },
+    {
+      "player": "roux",
+      "matches": 11,
+      "rating": 0.847,
+      "kd": 0.725,
+      "adr": 64.2,
+      "kast": 62.8,
+      "winrate": 0.333
+    },
+    {
+      "player": "siuhy",
+      "matches": 28,
+      "rating": 0.844,
+      "kd": 0.757,
+      "adr": 61.1,
+      "kast": 67,
+      "winrate": 0.32
+    },
+    {
+      "player": "freshie",
+      "matches": 5,
+      "rating": 0.844,
+      "kd": 0.784,
+      "adr": 69.4,
+      "kast": 64.1,
+      "winrate": 0.444
+    },
+    {
+      "player": "jackinho",
+      "matches": 12,
+      "rating": 0.841,
+      "kd": 0.753,
+      "adr": 59.2,
+      "kast": 67.2,
+      "winrate": 0.486
+    },
+    {
+      "player": "efire",
+      "matches": 11,
+      "rating": 0.839,
+      "kd": 0.823,
+      "adr": 62.7,
+      "kast": 65.4,
+      "winrate": 0.333
+    },
+    {
+      "player": "chop",
+      "matches": 14,
+      "rating": 0.835,
+      "kd": 0.735,
+      "adr": 59.8,
+      "kast": 61.2,
+      "winrate": 0.274
+    },
+    {
+      "player": "dako",
+      "matches": 4,
+      "rating": 0.833,
+      "kd": 0.801,
+      "adr": 58.7,
+      "kast": 64.3,
+      "winrate": 0.25
+    },
+    {
+      "player": "nython",
+      "matches": 17,
+      "rating": 0.832,
+      "kd": 0.772,
+      "adr": 59.7,
+      "kast": 66,
+      "winrate": 0.469
+    },
+    {
+      "player": "kr1vda",
+      "matches": 8,
+      "rating": 0.831,
+      "kd": 0.715,
+      "adr": 62.6,
+      "kast": 65.2,
+      "winrate": 0.07
+    },
+    {
+      "player": "rentu",
+      "matches": 4,
+      "rating": 0.83,
+      "kd": 0.732,
+      "adr": 54.7,
+      "kast": 65.5,
+      "winrate": 0.167
+    },
+    {
+      "player": "owner",
+      "matches": 8,
+      "rating": 0.822,
+      "kd": 0.725,
+      "adr": 65.6,
+      "kast": 61.9,
+      "winrate": 0.07
+    },
+    {
+      "player": "hfah",
+      "matches": 5,
+      "rating": 0.822,
+      "kd": 0.786,
+      "adr": 61.9,
+      "kast": 63.7,
+      "winrate": 0.364
+    },
+    {
+      "player": "neqy",
+      "matches": 3,
+      "rating": 0.82,
+      "kd": 0.748,
+      "adr": 65.5,
+      "kast": 69,
+      "winrate": 0
+    },
+    {
+      "player": "noktse",
+      "matches": 3,
+      "rating": 0.818,
+      "kd": 0.785,
+      "adr": 64.6,
+      "kast": 65.8,
+      "winrate": 0
+    },
+    {
+      "player": "th0r",
+      "matches": 6,
+      "rating": 0.816,
+      "kd": 0.754,
+      "adr": 58.6,
+      "kast": 59.8,
+      "winrate": 0.204
+    },
+    {
+      "player": "krazy",
+      "matches": 14,
+      "rating": 0.815,
+      "kd": 0.806,
+      "adr": 63.6,
+      "kast": 67.3,
+      "winrate": 0.102
+    },
+    {
+      "player": "jakekes",
+      "matches": 5,
+      "rating": 0.813,
+      "kd": 0.681,
+      "adr": 61,
+      "kast": 67.7,
+      "winrate": 0.483
+    },
+    {
+      "player": "ltz",
+      "matches": 8,
+      "rating": 0.811,
+      "kd": 0.757,
+      "adr": 68.4,
+      "kast": 63.5,
+      "winrate": 0.185
+    },
+    {
+      "player": "nealan",
+      "matches": 13,
+      "rating": 0.807,
+      "kd": 0.75,
+      "adr": 65.7,
+      "kast": 64.4,
+      "winrate": 0.35
+    },
+    {
+      "player": "gxx",
+      "matches": 3,
+      "rating": 0.805,
+      "kd": 0.769,
+      "adr": 60.8,
+      "kast": 71,
+      "winrate": 0
+    },
+    {
+      "player": "bart4k",
+      "matches": 19,
+      "rating": 0.804,
+      "kd": 0.761,
+      "adr": 61.5,
+      "kast": 60.8,
+      "winrate": 0.255
+    },
+    {
+      "player": "oceana",
+      "matches": 4,
+      "rating": 0.8,
+      "kd": 0.695,
+      "adr": 51.6,
+      "kast": 70.7,
+      "winrate": 0.5
+    },
+    {
+      "player": "pkl",
+      "matches": 10,
+      "rating": 0.797,
+      "kd": 0.722,
+      "adr": 60.2,
+      "kast": 65.6,
+      "winrate": 0.172
+    },
+    {
+      "player": "karrigan",
+      "matches": 34,
+      "rating": 0.796,
+      "kd": 0.662,
+      "adr": 58.8,
+      "kast": 64.6,
+      "winrate": 0.478
+    },
+    {
+      "player": "meowpop",
+      "matches": 3,
+      "rating": 0.79,
+      "kd": 0.706,
+      "adr": 57.8,
+      "kast": 65.5,
+      "winrate": 0
+    },
+    {
+      "player": "mynio",
+      "matches": 22,
+      "rating": 0.786,
+      "kd": 0.7,
+      "adr": 61.8,
+      "kast": 60.5,
+      "winrate": 0.261
+    },
+    {
+      "player": "nbl",
+      "matches": 3,
+      "rating": 0.783,
+      "kd": 0.763,
+      "adr": 58.2,
+      "kast": 71.9,
+      "winrate": 0.263
+    },
+    {
+      "player": "fakerealityy",
+      "matches": 8,
+      "rating": 0.76,
+      "kd": 0.68,
+      "adr": 63.4,
+      "kast": 65.8,
+      "winrate": 0.07
+    },
+    {
+      "player": "x9",
+      "matches": 3,
+      "rating": 0.76,
+      "kd": 0.688,
+      "adr": 61.3,
+      "kast": 61.5,
+      "winrate": 0.2
+    },
+    {
+      "player": "retchy",
+      "matches": 3,
+      "rating": 0.742,
+      "kd": 0.638,
+      "adr": 54.8,
+      "kast": 61.6,
+      "winrate": 0
+    },
+    {
+      "player": "marekiew",
+      "matches": 5,
+      "rating": 0.73,
+      "kd": 0.677,
+      "adr": 54.7,
+      "kast": 62.5,
+      "winrate": 0.444
+    },
+    {
+      "player": "shoxs",
+      "matches": 3,
+      "rating": 0.73,
+      "kd": 0.64,
+      "adr": 63.1,
+      "kast": 60.7,
+      "winrate": 0
+    },
+    {
+      "player": "shine",
+      "matches": 4,
+      "rating": 0.72,
+      "kd": 0.603,
+      "adr": 51.2,
+      "kast": 69.1,
+      "winrate": 0.6
+    },
+    {
+      "player": "mol011",
+      "matches": 6,
+      "rating": 0.662,
+      "kd": 0.602,
+      "adr": 56.7,
+      "kast": 60.6,
+      "winrate": 0.171
+    },
+    {
+      "player": "crepow",
+      "matches": 6,
+      "rating": 0.589,
+      "kd": 0.528,
+      "adr": 54.8,
+      "kast": 51.6,
+      "winrate": 0.204
+    }
+  ]
+}

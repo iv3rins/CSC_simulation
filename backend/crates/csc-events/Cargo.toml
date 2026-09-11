@@ -1,0 +1,17 @@
+[package]
+name = "csc-events"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "世界事件日志（WorldJournal）：追加式只读历史流 + 纯值事件（Kotlin events/ 转写）"
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+csc-text = { path = "../csc-text" }
+csc-domain = { path = "../csc-domain" }
+csc-entities = { path = "../csc-entities" }
+csc-util = { path = "../csc-util" }
+
+[dev-dependencies]
+serde_json.workspace = true

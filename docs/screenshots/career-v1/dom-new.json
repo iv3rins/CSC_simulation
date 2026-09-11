@@ -1,0 +1,38 @@
+[
+  {
+    "page": "career",
+    "width": 1440,
+    "title": "先让他们记住你的名字。",
+    "body": "跳到正文\nC／S\nCAREER SIMULATION\n职业生涯 · 每一次选择，都留下痕迹\n你的故事，尚未开始\n未建立生涯\nTHE CAREER\n01\n生涯\n↗\n02\n赛程\n↗\n03\n战队\n↗\n04\n世界\n↗\n05\n档案\n↗\n06\n设置\n↗\nCOUNTER-STRIKE\n从阵容中的一个名字，\n到属于自己的职业轨迹。\n01 / 生涯\nPROLOGUE / 序章\n先让他们\n记住你的名字。\n\n从一支职业战队起步。训练、比赛，以及赛后那些没有写进比分的谈话，将构成你的生涯。\n\n选手昵称\n场上定位\n步枪手 / RIFLER\n狙击手 / AWP\n突破手 / ENTRY\n指挥 / IGL\n辅助 / SUPPORT\n自由人 / LURKER\n写下第一章 →\n继续已有生涯\nPLAYER DOSSIER\n—\n席位，为你留着。\n\n创建生涯后，这里会记录你的身份与近况。\n\nON THE HORIZON\n下一场，等待排定\n\n只有已确认的赛事，才会出现在这里。\n\n比分写下结果。\n选择决定你如何走到那里。",
+    "scrollWidth": 1425,
+    "buttons": [
+      {
+        "text": "写下第一章 →",
+        "disabled": false
+      },
+      {
+        "text": "读取生涯",
+        "disabled": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "page": "career",
+    "width": 390,
+    "title": "先让他们记住你的名字。",
+    "body": "跳到正文\nC／S\nCAREER SIMULATION\n你的故事，尚未开始\n未建立生涯\n01 / 生涯\nPROLOGUE / 序章\n先让他们\n记住你的名字。\n\n从一支职业战队起步。训练、比赛，以及赛后那些没有写进比分的谈话，将构成你的生涯。\n\n选手昵称\n场上定位\n步枪手 / RIFLER\n狙击手 / AWP\n突破手 / ENTRY\n指挥 / IGL\n辅助 / SUPPORT\n自由人 / LURKER\n写下第一章 →\n继续已有生涯\nPLAYER DOSSIER\n—\n席位，为你留着。\n\n创建生涯后，这里会记录你的身份与近况。\n\nON THE HORIZON\n下一场，等待排定\n\n只有已确认的赛事，才会出现在这里。\n\n生涯\n赛程\n世界\n更多",
+    "scrollWidth": 375,
+    "buttons": [
+      {
+        "text": "写下第一章 →",
+        "disabled": false
+      },
+      {
+        "text": "读取生涯",
+        "disabled": false
+      }
+    ],
+    "errors": []
+  }
+]

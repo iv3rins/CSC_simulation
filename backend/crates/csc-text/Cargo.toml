@@ -1,0 +1,11 @@
+[package]
+name = "csc-text"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "文案/叙事文本包：assets/text/zh-CN.json 单一事实源 + 编译期嵌入默认值 + 调用方 JSON 覆盖合并（零 IO）"
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+csc-util = { path = "../csc-util" }

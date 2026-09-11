@@ -1,0 +1,10 @@
+[package]
+name = "csc-util"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "确定性 RNG（xoshiro256**，与 Kotlin DeterministicRandom 位级一致）+ 稳定 ID"
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true

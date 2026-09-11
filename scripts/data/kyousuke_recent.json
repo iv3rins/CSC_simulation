@@ -1,0 +1,326 @@
+{
+  "window": [
+    "2026-06-08",
+    "2026-09-08"
+  ],
+  "team": "Falcons",
+  "falconsMatchesInWindow": 16,
+  "matchesKyousukePlayed": 16,
+  "mapsRecorded": 16,
+  "matches": [
+    {
+      "id": 2394899,
+      "date": "2026-06-11",
+      "event": "IEM Cologne Major 2026",
+      "vs": "G2",
+      "best_of": 3
+    },
+    {
+      "id": 2394975,
+      "date": "2026-06-12",
+      "event": "IEM Cologne Major 2026",
+      "vs": "BetBoom",
+      "best_of": 3
+    },
+    {
+      "id": 2394991,
+      "date": "2026-06-14",
+      "event": "IEM Cologne Major 2026",
+      "vs": "Natus Vincere",
+      "best_of": 3
+    },
+    {
+      "id": 2394999,
+      "date": "2026-06-19",
+      "event": "IEM Cologne Major 2026",
+      "vs": "Vitality",
+      "best_of": 3
+    },
+    {
+      "id": 2395001,
+      "date": "2026-06-20",
+      "event": "IEM Cologne Major 2026",
+      "vs": "Spirit",
+      "best_of": 3
+    },
+    {
+      "id": 2395002,
+      "date": "2026-06-21",
+      "event": "IEM Cologne Major 2026",
+      "vs": "FURIA",
+      "best_of": 5
+    },
+    {
+      "id": 2396005,
+      "date": "2026-07-22",
+      "event": "BLAST Bounty 2026 Season 2",
+      "vs": "100 Thieves",
+      "best_of": 3
+    },
+    {
+      "id": 2396563,
+      "date": "2026-08-12",
+      "event": "Esports World Cup 2026",
+      "vs": "K27",
+      "best_of": 1
+    },
+    {
+      "id": 2396579,
+      "date": "2026-08-13",
+      "event": "Esports World Cup 2026",
+      "vs": "Astralis",
+      "best_of": 3
+    },
+    {
+      "id": 2396604,
+      "date": "2026-08-20",
+      "event": "Esports World Cup 2026",
+      "vs": "The MongolZ",
+      "best_of": 3
+    },
+    {
+      "id": 2396609,
+      "date": "2026-08-21",
+      "event": "Esports World Cup 2026",
+      "vs": "Legacy",
+      "best_of": 3
+    },
+    {
+      "id": 2396930,
+      "date": "2026-08-27",
+      "event": "BLAST Open Porto 2026",
+      "vs": "Lynn Vision",
+      "best_of": 3
+    },
+    {
+      "id": 2396938,
+      "date": "2026-08-29",
+      "event": "BLAST Open Porto 2026",
+      "vs": "Legacy",
+      "best_of": 3
+    },
+    {
+      "id": 2396945,
+      "date": "2026-08-31",
+      "event": "BLAST Open Porto 2026",
+      "vs": "MOUZ",
+      "best_of": 3
+    },
+    {
+      "id": 2396947,
+      "date": "2026-09-04",
+      "event": "BLAST Open Porto 2026",
+      "vs": "G2",
+      "best_of": 3
+    },
+    {
+      "id": 2396949,
+      "date": "2026-09-05",
+      "event": "BLAST Open Porto 2026",
+      "vs": "Spirit",
+      "best_of": 3
+    }
+  ],
+  "perMapAll": [
+    {
+      "matchId": 2394899,
+      "date": "2026-06-11",
+      "event": "IEM Cologne Major 2026",
+      "vs": "G2",
+      "map": "All",
+      "k": 52,
+      "d": 53,
+      "adr": 81.7,
+      "kast": 80.8,
+      "rating": 1.14
+    },
+    {
+      "matchId": 2394975,
+      "date": "2026-06-12",
+      "event": "IEM Cologne Major 2026",
+      "vs": "BetBoom",
+      "map": "All",
+      "k": 21,
+      "d": 29,
+      "adr": 61.6,
+      "kast": 66,
+      "rating": 0.85
+    },
+    {
+      "matchId": 2394991,
+      "date": "2026-06-14",
+      "event": "IEM Cologne Major 2026",
+      "vs": "Natus Vincere",
+      "map": "All",
+      "k": 56,
+      "d": 45,
+      "adr": 90.8,
+      "kast": 80.3,
+      "rating": 1.16
+    },
+    {
+      "matchId": 2394999,
+      "date": "2026-06-19",
+      "event": "IEM Cologne Major 2026",
+      "vs": "Vitality",
+      "map": "All",
+      "k": 52,
+      "d": 50,
+      "adr": 83.7,
+      "kast": 77.8,
+      "rating": 1.43
+    },
+    {
+      "matchId": 2395001,
+      "date": "2026-06-20",
+      "event": "IEM Cologne Major 2026",
+      "vs": "Spirit",
+      "map": "All",
+      "k": 60,
+      "d": 57,
+      "adr": 81.7,
+      "kast": 75.9,
+      "rating": 1.18
+    },
+    {
+      "matchId": 2395002,
+      "date": "2026-06-21",
+      "event": "IEM Cologne Major 2026",
+      "vs": "FURIA",
+      "map": "All",
+      "k": 55,
+      "d": 43,
+      "adr": 93,
+      "kast": 76.2,
+      "rating": 1.34
+    },
+    {
+      "matchId": 2396005,
+      "date": "2026-07-22",
+      "event": "BLAST Bounty 2026 Season 2",
+      "vs": "100 Thieves",
+      "map": "All",
+      "k": 50,
+      "d": 38,
+      "adr": 84.4,
+      "kast": 80.3,
+      "rating": 1.26
+    },
+    {
+      "matchId": 2396563,
+      "date": "2026-08-12",
+      "event": "Esports World Cup 2026",
+      "vs": "K27",
+      "map": "All",
+      "k": 15,
+      "d": 10,
+      "adr": 89.3,
+      "kast": 78.9,
+      "rating": 1.59
+    },
+    {
+      "matchId": 2396579,
+      "date": "2026-08-13",
+      "event": "Esports World Cup 2026",
+      "vs": "Astralis",
+      "map": "All",
+      "k": 36,
+      "d": 28,
+      "adr": 84.1,
+      "kast": 75,
+      "rating": 1.2
+    },
+    {
+      "matchId": 2396604,
+      "date": "2026-08-20",
+      "event": "Esports World Cup 2026",
+      "vs": "The MongolZ",
+      "map": "All",
+      "k": 44,
+      "d": 22,
+      "adr": 113.8,
+      "kast": 81.6,
+      "rating": 1.78
+    },
+    {
+      "matchId": 2396609,
+      "date": "2026-08-21",
+      "event": "Esports World Cup 2026",
+      "vs": "Legacy",
+      "map": "All",
+      "k": 23,
+      "d": 32,
+      "adr": 62.3,
+      "kast": 62.8,
+      "rating": 0.71
+    },
+    {
+      "matchId": 2396930,
+      "date": "2026-08-27",
+      "event": "BLAST Open Porto 2026",
+      "vs": "Lynn Vision",
+      "map": "All",
+      "k": 46,
+      "d": 47,
+      "adr": 88.2,
+      "kast": 77.4,
+      "rating": 1.05
+    },
+    {
+      "matchId": 2396938,
+      "date": "2026-08-29",
+      "event": "BLAST Open Porto 2026",
+      "vs": "Legacy",
+      "map": "All",
+      "k": 50,
+      "d": 44,
+      "adr": 94.3,
+      "kast": 72.1,
+      "rating": 1.32
+    },
+    {
+      "matchId": 2396945,
+      "date": "2026-08-31",
+      "event": "BLAST Open Porto 2026",
+      "vs": "MOUZ",
+      "map": "All",
+      "k": 34,
+      "d": 41,
+      "adr": 67,
+      "kast": 61.1,
+      "rating": 0.79
+    },
+    {
+      "matchId": 2396947,
+      "date": "2026-09-04",
+      "event": "BLAST Open Porto 2026",
+      "vs": "G2",
+      "map": "All",
+      "k": 36,
+      "d": 26,
+      "adr": 88.8,
+      "kast": 80.5,
+      "rating": 1.41
+    },
+    {
+      "matchId": 2396949,
+      "date": "2026-09-05",
+      "event": "BLAST Open Porto 2026",
+      "vs": "Spirit",
+      "map": "All",
+      "k": 35,
+      "d": 35,
+      "adr": 78.6,
+      "kast": 75.6,
+      "rating": 1.04
+    }
+  ],
+  "aggregateAllRows": {
+    "maps": 16,
+    "totalK": 665,
+    "totalD": 600,
+    "avgADR": 83.95624999999998,
+    "avgKAST": 75.14375,
+    "avgRating": 1.2031249999999998
+  }
+}

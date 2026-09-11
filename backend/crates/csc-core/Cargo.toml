@@ -1,0 +1,25 @@
+[package]
+name = "csc-core"
+version = "0.1.0"
+edition = "2024"
+description = "M7：总引擎接线层 + GameState 完整存档聚合根 + 赛季推进编排 + 查询层（Kotlin core/ 转写）"
+
+[dependencies]
+csc-domain = { path = "../csc-domain" }
+csc-entities = { path = "../csc-entities" }
+csc-simulation = { path = "../csc-simulation" }
+csc-vrs = { path = "../csc-vrs" }
+csc-events = { path = "../csc-events" }
+csc-decision = { path = "../csc-decision" }
+csc-text = { path = "../csc-text" }
+csc-career = { path = "../csc-career" }
+csc-time = { path = "../csc-time" }
+csc-util = { path = "../csc-util" }
+csc-systems = { path = "../csc-systems" }
+csc-tournaments = { path = "../csc-tournaments" }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["std"] }
+
+[dev-dependencies]
+dhat = "0.3.3"
+serde_json = { version = "1", features = ["std"] }

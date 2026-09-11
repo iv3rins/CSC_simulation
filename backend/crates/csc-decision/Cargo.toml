@@ -1,0 +1,16 @@
+[package]
+name = "csc-decision"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "决策系统：DecisionPoint/DecisionSource/DecisionLog/DecisionRecorder（Kotlin decision/ 转写）"
+
+[dependencies]
+serde.workspace = true
+csc-entities = { path = "../csc-entities" }
+csc-util = { path = "../csc-util" }
+csc-simulation = { path = "../csc-simulation" }
+csc-events = { path = "../csc-events" }
+
+[dev-dependencies]
+serde_json.workspace = true

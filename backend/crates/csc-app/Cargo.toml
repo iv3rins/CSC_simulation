@@ -1,0 +1,23 @@
+[package]
+name = "csc-app"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "交互式 CLI（M10）：决策点渲染 + stdin 决策源——玩家层闭环的最小实现"
+
+[dependencies]
+csc-text = { path = "../csc-text" }
+serde.workspace = true
+serde_json.workspace = true
+csc-core = { path = "../csc-core" }
+csc-decision = { path = "../csc-decision" }
+csc-domain = { path = "../csc-domain" }
+csc-entities = { path = "../csc-entities" }
+csc-events = { path = "../csc-events" }
+csc-simulation = { path = "../csc-simulation" }
+csc-time = { path = "../csc-time" }
+csc-util = { path = "../csc-util" }
+
+[[bin]]
+name = "csc-app"
+path = "src/main.rs"

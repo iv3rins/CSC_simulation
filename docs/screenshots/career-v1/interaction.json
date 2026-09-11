@@ -1,0 +1,20 @@
+{
+  "game_id": 2,
+  "initial": {
+    "title": "训练室的灯还亮着",
+    "radios": 2
+  },
+  "selected": {
+    "selected": 1,
+    "confirmation": false
+  },
+  "result": {
+    "title": "你的回应，已被记住。",
+    "text": "A DECISION REMEMBERED\n你的回应，已被记住。\n\n这次选择已记入生涯档案。\n\n你的士气 +2\n\n与m1key的关系 +4.0\n\n队伍凝聚力 +0.1\n\n继续阅读 →\n\n新场景需要满足对应条件；当前版本尚不能推进世界日期。"
+  },
+  "save": {
+    "status": 200,
+    "version": 11
+  },
+  "result_preserved_after_navigation": true
+}

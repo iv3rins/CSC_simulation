@@ -1,0 +1,37 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/csc-domain",
+    "crates/csc-util",
+    "crates/csc-time",
+    "crates/csc-text",
+    "crates/csc-entities",
+    "crates/csc-simulation",
+    "crates/csc-vrs",
+    "crates/csc-events",
+    "crates/csc-decision",
+    "crates/csc-career",
+    "crates/csc-tournaments",
+    "crates/csc-systems",
+    "crates/csc-core",
+    "crates/csc-server",
+    "crates/csc-app",
+    "crates/csc-wasm",
+]
+# 后续模块按 M0-M11 顺序追加：
+#   crates/csc-entities, crates/csc-simulation, crates/csc-vrs,
+#   crates/csc-tournaments, crates/csc-systems, crates/csc-core,
+#   crates/csc-query, crates/csc-verify, crates/csc-server,
+#   crates/csc-app, crates/csc-wasm
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[profile.release]
+lto = true

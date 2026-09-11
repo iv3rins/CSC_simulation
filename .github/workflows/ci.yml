@@ -1,0 +1,78 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  backend:
+    name: Backend (Rust)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy, rustfmt
+          targets: wasm32-unknown-unknown
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: backend
+      - name: Test
+        # 指纹门禁（csc-core/tests/fingerprint.rs，B-1）随本步骤 `cargo test --workspace`
+        # 默认执行，禁止 `#[ignore]` 化。
+        working-directory: backend
+        run: cargo test --workspace --locked
+      - name: Format check
+        working-directory: backend
+        run: cargo fmt --all -- --check
+      - name: Lint (0 警告为门禁)
+        working-directory: backend
+        run: cargo clippy --workspace --all-targets --locked -- -D warnings
+      - name: WASM 编译门禁（csc-wasm 交付目标）
+        working-directory: backend
+        run: cargo build -p csc-wasm --target wasm32-unknown-unknown --locked
+      - name: Node 脚本语法门禁
+        run: |
+          for f in scripts/*.mjs scripts/lib/*.mjs tools/*.mjs; do
+            node --check "$f"
+          done
+      - name: 资产 schema 校验（P0-②：5 类 JSON 资产结构 + 版本字段）
+        run: node tools/verify_assets.mjs assets/
+
+  e2e:
+    name: E2E（服务端协议冒烟 + 数据资产校验）
+    runs-on: ubuntu-latest
+    needs: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: backend
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build server (release)
+        working-directory: backend
+        run: cargo build -p csc-server --release --locked
+      - name: Soak 20y 门禁（release，debug ~6s / release 更快；预算 3 分钟超时保险）
+        working-directory: backend
+        run: cargo test -p csc-core --release --locked -- --ignored twenty_year
+      - name: 启动服务端并跑协议冒烟（REST + WS + 决策 + 存档往返）
+        # 从仓库根启动：assets 目录在仓库根，服务端与 smoke 脚本路径均为仓库根相对。
+        run: |
+          backend/target/release/csc-server assets 18099 &
+          SERVER_PID=$!
+          trap "kill $SERVER_PID" EXIT
+          for i in $(seq 1 60); do
+            curl -sf http://127.0.0.1:18099/health && break
+            sleep 1
+          done
+          CSC_BASE=http://127.0.0.1:18099 node scripts/smoke.mjs
+      - name: 数据资产校验（player_ratings 覆盖 / 档位分布）
+        run: node scripts/verify_ratings.mjs
+

@@ -1,0 +1,21 @@
+[package]
+name = "csc-systems"
+version = "0.1.0"
+edition = "2024"
+description = "M6：五个世界子系统引擎（chemistry/economy/injury/population/transfer）合一 crate（Kotlin 同包转写）"
+
+[dependencies]
+csc-text = { path = "../csc-text" }
+csc-domain = { path = "../csc-domain" }
+csc-entities = { path = "../csc-entities" }
+csc-simulation = { path = "../csc-simulation" }
+csc-vrs = { path = "../csc-vrs" }
+csc-decision = { path = "../csc-decision" }
+csc-events = { path = "../csc-events" }
+csc-time = { path = "../csc-time" }
+csc-util = { path = "../csc-util" }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["std"] }
+
+[dev-dependencies]
+serde_json = { version = "1", features = ["std"] }
